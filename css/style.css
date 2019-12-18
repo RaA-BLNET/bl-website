@@ -6,3 +6,6 @@ ul.list{
     float: right;
     margin: 2em;
 }
+header {
+    background-image: url(/bl-website/img/header.jpg);
+}

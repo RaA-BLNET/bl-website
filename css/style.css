@@ -4,14 +4,5 @@ ul.list{
     display: flex;
     flex-direction: column;
     float: right;
-}
-ul li .kontaktdaten{
-    font-size: 30em;
-}
-header {
-    background-image: url(img/header.jpg);
-}
-address {
-    display: flex;
-    flex-direction: column;
+    margin: 2em;
 }

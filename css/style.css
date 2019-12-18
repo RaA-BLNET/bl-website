@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ul.list{
     list-style-type: none;
@@ -5,3 +6,11 @@ ul.list{
     flex-direction: column;
     float: right;
 }
+=======
+ul li .kontaktdaten{
+    font-size: 30em;
+}
+header {
+    background-image: url(img/header.jpg);
+}
+>>>>>>> 82a4afef104dfaea863e1e23da77df9b98209eb1

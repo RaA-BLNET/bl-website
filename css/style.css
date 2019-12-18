@@ -11,3 +11,7 @@ ul li .kontaktdaten{
 header {
     background-image: url(img/header.jpg);
 }
+address {
+    display: flex;
+    flex-direction: column;
+}

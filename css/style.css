@@ -1,0 +1,7 @@
+
+ul.list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    float: right;
+}

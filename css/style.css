@@ -37,8 +37,9 @@ footer {
     margin: 60px 0px 0px 0px;
     align-content: space-between;
 }
-#links{
-
+a.inst {
+    margin-left: 2.4em;
+    padding-bottom: 2.4em;
 }
 header {
     background-image: url("img/header.jpg");
@@ -50,28 +51,4 @@ header {
     background-size: cover;
   
     background-position: top;
-}
-<<<<<<< HEAD
-@media(max-width 768px){
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-nav h1 {
-=======
-.titel {
->>>>>>> 7e654bcda92b85cd44118d020a527fbdf7e1b9c8
-    color: white;
-    display: flex;
-    align-content: center;
-}
-@media (max-widht:768px) { 
-    {
-<<<<<<< HEAD
->>>>>>> eba150ccf9fdf7aad14a270e670901d3b37b33e3
->>>>>>> 0865847cbbad19471338ed5375d31e22758527a2
-=======
->>>>>>> 7e654bcda92b85cd44118d020a527fbdf7e1b9c8
-
-    }
 }

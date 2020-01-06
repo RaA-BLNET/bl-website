@@ -6,4 +6,10 @@ ul.list{
     float: right;
     margin: 2em;
 }
+<<<<<<< HEAD
 address
+=======
+header {
+    background-image: url(/img/header.jpg);
+}
+>>>>>>> 8f51da5b74f73cbb2fb4adcac3ea74d23e06e7ca

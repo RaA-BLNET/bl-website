@@ -27,9 +27,7 @@ footer{
     flex-direction: column;
     justify-content: flex-end;
 }
-header {
-    background-image: url("img/header.jpg");
-}
+
 main {display: flex; flex-direction: column;}
 
-#top {background-image :url("../img/header.jpg")}
+#top {background-image :url("../img/header.jpg"); background-size: 100%;}

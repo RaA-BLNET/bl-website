@@ -167,6 +167,3 @@ html {
 *, ::after, ::before {
     box-sizing: inherit;
 }
-#navbar-expand-lg navbar-light bg-light{
-    color: rgb(100, 100, 100);
-}

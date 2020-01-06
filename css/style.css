@@ -12,18 +12,25 @@ ul.list{
 #BLT{
     font-size: 24px;
     font-weight: bold;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 30px 0px;
 }
 address{
     line-height: 5px;
 }
+address p{
+    padding: 0.5pt;
+}
 #links{
     float: right;
+    align-items: flex-start;
 }
 footer{
     display: flex;
+<<<<<<< HEAD
+=======
     justify-content: space-between;
 }
+>>>>>>> 09e9eb799a5139f88729c85650a451c0cff35ed6
     flex-direction: column;
     justify-content: flex-end;
 }
@@ -37,4 +44,7 @@ main {display: flex;
 
 main {display: flex; flex-direction: column;}
 
+<<<<<<< HEAD
+=======
 #top {background-image :url("../img/header.jpg"); background-size: 100%;}
+>>>>>>> 09e9eb799a5139f88729c85650a451c0cff35ed6

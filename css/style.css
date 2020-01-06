@@ -52,14 +52,11 @@ header {
     background-position: top;
 }
 @media(max-width 768px){
-<<<<<<< HEAD
-=======
 nav h1 {
     color: white;
 }
 @media{
     {
->>>>>>> eba150ccf9fdf7aad14a270e670901d3b37b33e3
 
     }
 }

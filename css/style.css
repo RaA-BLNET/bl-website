@@ -83,3 +83,8 @@ padding: 0px;
 margin: 0px;
 border: 0px;
 }
+.zeichen{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}

@@ -36,7 +36,15 @@ footer {
     justify-content: space-between;
     margin: 60px 0px 0px 0px;
 }
+footer address{
+            display: flex;
+}
+footer address p{
+    display: flex;
+}
+#links{
 
+}
 header {
     background-image: url("img/header.jpg");
 }
@@ -45,14 +53,8 @@ header {
     background-image: url("../img/header.jpg");
     background-attachment: fixed;
     background-size: cover;
-    height: 250px;
+  
     background-position: top;
 }
-nav h1 {
-    color: white;
-}
-@media{
-    {
-
-    }
+@media(max-width 768px){
 }

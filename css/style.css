@@ -8,6 +8,9 @@ div.kontakte {
 ul.list {
     list-style-type: none;        
 }
+.iframe {
+    margin-right: 1em; 
+}
 #BLT {
     font-size: 24px;
     font-weight: bold;

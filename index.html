@@ -11,6 +11,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header>
@@ -28,25 +29,37 @@
 
 </div>
     
-    <ul class="nav nav-tabs">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">Home</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active" href="projekte.html">Projekte</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="https://www.blnet.ch/">blnet</a>
-          </li>
+          <a class="nav-link" href="#">Link</a>
+        </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Merkblätter</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="101.html">ÜK 101</a>
-            <a class="dropdown-item" href="105.html">ÜK 105</a>
-            <a class="dropdown-item" href="307.html">ÜK 307</a>
-            <a class="dropdown-item" href="404.html">ÜK 404</a>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
             <div class="dropdown-divider"></div>
-           
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
         
       </ul>
 
@@ -79,30 +92,130 @@
                 <li>Tel. +41 52 674 02 31</li>
             </ul>
             <h6 class="standort">Standort</h6>
-            <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2686.36270698928!2d8.618916316253607!3d47.67737559107821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47907f49417e7d81%3A0xed523261ee3c540a!2swibilea!5e0!3m2!1sde!2sch!4v1511432927714" height="300px" width="350px"></iframe>
+            <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2686.36270698928!2d8.618916316253607!3d47.67737559107821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47907f49417e7d81%3A0xed523261ee3c540a!2swibilea!5e0!3m2!1sde!2sch!4v1511432927714" height="300px" width="350px"></iframe> <br>
+            <br>
 
-
-
-    </main>
-    <footer class="fixed-bottom">  
-       <div id="footer">
-        <div id="address">
-            <p id="BLT">BL-Teilnehmer</p>
-            <p>Industrieplatz</p>
-            <p>8212 Neuhausen</p>
-            <p>&copy BL-Teilnehmer 2019/20, alle Rechte vorbehalten</p> 
-        </div>
+            <a class="inst" href="http://instagram.com/wibilea " target="_blank">
+            <img src="https://www.wibilea.ch/wp-content/uploads/2018/03/002-instagram-logo.png" width="50px" height="50px">
+        </a>
         
-        <div id="links">
-            
-            <p><a href="#">Impressum</a></p>
-            <p><a href="#">Datenschutz</a></p>
-            <p><a href="#">AGBs</a></p>
-            <p><a href="https://www.wibilea.ch/">Wibilea AG</a></p>
-            <p><a href="https://www.blnet.ch/">blnet</a></p>
-        </div>
+        <a href="https://www.facebook.com/wibilea/"><img src="https://www.wibilea.ch/wp-content/uploads/2018/03/003-facebook-logo-button.png" width="50px" height="50px"/></a>
+        <a href="https://twitter.com/wibilea_ch" target="_blank">
+        <img src="https://www.wibilea.ch/wp-content/uploads/2018/03/004-twitter-logo-button.png" width="50px" height="50px"></a>
+         <a href="https://www.youtube.com/channel/UCT1vSK8TxaWIPKYrj_9s8eA" target="_blank">
+        <img src="https://www.wibilea.ch/wp-content/uploads/2018/03/001-youtube-symbol.png" width="50px" height="50px"></a>   
     </div>
-    </footer>
+        
+    </main>
+    <section class="footer4 cid-qv5AL7fBTQ" id="footer4-3i" data-rv-view="8790">
+
+    
+
+    
+
+        <div class="container">
+            <div class="media-container-row content mbr-white">
+                <div class="col-md-3 col-sm-4">
+                    <div class="mb-3 img-logo">
+                        <a href="https://mobirise.com/">
+                            <img src="assets/images/logo2.png" alt="Mobirise" media-simple="true">
+                        </a>
+                    </div>
+                    <p class="mb-3 mbr-fonts-style foot-title display-7">
+                        Footer Template
+                    </p>
+                    <p class="mbr-text mbr-fonts-style mbr-links-column display-7">
+                        <a href="#" class="text-white">About Us</a>
+                        <br><a href="#" class="text-white">Services</a>
+                        <br><a href="#" class="text-white">Selected Work</a>
+                        <br><a href="#" class="text-white">Get In Touch</a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-8">
+                    <p class="mb-4 foot-title mbr-fonts-style display-7">
+                        RECENT NEWS
+                    </p>
+                    <p class="mbr-text mbr-fonts-style foot-text display-7">
+                        Footer with solid color background and a contact form, Easily add subscribe and contact forms without any server-side integration.
+                        <br>
+                        <br>Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.
+                    </p>
+                </div>
+                <div class="col-md-4 offset-md-1 col-sm-12">
+                    <p class="mb-4 foot-title mbr-fonts-style display-7">
+                        SUBSCRIBE
+                    </p>
+                    <p class="mbr-text mbr-fonts-style form-text display-7">
+                        Get monthly updates and free resources.
+                    </p>
+                    <div class="media-container-column" data-form-type="formoid">
+                        <div data-form-alert="" hidden="" class="align-center">
+                            Thanks for filling out the form!
+                        </div>
+    
+                        <form class="form-inline" action="https://mobirise.com/" method="post" data-form-title="Mobirise Form">
+                            <input type="hidden" value="fT7IhYP2GJAZyo6Bf5hwjKqfbDGjBYvqwtiVtonmwlY+BXi43CaJKj08+dltUN0F8esR/WFmYKRzXkHLMFUnra87jTWARh08wsTCDbKA/l7iflAWpIScBdZ9IfKbOTU1" data-form-email="true">
+                            <div class="form-group">
+                                <input type="email" class="form-control input-sm input-inverse my-2" name="email" required="" data-form-field="Email" placeholder="Email" id="email-footer4-3i">
+                            </div>
+                            <div class="input-group-btn m-2">
+                                <button href="" class="btn btn-primary display-4" type="submit" role="button">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                    <p class="mb-4 mbr-fonts-style foot-title display-7">
+                        CONNECT WITH US
+                    </p>
+                    <div class="social-list pl-0 mb-0">
+                            <div class="soc-item">
+                                <a href="https://twitter.com/mobirise" target="_blank">
+                                    <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social" media-simple="true"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                                    <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social" media-simple="true"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://www.youtube.com/c/mobirise" target="_blank">
+                                    <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social" media-simple="true"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://instagram.com/mobirise" target="_blank">
+                                    <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social" media-simple="true"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
+                                    <span class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social" media-simple="true"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://www.behance.net/Mobirise" target="_blank">
+                                    <span class="socicon-behance socicon mbr-iconfont mbr-iconfont-social" media-simple="true"></span>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-lower">
+                <div class="media-container-row">
+                    <div class="col-sm-12">
+                        <hr>
+                    </div>
+                </div>
+                <div class="media-container-row mbr-white">
+                    <div class="col-sm-12 copyright">
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            © Copyright 2018 Footer Template - All Rights Reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 

@@ -50,8 +50,5 @@ main {
 
     
 
-#top {background-image: url("../img/header.jpg"); 
-    background-size: 100%;
-    height: 50px;}
 #top {background-image :url("../img/header.jpg"); background-size: 100%;}
-#top {background-image :url("../img/header.jpg"); background-size: cover;}
+

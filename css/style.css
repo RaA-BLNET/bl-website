@@ -1,4 +1,7 @@
-
+nav {
+    display: flex;
+    flex-direction: row;
+}
 ul.list{
     list-style-type: none;
     display: flex;

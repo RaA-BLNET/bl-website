@@ -41,16 +41,10 @@ main {display: flex;
 
 main {display: flex; flex-direction: column;}
 
-<<<<<<< HEAD
+<<<<<< HEAD
 
     
 
 #top {background-image: url("../img/header.jpg"); 
     background-size: 100%;
     height: 50px;}
-=======
-<<<<<<< HEAD
-=======
-#top {background-image :url("../img/header.jpg"); background-size: 100%;}
->>>>>>> 09e9eb799a5139f88729c85650a451c0cff35ed6
->>>>>>> c0fba366307e646ac4b89468148b2b0e49a5946a

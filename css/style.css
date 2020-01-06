@@ -1,7 +1,6 @@
 nav {
     display: flex;
     flex-direction: row;
-    opacity: 0.5;
 }
 div.kontakte {
     float: right;
@@ -37,7 +36,15 @@ footer {
     justify-content: space-between;
     margin: 60px 0px 0px 0px;
 }
+footer address{
+            display: flex;
+}
+footer address p{
+    display: flex;
+}
+#links{
 
+}
 header {
     background-image: url("img/header.jpg");
 }
@@ -46,15 +53,23 @@ header {
     background-image: url("../img/header.jpg");
     background-attachment: fixed;
     background-size: cover;
-    height: 250px;
+  
     background-position: top;
 }
+<<<<<<< HEAD
 .titel {
+=======
+<<<<<<< HEAD
+@media(max-width 768px){
+=======
+nav h1 {
+>>>>>>> f4dd50cf141b74e7d35592799cef176356ba7703
     color: white;
 }
 
 @media{
     {
+>>>>>>> 1acc8195f9f40bf36c5ed7d355b9543f7b96b42e
 
     }
 }

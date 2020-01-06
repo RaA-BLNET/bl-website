@@ -60,4 +60,5 @@ header {
 }
 #nav nav-tabs{
     position: fixed;
+    top: 8px;
 }

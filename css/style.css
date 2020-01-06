@@ -54,6 +54,7 @@ footer {
     align-items: flex-end;
     padding-top: 720px;
     border-right: 370px;
+    padding-right: 307px;
 }
 #top {
     display: flex;

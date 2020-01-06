@@ -35,12 +35,7 @@ footer {
     display: flex;
     justify-content: space-between;
     margin: 60px 0px 0px 0px;
-}
-footer address{
-            display: flex;
-}
-footer address p{
-    display: flex;
+    align-content: space-between;
 }
 #links{
 
@@ -60,9 +55,3 @@ header {
     color: white;
 }
 
-@media{
-    {
->>>>>>> 1acc8195f9f40bf36c5ed7d355b9543f7b96b42e
-
-    }
-}

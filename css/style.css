@@ -59,6 +59,6 @@ header {
     color: white;
 }
 #nav nav-tabs{
-    position: fixed;
-    top: 8px;
+    position: absolute;
+    auto-scrolling;
 }

@@ -53,8 +53,7 @@ footer {
     align-content: space-between;
     align-items: flex-end;
     padding-top: 720px;
-    border-right: 370px;
-    padding-right: 307px;
+    padding-right: 370px;
 }
 #top {
     display: flex;

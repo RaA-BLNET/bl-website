@@ -2,32 +2,39 @@ nav {
     display: flex;
     flex-direction: row;
 }
-ul.list{
+ul.list {
     list-style-type: none;
     display: flex;
     flex-direction: column;
     float: right;
-    margin: 2em;
+    
 }
-#BLT{
+#BLT {
     font-size: 24px;
     font-weight: bold;
     margin: 0px 0px 20px 0px;
 }
-address{
+address {
     line-height: 5px;
 }
-#links{
+#links {
     float: right;
 }
-footer{
+footer {
     display: flex;
     justify-content: space-between;
 }
+
+main {
+    display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    margin: 50px;
 }
 
-main {display: flex; flex-direction: column;}
+main {
+    display: flex; flex-direction: column;
+}
 
-#top {background-image :url("../img/header.jpg"); background-size: 100%;}
+#top {
+    background-image :url("../img/header.jpg"); background-size: 100%;
+}

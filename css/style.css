@@ -45,14 +45,10 @@ main {
 
 main {
     display: flex; flex-direction: column;
+ }
+
+#top {
+    background-image :url("../img/header.jpg");
+    background-attachment: scroll;
+    background-size: cover;
 }
-
-
-
-    
-
-#top {background-image: url("../img/header.jpg"); 
-    background-size: 100%;
-    height: 50px;}
-#top {background-image :url("../img/header.jpg"); background-size: 100%;}
-#top {background-image :url("../img/header.jpg"); background-size: cover;}

@@ -76,7 +76,7 @@ footer {
     padding: 10px;
 }
 
-.zeichen{
+.footer a{
     display: flex;
     flex-direction: column;
     justify-content: right;

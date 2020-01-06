@@ -51,9 +51,16 @@ header {
   
     background-position: top;
 }
+<<<<<<< HEAD
 nav h1 {
     color: white;
 }
 @media(max-width 768px){
 
 }
+=======
+.titel {
+    color: white;
+}
+
+>>>>>>> eb36c8581570ab57d2e834abaa42f3a58dea6313

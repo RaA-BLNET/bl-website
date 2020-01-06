@@ -52,6 +52,7 @@ header {
     background-position: top;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 .titel {
     color: white;

@@ -22,3 +22,4 @@ address{
 header {
     background-image: url("img/header.jpg");
 }
+main {display: flex; flex-direction: column;}

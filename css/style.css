@@ -1,7 +1,6 @@
 nav {
     display: flex;
     flex-direction: row;
-    opacity: 0.5;
 }
 div.kontakte {
     float: right;
@@ -25,23 +24,20 @@ ul.list {
 address {
     line-height: 5px;
 }
+#footer{
+    display: block;
+}
 address p{
     padding: 0.5pt;
 }
 #links{
     float: right;
     align-items: flex-start;
+    margin-top: 15em;
 }
-footer {
-    display: flex;
-    justify-content: space-between;
-    margin: 60px 0px 0px 0px;
-}
-footer address{
-            display: flex;
-}
-footer address p{
-    display: flex;
+
+#address{
+    width: 400px;
 }
 #links{
 
@@ -49,16 +45,24 @@ footer address p{
 header {
     background-image: url("img/header.jpg");
 }
-
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px 0px 0px;
+    align-content: space-between;
+    align-items: flex-end;
+}
 #top {
     background-image: url("../img/header.jpg");
     background-attachment: fixed;
     background-size: cover;
-    height: 250px;
+  
     background-position: top;
 }
-@media {
-    {
-
-    }
+.titel {
+    color: white;
+}
+#nav nav-tabs{
+    position: fixed;
+    top: 8px;
 }

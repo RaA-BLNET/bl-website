@@ -19,15 +19,15 @@ address{
 }
 footer{
     display: flex;
-<<<<<<< HEAD
     justify-content: space-between;
 }
-=======
     flex-direction: column;
     justify-content: flex-end;
 }
 header {
     background-image: url("img/header.jpg");
 }
-main {display: flex; flex-direction: column;}
->>>>>>> 242e15dba9d518d2834915924524fffaf1478c89
+main {display: flex;
+    flex-direction: column;
+    margin: 20px;
+}

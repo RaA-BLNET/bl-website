@@ -168,3 +168,6 @@ html {
 *, ::after, ::before {
     box-sizing: inherit;
 }
+#navbar-brand{
+    background-color: rgb(109, 109, 109);
+}

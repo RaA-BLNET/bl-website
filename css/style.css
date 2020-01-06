@@ -35,7 +35,7 @@ footer {
 header {
     background-image: url("img/header.jpg");
 }
-main {display: flex;
+
 
 main {
     display: flex;
@@ -43,9 +43,7 @@ main {
     margin: 50px;
 }
 
-main {
-    display: flex; flex-direction: column;
- }
+
 
 #top {
     background-image: url("../img/header.jpg");

@@ -42,9 +42,6 @@ footer address{
 footer address p{
     display: flex;
 }
-#links{
-
-}
 header {
     background-image: url("img/header.jpg");
 }
@@ -61,6 +58,6 @@ nav h1 {
 }
 @media{
     {
-        
+
     }
 }

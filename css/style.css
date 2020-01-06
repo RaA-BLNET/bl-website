@@ -11,6 +11,7 @@ ul.list {
 .iframe {
     margin-right: 1em; 
     margin-left: 2.4em;
+    border: 1px solid black;
 }
 .standort{
     margin-left: 2.4em;

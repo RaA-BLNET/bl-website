@@ -1,10 +1,13 @@
-
+nav {
+    display: flex;
+    flex-direction: row;
+}
 ul.list{
     list-style-type: none;
     display: flex;
     flex-direction: column;
     float: right;
-    margin: 2em;
+    
 }
 #BLT{
     font-size: 24px;
@@ -23,11 +26,25 @@ address p{
 }
 footer{
     display: flex;
+<<<<<<< HEAD
+=======
+    justify-content: space-between;
+}
+>>>>>>> 09e9eb799a5139f88729c85650a451c0cff35ed6
     flex-direction: column;
     justify-content: flex-end;
 }
 header {
     background-image: url("img/header.jpg");
 }
+main {display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
 main {display: flex; flex-direction: column;}
 
+<<<<<<< HEAD
+=======
+#top {background-image :url("../img/header.jpg"); background-size: 100%;}
+>>>>>>> 09e9eb799a5139f88729c85650a451c0cff35ed6

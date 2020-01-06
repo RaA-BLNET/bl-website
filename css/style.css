@@ -53,5 +53,11 @@ header {
 }
 .titel {
     color: white;
+    display: flex;
+    align-content: center;
 }
+@media (max-widht:768px) { 
+    {
 
+    }
+}

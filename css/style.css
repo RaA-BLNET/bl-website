@@ -54,6 +54,8 @@ footer {
     align-items: flex-end;
     padding-top: 720px;
     padding-right: 370px;
+    background-image: url(../img/footer.png);
+    background-size: cover;
 }
 #top {
     display: flex;

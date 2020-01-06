@@ -58,18 +58,3 @@ header {
 .titel {
     color: white;
 }
-<<<<<<< HEAD
-@media (max-widht:768px) { 
-<<<<<<< HEAD
-    #nav nav-tabs
-    {display: flex;
-        flex-direction: column;
-=======
-=======
-@media (max-width:768px) { 
->>>>>>> 81389fc6478d70c5d7d88c919cb6488afb5b6412
-    {
-
->>>>>>> a2b9f37ac9160c173b1ee1d968cf51e091ce41ac
-    }
-}

@@ -78,6 +78,6 @@ footer {
 
 .footer a{
     display: flex;
-    flex-direction: column;
-    justify-content: right;
+    flex-direction: row;
+    justify-content: left;
 }

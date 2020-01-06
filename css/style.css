@@ -4,7 +4,10 @@ ul.list{
     display: flex;
     flex-direction: column;
     float: right;
-    margin: 2em;
+    
+}
+div.kontakte {
+    float: right;
 }
 #BLT{
     font-size: 24px;

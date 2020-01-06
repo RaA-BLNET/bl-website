@@ -167,7 +167,6 @@ html {
 *, ::after, ::before {
     box-sizing: inherit;
 }
-.flex1 {
-    display: flex;
-    align-content: flex-end;
+#navbar-brand{
+    color: rgb(100, 100, 100);
 }

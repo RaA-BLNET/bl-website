@@ -1,7 +1,6 @@
 nav {
     display: flex;
     flex-direction: row;
-    opacity: 0.5;
 }
 div.kontakte {
     float: right;
@@ -49,14 +48,10 @@ header {
     height: 250px;
     background-position: top;
 }
-<<<<<<< HEAD
-@media {
-=======
 nav h1 {
     color: white;
 }
 @media{
->>>>>>> 43f5e41f54b4022e9794d84ee01c3f740436af15
     {
 
     }

@@ -79,5 +79,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-padding-right: 177px;
+padding-right: 0px;
+margin-right: 0px;
 }

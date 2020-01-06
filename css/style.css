@@ -27,6 +27,7 @@ address p{
 footer {
     display: flex;
     justify-content: space-between;
+    margin: 60px 0px 0px 0px;
 }
     flex-direction: column;
     justify-content: flex-end;
@@ -44,11 +45,10 @@ main {
 
 main {
     display: flex; flex-direction: column;
+ }
+
+#top {
+    background-image: url("../img/header.jpg");
+    background-attachment: scroll;
+    background-size: cover;
 }
-
-
-
-    
-
-#top {background-image :url("../img/header.jpg"); background-size: 100%;}
-

@@ -35,6 +35,8 @@ footer {
     display: flex;
     justify-content: space-between;
     margin: 60px 0px 0px 0px;
+    align-content: space-between;
+}
 }
 footer address{
             display: flex;

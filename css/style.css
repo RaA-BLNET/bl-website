@@ -30,6 +30,6 @@ header {
 main {display: flex; flex-direction: column;}
 
 #top {background-image :url("../img/header.jpg");
-    height: 70px;
+    height: 20px;
     
 }

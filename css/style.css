@@ -27,7 +27,6 @@ footer {
     display: flex;
     justify-content: space-between;
     margin: 60px 0px 0px 0px;
-}
     flex-direction: column;
     justify-content: flex-end;
 }

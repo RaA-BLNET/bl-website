@@ -2,12 +2,11 @@ nav {
     display: flex;
     flex-direction: row;
 }
-ul.list {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
+div.kontakte {
     float: right;
-    
+}
+ul.list {
+    list-style-type: none;        
 }
 #BLT {
     font-size: 24px;
@@ -28,27 +27,22 @@ footer {
     display: flex;
     justify-content: space-between;
     margin: 60px 0px 0px 0px;
-}
     flex-direction: column;
     justify-content: flex-end;
 }
 header {
     background-image: url("img/header.jpg");
 }
-main {display: flex;
-
-main {
-    display: flex;
-    flex-direction: column;
-    margin: 50px;
-}
-
-main {
-    display: flex; flex-direction: column;
- }
 
 #top {
+<<<<<<< HEAD
     background-image :url("../img/header.jpg");
     background-attachment: scroll;
     background-size: 100%;
+=======
+    background-image: url("../img/header.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+>>>>>>> 529aa789b7b9136b1a6c871b657e6b9aad2f5d6b
 }

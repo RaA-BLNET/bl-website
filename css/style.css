@@ -57,12 +57,12 @@ footer {
     background-position: top;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 .titel {
     color: white;
 }
-@media (max-width:768px) { 
-    {
-
-    }
+#nav nav-tabs{
+    position: fixed;
+    top: 8px;
 }

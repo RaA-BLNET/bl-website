@@ -32,6 +32,14 @@ footer {
 
     flex-direction: column;
     justify-content: flex-end;
+    align-content: space-between;
+}
+footer address{
+            display: flex;
+
+}
+#links{
+
 }
 header {
     background-image: url("img/header.jpg");

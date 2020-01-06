@@ -8,6 +8,14 @@ div.kontakte {
 ul.list {
     list-style-type: none;        
 }
+.iframe {
+    margin-right: 1em; 
+    margin-left: 2.4em;
+    border: 1px solid black;
+}
+.standort{
+    margin-left: 2.4em;
+}
 #BLT {
     font-size: 24px;
     font-weight: bold;

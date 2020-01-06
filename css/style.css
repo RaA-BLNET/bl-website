@@ -25,19 +25,22 @@ address {
     line-height: 5px;
 }
 #footer{
-    display: block;
+    display:block;
+    float: inline-end;
 }
 address p{
     padding: 0.5pt;
 }
 #links{
     float: right;
-    align-items: flex-start;
     margin-top: 15em;
+
 }
 
 #address{
     width: 400px;
+    float: ;
+    float: inline-end;
 }
 #links{
 

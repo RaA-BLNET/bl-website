@@ -54,4 +54,8 @@ header {
 .titel {
     color: white;
 }
+@media (max-widht:768px) { 
+    {
 
+    }
+}

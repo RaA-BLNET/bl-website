@@ -35,14 +35,8 @@ header {
 }
 
 #top {
-<<<<<<< HEAD
-    background-image :url("../img/header.jpg");
-    background-attachment: scroll;
-    background-size: 100%;
-=======
     background-image: url("../img/header.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
->>>>>>> 529aa789b7b9136b1a6c871b657e6b9aad2f5d6b
 }

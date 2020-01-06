@@ -36,6 +36,7 @@ footer {
     justify-content: space-between;
     margin: 60px 0px 0px 0px;
     align-content: space-between;
+    align-items: flex-end;
 }
 #links{
 
@@ -45,38 +46,29 @@ header {
 }
 
 #top {
+    display: flex;
     background-image: url("../img/header.jpg");
     background-attachment: fixed;
     background-size: cover;
-  
     background-position: top;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-<<<<<<< HEAD
-@media(max-width 768px){
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-nav h1 {
-=======
 .titel {
->>>>>>> 7e654bcda92b85cd44118d020a527fbdf7e1b9c8
     color: white;
-    display: flex;
-    align-content: center;
 }
+<<<<<<< HEAD
 @media (max-widht:768px) { 
 <<<<<<< HEAD
     #nav nav-tabs
     {display: flex;
         flex-direction: column;
 =======
-    {
-<<<<<<< HEAD
->>>>>>> eba150ccf9fdf7aad14a270e670901d3b37b33e3
->>>>>>> 0865847cbbad19471338ed5375d31e22758527a2
 =======
->>>>>>> 7e654bcda92b85cd44118d020a527fbdf7e1b9c8
+@media (max-width:768px) { 
+>>>>>>> 81389fc6478d70c5d7d88c919cb6488afb5b6412
+    {
 
 >>>>>>> a2b9f37ac9160c173b1ee1d968cf51e091ce41ac
     }

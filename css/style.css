@@ -75,3 +75,9 @@ footer {
     border-radius: 10%;
     padding: 10px;
 }
+.inst{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}

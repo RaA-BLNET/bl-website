@@ -70,7 +70,6 @@ footer {
 .cid-qv5AL7fBTQ {
     padding-top: 45px;
     padding-bottom: 45px;
-    background-color: #2e2e2e;
 }
 section {
     background-position: 50% 50%;
@@ -80,9 +79,6 @@ section {
 section, .container, .container-fluid {
     position: relative;
     word-wrap: break-word;
-}
-section {
-    background-color: #eeeeee;
 }
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
@@ -145,6 +141,9 @@ html {
     -ms-text-size-adjust: 100%;
     -ms-overflow-style: scrollbar;
     -webkit-tap-highlight-color: transparent;
+}
+#text-black{
+    color: black;
 }
 user agent stylesheet
 html {

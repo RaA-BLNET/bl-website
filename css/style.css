@@ -58,3 +58,6 @@ header {
 .titel {
     color: white;
 }
+#nav nav-tabs{
+    position: fixed;
+}

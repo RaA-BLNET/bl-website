@@ -56,8 +56,10 @@ header {
   
     background-position: top;
 }
-@media{
-    {
-        
+@media(max-width 768px){
+    div.kontakte{
+        display: flex;
+       
+justify-content: baseline;        
     }
 }

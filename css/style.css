@@ -1,7 +1,6 @@
 nav {
     display: flex;
     flex-direction: row;
-    background-color: 50%;
 }
 div.kontakte {
     float: right;

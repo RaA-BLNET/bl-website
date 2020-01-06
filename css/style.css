@@ -37,7 +37,7 @@ header {
 
 #top {
     background-image: url("../img/header.jpg");
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }

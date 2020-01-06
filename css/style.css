@@ -57,7 +57,8 @@ header {
     align-content: center;
 }
 @media (max-widht:768px) { 
-    {
-
+    #nav nav-tabs
+    {display: flex;
+        flex-direction: column;
     }
 }

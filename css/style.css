@@ -1,6 +1,7 @@
 nav {
     display: flex;
     flex-direction: row;
+    opacity: 0.5;
 }
 div.kontakte {
     float: right;
@@ -37,6 +38,8 @@ footer {
     margin: 60px 0px 0px 0px;
     align-content: space-between;
 }
+}
+
 header {
     background-image: url("img/header.jpg");
 }

@@ -36,6 +36,7 @@ footer {
     justify-content: space-between;
     margin: 60px 0px 0px 0px;
     align-content: space-between;
+    align-items: flex-end;
 }
 #links{
 
@@ -45,11 +46,14 @@ header {
 }
 
 #top {
+    display: flex;
     background-image: url("../img/header.jpg");
     background-attachment: fixed;
     background-size: cover;
-  
     background-position: top;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 <<<<<<< HEAD
 nav h1 {
@@ -62,5 +66,12 @@ nav h1 {
 .titel {
     color: white;
 }
+@media (max-width:768px) { 
+    {
 
+<<<<<<< HEAD
 >>>>>>> eb36c8581570ab57d2e834abaa42f3a58dea6313
+=======
+    }
+}
+>>>>>>> 81389fc6478d70c5d7d88c919cb6488afb5b6412

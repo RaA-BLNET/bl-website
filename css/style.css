@@ -24,12 +24,26 @@ ul.list {
 address {
     line-height: 5px;
 }
+#footer{
+    display: block;
+}
 address p{
     padding: 0.5pt;
 }
 #links{
     float: right;
     align-items: flex-start;
+    margin-top: 15em;
+}
+
+#address{
+    width: 400px;
+}
+#links{
+
+}
+header {
+    background-image: url("img/header.jpg");
 }
 footer {
     display: flex;
@@ -38,22 +52,12 @@ footer {
     align-content: space-between;
     align-items: flex-end;
 }
-#links{
-
-}
-header {
-    background-image: url("img/header.jpg");
-}
-
 #top {
-    display: flex;
     background-image: url("../img/header.jpg");
     background-attachment: fixed;
     background-size: cover;
+  
     background-position: top;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 .titel {
     color: white;

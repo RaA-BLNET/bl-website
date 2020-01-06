@@ -37,13 +37,6 @@ footer {
     margin: 60px 0px 0px 0px;
     align-content: space-between;
 }
-}
-footer address{
-            display: flex;
-}
-footer address p{
-    display: flex;
-}
 #links{
 
 }
@@ -58,15 +51,7 @@ header {
   
     background-position: top;
 }
-<<<<<<< HEAD
-@media(max-width 768px){
-=======
-nav h1 {
+.titel {
     color: white;
 }
-@media{
-    {
->>>>>>> 1acc8195f9f40bf36c5ed7d355b9543f7b96b42e
 
-    }
-}

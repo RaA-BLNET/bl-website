@@ -39,4 +39,5 @@ header {
     background-image: url("../img/header.jpg");
     background-attachment: scroll;
     background-size: cover;
+    background-position: center;
 }

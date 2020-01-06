@@ -27,8 +27,13 @@ footer {
     display: flex;
     justify-content: space-between;
     margin: 60px 0px 0px 0px;
-    flex-direction: column;
-    justify-content: flex-end;
+}
+footer address{
+            display: flex;
+
+}
+#links{
+
 }
 header {
     background-image: url("img/header.jpg");
@@ -38,5 +43,6 @@ header {
     background-image: url("../img/header.jpg");
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+  
+    background-position: top;
 }

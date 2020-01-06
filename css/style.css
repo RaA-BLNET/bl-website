@@ -37,7 +37,9 @@ footer {
 }
 footer address{
             display: flex;
-
+}
+footer address p{
+    display: flex;
 }
 #links{
 

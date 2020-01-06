@@ -6,6 +6,11 @@ ul.list{
     float: right;
     margin: 2em;
 }
-header {
-    background-image: url(/img/header.jpg);
+#BLT{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
+}
+address{
+    line-height: 5px;
 }

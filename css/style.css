@@ -78,7 +78,8 @@ footer {
 .inst{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-padding-right: 0px;
-margin-right: 0px;
+    justify-content: right;
+padding: 0px;
+margin: 0px;
+border: 0px;
 }

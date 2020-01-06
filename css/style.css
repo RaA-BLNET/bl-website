@@ -39,4 +39,8 @@ main {
     display: flex; flex-direction: column;
 }
 
-#top {background-image :url("../img/header.jpg"); background-size:cover;}
+#top {
+    background-image :url("../img/header.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+}

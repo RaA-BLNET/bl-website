@@ -54,7 +54,7 @@ header {
     background-image: url("../img/header.jpg");
     background-attachment: fixed;
     background-size: cover;
-  
+    height: 250px;
     background-position: top;
 }
 @media{

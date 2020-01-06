@@ -39,5 +39,6 @@ header {
     background-image: url("../img/header.jpg");
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+  
+    background-position: top;
 }

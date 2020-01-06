@@ -23,6 +23,7 @@ address p{
 #links{
     float: right;
     align-items: flex-start;
+    margin-left: 30px;
 }
 footer {
     display: flex;

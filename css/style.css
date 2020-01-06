@@ -1,6 +1,7 @@
 nav {
     display: flex;
     flex-direction: row;
+    background-color: 50%;
 }
 div.kontakte {
     float: right;
@@ -50,6 +51,11 @@ header {
     background-image: url("../img/header.jpg");
     background-attachment: fixed;
     background-size: cover;
-  
+    height: 250px;
     background-position: top;
+}
+@media{
+    {
+
+    }
 }

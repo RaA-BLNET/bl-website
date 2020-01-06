@@ -30,6 +30,17 @@ address p{
 #links{
     float: right;
     align-items: flex-start;
+    margin-top: 15em;
+}
+
+#address{
+    width: 400px;
+}
+#links{
+
+}
+header {
+    background-image: url("img/header.jpg");
 }
 footer {
     display: flex;
@@ -38,13 +49,6 @@ footer {
     align-content: space-between;
     align-items: flex-end;
 }
-#links{
-
-}
-header {
-    background-image: url("img/header.jpg");
-}
-
 #top {
     display: flex;
     background-image: url("../img/header.jpg");

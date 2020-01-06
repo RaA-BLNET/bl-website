@@ -31,3 +31,5 @@ header {
 }
 main {display: flex; flex-direction: column;}
 >>>>>>> 242e15dba9d518d2834915924524fffaf1478c89
+
+*top {background-image :url("../img/header.jpg")}

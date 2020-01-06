@@ -62,8 +62,7 @@ nav h1 {
 .titel {
 >>>>>>> 7e654bcda92b85cd44118d020a527fbdf7e1b9c8
     color: white;
-    display: flex;
-    align-content: center;
+    
 }
 @media (max-widht:768px) { 
     {

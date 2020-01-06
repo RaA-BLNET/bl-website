@@ -79,5 +79,6 @@ footer {
 .div{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: right;
+    align-items: flex-end;
 }

@@ -42,10 +42,9 @@ main {display: flex;
 main {display: flex; flex-direction: column;}
 
 <<<<<<< HEAD
-#top {background-image :url("../img/header.jpg");
-    height: 20px;
+
     
-}
+
 #top {background-image :url("../img/header.jpg"); background-size: 100%;}
 =======
 <<<<<<< HEAD

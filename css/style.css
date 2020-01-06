@@ -19,3 +19,4 @@ address{
     flex-direction: column;
     justify-content: flex-end;
 }
+main {display: flex; flex-direction: column;}

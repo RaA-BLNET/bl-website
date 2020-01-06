@@ -45,11 +45,12 @@ header {
 }
 
 #top {
+    display: flex;
     background-image: url("../img/header.jpg");
     background-attachment: fixed;
     background-size: cover;
-  
     background-position: top;
+    flex-direction: row;
 }
 <<<<<<< HEAD
 @media(max-width 768px){
@@ -64,7 +65,7 @@ nav h1 {
     color: white;
     
 }
-@media (max-widht:768px) { 
+@media (max-width:768px) { 
     {
 <<<<<<< HEAD
 >>>>>>> eba150ccf9fdf7aad14a270e670901d3b37b33e3

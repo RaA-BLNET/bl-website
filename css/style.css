@@ -28,6 +28,13 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+    flex-direction: column;
+    justify-content: flex-end;
+}
+header {
+    background-image: url("img/header.jpg");
+}
+main {display: flex;
 
 main {
     display: flex;
@@ -39,4 +46,12 @@ main {
     display: flex; flex-direction: column;
 }
 
+
+
+    
+
+#top {background-image: url("../img/header.jpg"); 
+    background-size: 100%;
+    height: 50px;}
+#top {background-image :url("../img/header.jpg"); background-size: 100%;}
 #top {background-image :url("../img/header.jpg"); background-size: cover;}

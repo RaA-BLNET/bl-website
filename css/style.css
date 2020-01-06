@@ -1,10 +1,13 @@
-
+nav {
+    display: flex;
+    flex-direction: row;
+}
 ul.list{
     list-style-type: none;
     display: flex;
     flex-direction: column;
     float: right;
-    margin: 2em;
+    
 }
 #BLT{
     font-size: 24px;

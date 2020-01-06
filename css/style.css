@@ -24,6 +24,10 @@ ul.list {
 address {
     line-height: 5px;
 }
+#footer{
+    display: flex;
+    flex-direction: row;
+}
 address p{
     padding: 0.5pt;
 }

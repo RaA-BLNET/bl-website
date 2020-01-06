@@ -53,7 +53,9 @@ header {
     height: 250px;
     background-position: top;
 }
-
+.titel {
+    color: white;
+}
 
 @media{
     {

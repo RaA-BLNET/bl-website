@@ -53,5 +53,7 @@ header {
 }
 .titel {
     color: white;
+    display: flex;
+    align-content: center;
 }
 

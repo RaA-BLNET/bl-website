@@ -15,7 +15,9 @@ address{
     line-height: 5px;
 }
 #links{
+    float: right;
+}
+footer{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
 }

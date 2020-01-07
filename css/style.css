@@ -15,12 +15,6 @@ ul.list {
     margin-left: 2.4em;
     border: 1px solid;
 }
-h1{
-    padding: 25px 0px 25px 0px;
-}
-h2 {
-    padding: 0px 0px 10px 0px;
-}
 .standort{
     margin-left: 2.4em;
 }
@@ -118,30 +112,8 @@ main {
 .footer101{
     padding-top: 0px;
 }
-.titela:link{
-    font-size: 22px;
-}
-.titelb:link{
-    font-size: 18px;
-
-}
-.titelc:link {
-    font-size: 14px;
-}
-
-    #inhalt {
-        padding: 0 35%;
-    }
-}
-#inhalt101{
-display: flex;
-justify-content: flex-end;
-width: auto;
-position: fixed;
-margin-left: 70%;
-background-color: gainsboro;
-border-radius: 5%;
-border: 3px inset black;
+#inhalt {
+    padding: 0 35%;
 }
 
 @media (max-width:991px) {

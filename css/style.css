@@ -92,6 +92,10 @@ footer {
         width: 100px;
         height: 100px;
     }
+    .text-justify {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
 .insta{
     padding-top: 10px;

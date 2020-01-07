@@ -88,6 +88,10 @@ footer {
     #top {
         width: 100%;
     }
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
 }
 .insta{
     padding-top: 10px;

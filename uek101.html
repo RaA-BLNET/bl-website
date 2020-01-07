@@ -101,7 +101,7 @@
             <h2>CSS einbinden</h2>
             <h3>Extern</h3>
             <p>Mit dem Element link kann man dem Browser mitteilen, wo sich die CSS-Datei befindet. Es ist ein leeres Element, also ist kein schliessender Tag nötig. Ausserdem sollte sich das Element im head befinden. Mit dem Attribut href gibt man den Pfad der CSS-Datei an, mit type die Art des verknüpften Dokuments (hier: text/css) und mit rel die Beziehung zwischen der HTML-Seit und der CSS-Datei. (hier: stylesheet)</p>
-            <img src="img/img101/cssext.png"/>
+          <img src="img/img101/cssext.png"/>
             <h3>Intern</h3>
             <p>Mit dem style-Element kann der CSS-Code direkt ins HTML eingebunden werden. Dies ist aber nicht zu empfehlen, da für jede Seite die CSS-Eigenschaften manuell geändert werden müssen. Das Attribut type macht den gleichen Job wie bei der externen Einbindung.</br>Das style-Element wird auch im head platziert.</p>
             <img src="img/img101/cssint.png"/>
@@ -222,7 +222,19 @@
         <p>Wenn man im Body 3 Bilder hat und diese ausrichten möchte muss man NICHT die Bilder ansprechen, sondern den Body.</p>
             <h1>Media Queries (Responsive Web Design)</h1>
             <p>Mit Media Queries kann man seine Seite benutzerfreundlicher für Mobile-User machen. Da man heutzutage immer mehr auf Handy und Tablets im Web surft, muss man diese Zielgruppe auch beachten.</br>Media Queries fügt man mit @media ein. Dazu muss man auch noch zusätzliche Attribute hinzufügen. Mit min-width kann man die minimale Breite festlegen, die gebraucht wird um die @media Regel auszulösen. Mit max-width bestimmt man logischerweise die maximale Breite.</br>In der Klammer gibt man die CSS-Regeln ein, die ausgeführt werden, wenn die Anforderungen (Attribute) erfüllt werden.</p>
-            <img src="img/img101/mediaq.PNG"/>
+<code class="css">
+    <span class="mediaq">@media<span>(<span class="eigenschaft">min-width</span>: <span class="wert">991</span>){
+    <span class="selektor">.maine</span> {
+        <span class="eigenschaft">display</span>: <span class="wert">flex</span>;
+        <span class="eigenschaft"justify-content</span>: <span class="wert">space-between</span>;
+}
+}
+<span class="selektor">.agbs</span> {
+        <span class="eigenschaft">font-size</span>: <span class="wert">34px</span>;
+        <span class="eigenschaft">font-weight</span>: <span class="wert">bold</span>;
+        <span class="eigenschaft">text-decoration</span>: <span class="wert">underline</span>;
+}
+</code>
             <h1>Framework Bootstrap</h1>
             <p>Framework ist eine erweiterung zu einem programm, welches ihm eine vorgegebene Struktur gibt. 
                 Bootstrap ist das Bekanteste CSS Framework heisst bootstrap. Es beinhaltet vorgegebenr Tabellen, Formulare, Navigationen und Buttons. 

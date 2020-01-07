@@ -7,150 +7,13 @@
     <link href="css/style.css" type="text/css" rel="stylesheet" >
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/x-icon" href="/bl-website/img/favicon.ico">
-    <title>Home - BL-Webseite</title>
+    <title>ÜK 101 - BL-Website</title>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div>
-        <h1>CSS</h1>
-        <h2>Eigenschaften</h2>
-        <p>Mit CSS erstellt man Regeln, die die Darstellung eines HTML-Elementes beeinflusst. </br>Um CSS zu verstehen, muss man sich um jedes HTML-Element einen unsichtbaren Kasten vorstellen. Mit CSS kann man diesen Kästen Formatierungsregeln zuweisen. Man kann einen Rahmen um die Kästen legen, die Breite, Höhe und die Seitenabstände einstellen, oder sogar ein Hintergrundbild einfügen.</br>Eine CSS-Regel besteht aus 2 Regeln: einem Selektor und einer Deklaration. Der Selektor wählt das Element aus. Man kann entweder eine Elementgruppe (z.B. h1), eine Klasse (z.B. .navbar) oder eine ID (z.B. #blcform). Die Deklaration bestimmt, wie die Elemente formatiert werden sollen. Sie besteht aus 2 Teilen: Einer Eigenschaft und deren Wert.</br>Die Eigenschaft bezeichnet den Aspekt des Elements. Das kann z.B. die Farbe, der Abstand oder das Hintergrundbild sein. Die Werte nennen die Einstellung für die Eigenschaft. Um z.B. die Höhe zu definieren, muss der Wert eingetragen werden.</p>
-        <img src="img101/cssaufbau.png"/>
-        <h2>CSS einbinden</h2>
-        <h3>Extern</h3>
-        <p>Mit dem Element link kann man dem Browser mitteilen, wo sich die CSS-Datei befindet. Es ist ein leeres Element, also ist kein schliessender Tag nötig. Ausserdem sollte sich das Element im head befinden. Mit dem Attribut href gibt man den Pfad der CSS-Datei an, mit type die Art des verknüpften Dokuments (hier: text/css) und mit rel die Beziezhung zwischen der HTML-Seit und der CSS-Datei. (hier: stylesheet)</p>
-        <img src="img101/cssext.png"/>
-        <h3>Intern</h3>
-        <p>Mit dem style-Element kann der CSS-Code direkt ins HTML eingebunden werden. Dies ist aber nicht zu empfehlen, da für jede Seite die CSS-Eigenschaften manuell geändert werden müssen. Das Attribut type macht den gleichen Job wie bei der externen Einbindung.</br>Das style-Element wird auch im head platziert.</p>
-        <img src="img101/cssint.png"/>
-    </div>
-    <div>
-    <h1>Selektoren</h1>
-    <table border="1">
-        <thead>
-    <tr>
-    <td>Selektoren</td>
-    <td>Bedeutung</td>
-    <td>Beispiel</td>
-    </tr>
-    </thead>
-    <tr>
-        <td>Universalselektor</td>
-        <td>Dieser Selektor gilt für alle Elemente im Dokumente. Mit diesem Selektor kann man eine Schrift für das ganze Dokument festlegen.</td>
-        <td>* {}</td>
-    </tr>
-    <tr>
-        <td>Typselektor</td>
-        <td>Gilt für übereinstimmende Elementnamen.</td>
-        <td>h1,h2,h3 {}</td>
-    </tr>
-    <tr>
-        <td>Klassenselektor</td>
-        <td>Der Klassenselektor spricht Elemente an, die einer bestimmten Klasse zugehören.</td>
-        <td>.class{}, h1.class{}</td>
-    </tr>
-    <tr>
-        <td>ID-Selektor</td>
-        <td>Mit dem ID-Selektor kann ein Element angesprochen werden, dem eine ID zugeordnet wurde.</td>
-        <td>li>a
-                (alle a Elemente die Kinder eines li Elemnts sind)
-                </td>
-    </tr>
-    <tr>
-        <td>Nachkommenselektor</td>
-        <td>Gilt für Elemente die demangegebenen Element untergeordnet sind. </td>
-        <td>p a
-                (alle a Elemente innerhalb eines p Elements)
-                </td>
-        </tr>
-    </table>
-    <h1>Pfade</h1>
-    <p>Pfad werden gebraucht um Bilder einzufügen oder andere Dokumente ins Dokument einzubinden. Die Ordnerstruktur spielt bei den Pfäden eine grosse Rolle. Bsp: Der Hauptordner heisst BlWebsite, in diesem Ordner befinden sich die Ordner html, css und img. Im Html Ordner befinden sich dann 3 html Dateien, im css eine style.css Datei und im img befinden sich alle Bilder. Wenn man im Dokumen index.html drin ist (im Ordner html) und ein Bild reintun will muss man follgenden Pfad eingeben:  ../../img/bild.jpg. Das ../ steht für einen Schritt zurück, dann geht man in den Ordner img und wählt in diesem Ordner ein Bild aus.
-        nach dem man den Pfad eingegeben hat kann man noch die höhe und breite einstellen. Wenn man will kan man noch eine alternative für das Bild schreiben, diese steht dann wenn das Bild nicht angezeigt werden kann oder der Pfad falsch ist.
-    </p>
-    <img src="../bl-website/img/Unbenannt.PNG" width="650px" height="300px">
-    <h1></h1>Classes und Ids
-    <p> einzelne Teile einer Html Seite zu formatieren werden classes und ids genutzt. Mit classes kann man bei  belibig vielen Elementen die gleiche Formatierung geben. Eine class definiert also eine «klasse», alles was in dieser Klasse geschrieben wird sieht gleich aus. Ids kann man im Gegensatz zu Classes nur einmal nutzen. Wenn man einen einzigen Text im Dokument fett machen will dann kann man eine id benutzen.  Ids und Classes haben im Prinzip die Selbe Aufgabe. Ob man classes oder ids braucht ist jedem selbst überlassen. Im Html: </p>
-    <img src="../bl-website/img/classe_ids.jpg" width="250px"height="80px">
-    </div>
-    <div>
-        <h1>Elternelemente und Kindelemente</h1>
-        <p>Beim schreiben von html oder beim erstellen von einer Verzeichnisstruktur werden sehr oft Eltern- und Kindelemente genutzt damit alles übersichtlicher ist und alles überhaupt funktioniert.</p>
-        <h2>Verzeichnisstruktur</h2>
-        <p>Bei einer Verzeichnisstruktur von einer grossen Website ist es sehr wichtig, dass diese Logische und übersichtliche aufgebaut ist. Unten auf dem Bild sieht man ein gutes Beispiel für eine solche Struktur, dazu werden Eltern und Kindelemente eingesetzt. Zum Beispiel ist der Hardwaredealz Ordner ein Elternordner und die Ordner Computer Deals, Images, Laptop Deals und Peripheriegeräte sind die jeweiligen Kinderordner. Der Hardwaredealz Ordner ist auch ein Grosselternordner und die Enkelordner sind Headset Deals, Maus Deals und Tastatur Deals. Das sorgt dann insgesamt wie schon gesagt für eine gute Struktur.</p>
-        <img src="img101/Elternelement_verzeichnis.png">
-        <h2>Codes</h2>
-        <p>Auch beim Schreiben von Html werden Eltern und Kind Elemente genommen. Wie man zum Beispiel auf dem Bild unten sehen kann, ist das body Tag das Elternelement von nav, h1, h2 und h3. Und diese sind die Kindelemente von body. Zugleich ist body das Grosselternelement und ul das Enkelelement. Diese Eltern und Kindelemente sind auch sehr wichtig für Flexbox da, dabei immer das Elternelement angesprochen werden. Wenn die li Tags nach rechts machen möchte spricht man den ul tag, das Elternelement, an.</p>
-        <img src="img101/Elternelement_html.png">
-    </div>
-    <div>
-        <h1>Box Modell</h1>
-        <p>Jedes Element in HTML und CSS hat eine box um sich. diese Box besitzt einen padding, eine Border und einen Margin. Der Padding ist der innere Abstand, der Border der Rahmen und das Margin ist der äussere Abstand. Diese kann man in CSS vergrössern oder verkleinern mit den folgenden Eigenschaften:</p>
-        <img src="img101/boxmodel.png" alt="Bild" width="300px">
-        <ul>
-            <li>Margin: “Grösse”;</li>
-            <li>Padding: “Grösse”;</li>
-            <li>Border: “Grösse”;</li>
-        </ul>
-        <p>Ein Beispiel:</p>
-        <p>Header p {Margin: 50px; Padding: 50px;}</p>
-        <h1>Flexbox</h1>
-        <p>Flexbox ist ein Tool um Inhalte in Websites zu verschieben. In Flexbox gibt es verschiedene Eigenschaften hier werden nur die wichtigsten aufgelistet falls etwas nicht aufgelistet ist dann kann man auf der Website <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">css-tricks</a> nachschauen.</p>
-    <table border="1">
-        <tr>
-            <td>Display: flex;</td>
-            <td>Zeigt die Flexboxen an (sollte immer geschrieben werden wenn Flexbox verwendet wird)</td>
-        </tr>
-        <tr>
-            <td>Flex-direction: row;</td>
-            <td>Waagerecht von links nach rechts</td>
-        </tr>
-        <tr>
-            <td>Flex-direction: row-reverse;</td>
-            <td>Waagerecht von rechts nach links</td>
-        </tr>
-        <tr>
-            <td>Flex-direction: column;</td>
-            <td>Senkrecht von oben nach unten</td>
-        </tr>
-        <tr>
-            <td>Flex-direction: column-reverse;</td>
-            <td>Senkrecht von unten nach oben</td>
-        </tr>
-        <tr>
-            <td>Justify-content: flex-start;</td>
-            <td>Items sind am Anfang der Flex Richtung</td>
-        </tr>
-        <tr>
-            <td>Justify-content: flex-end;</td>
-            <td>Items sind am Ende der Flex Richtung</td>
-        </tr>
-        <tr>
-            <td>Justify-content: center;</td>
-            <td>Items sind in der Mitte </td>
-        </tr>
-        <tr>
-            <td>Justify-content: space-between;</td>
-            <td>Items haben einen Abstand dazwischen</td>
-        </tr>
-        <tr>
-            <td>Justify-content: space-around;</td>
-            <td>Items haben einen Abstand um sich </td>
-        </tr>
-        
-    </table>
-    <p>Wenn man z.B. Bilder oben rechts senkrecht anordnen möchte kann man folgendes eingeben:</p>
-    <p>Header {Display: flex; Felx-direction: column; Justify-content: flex-start;}</p>
-    <p>Wichtig, bei Flexbox muss man immer das Eltern Element ansprechen um ein Element zu verschieben, Beispiel: </p>
-    <p>Wenn man im Body 3 Bilder hat und diese ausrichten möchte muss man NICHT die Bilder ansprechen, sondern den Body.</p>
-    </div>
-    <div>
-        <h1>Media Queries (Responsive Web Design)</h1>
-        <p>Mit Media Queries kann man seine Seite benutzerfreundlicher für Mobile-User machen. Da man heutzutage immer mehr auf Handy und Tablets im Web surft, muss man diese Zielgruppe auch beachten.</br>Media Queries fügt man mit @media ein. Dazu muss man auch noch zusätzliche Attribute hinzufügen. Mit min-width kann man die minimale Breite festlegen, die gebraucht wird um die @media Regel auszulösen. Mit max-width bestimmt man logischerweise die maximale Breite.</br>In der Klammer gibt man die CSS-Regeln ein, die ausgeführt werden, wenn die Anforderungen (Attribute) erfüllt werden.</p>
-        <img src="img101/mediaq.png"/>
-    </div>
+    
     <header>
       
  
@@ -200,11 +63,137 @@
 </header>
     <main>
       <div class="txt">
-      <p class="text-justify">Willkommen auf unserer Webseite. Hier finden sie unsere Projekte und Dokumentationen.</p>
+<h1>ÜK 101</h1>
       <article>
-        <h2>Hallo</h2>
-        </article>
-        </div>         
+            <h1>CSS</h1>
+            <h2>Eigenschaften</h2>
+            <p>Mit CSS erstellt man Regeln, die die Darstellung eines HTML-Elementes beeinflusst. </br>Um CSS zu verstehen, muss man sich um jedes HTML-Element einen unsichtbaren Kasten vorstellen. Mit CSS kann man diesen Kästen Formatierungsregeln zuweisen. Man kann einen Rahmen um die Kästen legen, die Breite, Höhe und die Seitenabstände einstellen, oder sogar ein Hintergrundbild einfügen.</br>Eine CSS-Regel besteht aus 2 Regeln: einem Selektor und einer Deklaration. Der Selektor wählt das Element aus. Man kann entweder eine Elementgruppe (z.B. h1), eine Klasse (z.B. .navbar) oder eine ID (z.B. #blcform). Die Deklaration bestimmt, wie die Elemente formatiert werden sollen. Sie besteht aus 2 Teilen: Einer Eigenschaft und deren Wert.</br>Die Eigenschaft bezeichnet den Aspekt des Elements. Das kann z.B. die Farbe, der Abstand oder das Hintergrundbild sein. Die Werte nennen die Einstellung für die Eigenschaft. Um z.B. die Höhe zu definieren, muss der Wert eingetragen werden.</p>
+            <img src="img/img101/cssaufbau.png"/>
+            <h2>CSS einbinden</h2>
+            <h3>Extern</h3>
+            <p>Mit dem Element link kann man dem Browser mitteilen, wo sich die CSS-Datei befindet. Es ist ein leeres Element, also ist kein schliessender Tag nötig. Ausserdem sollte sich das Element im head befinden. Mit dem Attribut href gibt man den Pfad der CSS-Datei an, mit type die Art des verknüpften Dokuments (hier: text/css) und mit rel die Beziezhung zwischen der HTML-Seit und der CSS-Datei. (hier: stylesheet)</p>
+            <img src="img/img101/cssext.png"/>
+            <h3>Intern</h3>
+            <p>Mit dem style-Element kann der CSS-Code direkt ins HTML eingebunden werden. Dies ist aber nicht zu empfehlen, da für jede Seite die CSS-Eigenschaften manuell geändert werden müssen. Das Attribut type macht den gleichen Job wie bei der externen Einbindung.</br>Das style-Element wird auch im head platziert.</p>
+            <img src="img/img101/cssint.png"/>
+        <h1>Selektoren</h1>
+        <table border="1">
+            <thead>
+        <tr>
+        <td>Selektoren</td>
+        <td>Bedeutung</td>
+        <td>Beispiel</td>
+        </tr>
+        </thead>
+        <tr>
+            <td>Universalselektor</td>
+            <td>Dieser Selektor gilt für alle Elemente im Dokumente. Mit diesem Selektor kann man eine Schrift für das ganze Dokument festlegen.</td>
+            <td>* {}</td>
+        </tr>
+        <tr>
+            <td>Typselektor</td>
+            <td>Gilt für übereinstimmende Elementnamen.</td>
+            <td>h1,h2,h3 {}</td>
+        </tr>
+        <tr>
+            <td>Klassenselektor</td>
+            <td>Der Klassenselektor spricht Elemente an, die einer bestimmten Klasse zugehören.</td>
+            <td>.class{}, h1.class{}</td>
+        </tr>
+        <tr>
+            <td>ID-Selektor</td>
+            <td>Mit dem ID-Selektor kann ein Element angesprochen werden, dem eine ID zugeordnet wurde.</td>
+            <td>li>a
+                    (alle a Elemente die Kinder eines li Elemnts sind)
+                    </td>
+        </tr>
+        <tr>
+            <td>Nachkommenselektor</td>
+            <td>Gilt für Elemente die demangegebenen Element untergeordnet sind. </td>
+            <td>p a
+                    (alle a Elemente innerhalb eines p Elements)
+                    </td>
+            </tr>
+        </table>
+        <h1>Pfade</h1>
+        <p>Pfad werden gebraucht um Bilder einzufügen oder andere Dokumente ins Dokument einzubinden. Die Ordnerstruktur spielt bei den Pfäden eine grosse Rolle. Bsp: Der Hauptordner heisst BlWebsite, in diesem Ordner befinden sich die Ordner html, css und img. Im Html Ordner befinden sich dann 3 html Dateien, im css eine style.css Datei und im img befinden sich alle Bilder. Wenn man im Dokumen index.html drin ist (im Ordner html) und ein Bild reintun will muss man follgenden Pfad eingeben:  ../../img/bild.jpg. Das ../ steht für einen Schritt zurück, dann geht man in den Ordner img und wählt in diesem Ordner ein Bild aus.
+            nach dem man den Pfad eingegeben hat kann man noch die höhe und breite einstellen. Wenn man will kan man noch eine alternative für das Bild schreiben, diese steht dann wenn das Bild nicht angezeigt werden kann oder der Pfad falsch ist.
+        </p>
+        <img src="img/img101/ordnersrtkt_bsp.png" width="650px" height="300px">
+        <h1></h1>Classes und Ids
+        <p> einzelne Teile einer Html Seite zu formatieren werden classes und ids genutzt. Mit classes kann man bei  belibig vielen Elementen die gleiche Formatierung geben. Eine class definiert also eine «klasse», alles was in dieser Klasse geschrieben wird sieht gleich aus. Ids kann man im Gegensatz zu Classes nur einmal nutzen. Wenn man einen einzigen Text im Dokument fett machen will dann kann man eine id benutzen.  Ids und Classes haben im Prinzip die Selbe Aufgabe. Ob man classes oder ids braucht ist jedem selbst überlassen. Im Html: </p>
+        <img src="img/img101/classe_ids.jpg" width="250px">
+            <h1>Elternelemente und Kindelemente</h1>
+            <p>Beim schreiben von html oder beim erstellen von einer Verzeichnisstruktur werden sehr oft Eltern- und Kindelemente genutzt damit alles übersichtlicher ist und alles überhaupt funktioniert.</p>
+            <h2>Verzeichnisstruktur</h2>
+            <p>Bei einer Verzeichnisstruktur von einer grossen Website ist es sehr wichtig, dass diese Logische und übersichtliche aufgebaut ist. Unten auf dem Bild sieht man ein gutes Beispiel für eine solche Struktur, dazu werden Eltern und Kindelemente eingesetzt. Zum Beispiel ist der Hardwaredealz Ordner ein Elternordner und die Ordner Computer Deals, Images, Laptop Deals und Peripheriegeräte sind die jeweiligen Kinderordner. Der Hardwaredealz Ordner ist auch ein Grosselternordner und die Enkelordner sind Headset Deals, Maus Deals und Tastatur Deals. Das sorgt dann insgesamt wie schon gesagt für eine gute Struktur.</p>
+            <img src="img/img101/Elternelement_verzeichnis.png">
+            <h2>Codes</h2>
+            <p>Auch beim Schreiben von Html werden Eltern und Kind Elemente genommen. Wie man zum Beispiel auf dem Bild unten sehen kann, ist das body Tag das Elternelement von nav, h1, h2 und h3. Und diese sind die Kindelemente von body. Zugleich ist body das Grosselternelement und ul das Enkelelement. Diese Eltern und Kindelemente sind auch sehr wichtig für Flexbox da, dabei immer das Elternelement angesprochen werden. Wenn die li Tags nach rechts machen möchte spricht man den ul tag, das Elternelement, an.</p>
+            <img src="img/img101/Elternelement_html.png">
+            <h1>Box Modell</h1>
+            <p>Jedes Element in HTML und CSS hat eine box um sich. diese Box besitzt einen padding, eine Border und einen Margin. Der Padding ist der innere Abstand, der Border der Rahmen und das Margin ist der äussere Abstand. Diese kann man in CSS vergrössern oder verkleinern mit den folgenden Eigenschaften:</p>
+            <img src="img/img101/boxmodel.png" alt="Bild" width="300px">
+            <ul>
+                <li>Margin: “Grösse”;</li>
+                <li>Padding: “Grösse”;</li>
+                <li>Border: “Grösse”;</li>
+            </ul>
+            <p>Ein Beispiel:</p>
+            <p>Header p {Margin: 50px; Padding: 50px;}</p>
+            <h1>Flexbox</h1>
+            <p>Flexbox ist ein Tool um Inhalte in Websites zu verschieben. In Flexbox gibt es verschiedene Eigenschaften hier werden nur die wichtigsten aufgelistet falls etwas nicht aufgelistet ist dann kann man auf der Website <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">css-tricks</a> nachschauen.</p>
+        <table border="1">
+            <tr>
+                <td>Display: flex;</td>
+                <td>Zeigt die Flexboxen an (sollte immer geschrieben werden wenn Flexbox verwendet wird)</td>
+            </tr>
+            <tr>
+                <td>Flex-direction: row;</td>
+                <td>Waagerecht von links nach rechts</td>
+            </tr>
+            <tr>
+                <td>Flex-direction: row-reverse;</td>
+                <td>Waagerecht von rechts nach links</td>
+            </tr>
+            <tr>
+                <td>Flex-direction: column;</td>
+                <td>Senkrecht von oben nach unten</td>
+            </tr>
+            <tr>
+                <td>Flex-direction: column-reverse;</td>
+                <td>Senkrecht von unten nach oben</td>
+            </tr>
+            <tr>
+                <td>Justify-content: flex-start;</td>
+                <td>Items sind am Anfang der Flex Richtung</td>
+            </tr>
+            <tr>
+                <td>Justify-content: flex-end;</td>
+                <td>Items sind am Ende der Flex Richtung</td>
+            </tr>
+            <tr>
+                <td>Justify-content: center;</td>
+                <td>Items sind in der Mitte </td>
+            </tr>
+            <tr>
+                <td>Justify-content: space-between;</td>
+                <td>Items haben einen Abstand dazwischen</td>
+            </tr>
+            <tr>
+                <td>Justify-content: space-around;</td>
+                <td>Items haben einen Abstand um sich </td>
+            </tr>
+            
+        </table>
+        <p>Wenn man z.B. Bilder oben rechts senkrecht anordnen möchte kann man folgendes eingeben:</p>
+        <p>Header {Display: flex; Felx-direction: column; Justify-content: flex-start;}</p>
+        <p>Wichtig, bei Flexbox muss man immer das Eltern Element ansprechen um ein Element zu verschieben, Beispiel: </p>
+        <p>Wenn man im Body 3 Bilder hat und diese ausrichten möchte muss man NICHT die Bilder ansprechen, sondern den Body.</p>
+            <h1>Media Queries (Responsive Web Design)</h1>
+            <p>Mit Media Queries kann man seine Seite benutzerfreundlicher für Mobile-User machen. Da man heutzutage immer mehr auf Handy und Tablets im Web surft, muss man diese Zielgruppe auch beachten.</br>Media Queries fügt man mit @media ein. Dazu muss man auch noch zusätzliche Attribute hinzufügen. Mit min-width kann man die minimale Breite festlegen, die gebraucht wird um die @media Regel auszulösen. Mit max-width bestimmt man logischerweise die maximale Breite.</br>In der Klammer gibt man die CSS-Regeln ein, die ausgeführt werden, wenn die Anforderungen (Attribute) erfüllt werden.</p>
+            <img src="img/img101/mediaq.png"/>
+        </article>         
         <div class="kontakte">
             <h5 class="kont">Kontaktdaten</h5>
             <h6 class="email">E-Mail</h6>

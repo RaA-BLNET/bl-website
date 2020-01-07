@@ -1,3 +1,4 @@
+
 nav {
     display: flex;
     flex-direction: row;
@@ -76,6 +77,46 @@ footer {
     border-radius: 10%;
     padding: 10px;
 }
+.text-justify {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+@media (max-width:991px) {
+    div.kontakte{
+        float: left;
+    }
+    .iframe{
+        width: 200px;
+        height: 175px;
+    }
+    #top {
+        width: 100%;
+    }
+    .logo {
+        width: 100px;
+        height: 100px;
+
+    }
+    .text-justify {
+        padding-right: 10px;
+        padding-left: 40px;
+        padding-top: 10px;
+    }
+  
+    .titel {
+        font-size: 22px;
+    }
+}
 .insta{
     padding-top: 10px;
 }
+<<<<<<< HEAD
+=======
+.list-group-item{
+    color: black;
+    text-decoration-style: none;
+    text-decoration: none;
+}
+
+>>>>>>> 8e1088b5aa4223e39552b2f172d8159e8a3bdb6d

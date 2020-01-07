@@ -85,6 +85,10 @@ footer {
         width: 200px;
         height: 175px;
     }
+    #top {
+        width: 100px;
+        height: 100px;
+    }
 }
 .insta{
     padding-top: 10px;

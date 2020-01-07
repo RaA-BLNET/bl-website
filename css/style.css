@@ -110,7 +110,11 @@ footer {
 .insta{
     padding-top: 10px;
 }
-.list-group-item{
+.agb{
+    color: black;
+    text-decoration: none;
+}
+.wibi{
     color: black;
     text-decoration: none;
 }

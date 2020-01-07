@@ -88,6 +88,17 @@ footer {
     border-radius: 10%;
     padding: 10px;
 }
+.insta{
+    padding-top: 10px;
+}
+.agb{
+    color: black;
+}
+.wibi{
+    color: black;
+}
+.txt{
+    padding-left: 20px;
 }
 @media (max-width:991px) {
     div.kontakte{
@@ -114,19 +125,4 @@ footer {
     .titel {
         font-size: 22px;
     }
-}
-.insta{
-    padding-top: 10px;
-}
-.agb{
-    color: black;
-
-}
-.wibi{
-    color: black;
-    
-}
-.txt{
-    padding-left: 20px;
-}
 }

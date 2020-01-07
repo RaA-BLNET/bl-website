@@ -85,10 +85,6 @@ footer {
     border-radius: 10%;
     padding: 10px;
 }
-.text-justify {
-    padding-right: 10px;
-    padding-left: 20px;
-    padding-top: 10px;
 }
 @media (max-width:991px) {
     div.kontakte{
@@ -106,7 +102,7 @@ footer {
         height: 100px;
 
     }
-    .text-justify {
+    .txt{
         padding-right: 10px;
         padding-left: 40px;
         padding-top: 10px;

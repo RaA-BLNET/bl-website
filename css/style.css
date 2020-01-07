@@ -81,6 +81,10 @@ footer {
     div.kontakte{
         float: left;
     }
+    .iframe{
+        width: 200px;
+        height: 175px;
+    }
 }
 .insta{
     padding-top: 10px;

@@ -118,7 +118,6 @@ main {
 .footer101{
     padding-top: 0px;
 }
-<<<<<<< HEAD
 .titela:link{
     font-size: 22px;
 }
@@ -130,7 +129,7 @@ main {
     font-size: 14px;
 }
 
-#inhalt{
+#inhalt101{
 display: flex;
 justify-content: flex-end;
 width: auto;
@@ -139,10 +138,6 @@ margin-left: 70%;
 background-color: gainsboro;
 border-radius: 5%;
 border: 3px inset black;
-=======
-#inhalt {
-    padding: 0 35%;
->>>>>>> f322bdcdee07b6c522407d16fc16e05a0c2c6aa4
 }
 
 @media (max-width:991px) {

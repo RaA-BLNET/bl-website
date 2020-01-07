@@ -109,6 +109,9 @@ main img {
 main {
     display: flex;
 }
+.footer101{
+    padding-top: 0px;
+}
 
 @media (max-width:991px) {
     div.kontakte{

@@ -77,6 +77,11 @@ footer {
     border-radius: 10%;
     padding: 10px;
 }
+.text-justify {
+    padding-right: 10px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
 @media (max-width:991px) {
     div.kontakte{
         float: left;
@@ -91,15 +96,11 @@ footer {
     .logo {
         width: 100px;
         height: 100px;
-        
+
     }
-    .text-justify {
-        padding-right: 10px;
-        padding-left: 40px;
-        padding-top: 10px;
-    }
+  
     .titel {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 .insta{

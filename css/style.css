@@ -79,3 +79,8 @@ footer {
 .insta{
     padding-top: 10px;
 }
+.list-group-item{
+    color: black;
+    text-decoration-style: none;
+    text-decoration: none;
+}

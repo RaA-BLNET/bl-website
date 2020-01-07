@@ -13,7 +13,6 @@ ul.list {
 .iframe {
     margin-right: 1em; 
     margin-left: 2.4em;
-    border: 1px solid black;
 }
 .standort{
     margin-left: 2.4em;
@@ -104,11 +103,18 @@ footer {
 }
 @media (max-width:991px) {
     div.kontakte{
-        float: left;
+        display: none;
+
+    }
+    #kontaktdaten{
+        display: block;
     }
     .iframe{
-        width: 200px;
+        width: 165px;
         height: 175px;
+        border: 1px solid;
+        margin-right: 1cm;
+
     }
     #top {
         width: 100%;

@@ -128,8 +128,8 @@ main {
 .titelc:link {
     font-size: 14px;
 }
-#inhalt{
-    padding: 35%;
+
+    
 }
 #inhalt101{
 display: flex;
@@ -140,6 +140,7 @@ margin-left: 70%;
 background-color: gainsboro;
 border-radius: 5%;
 border: 3px inset black;
+padding: 35%;
 }
 
 @media (max-width:991px) {

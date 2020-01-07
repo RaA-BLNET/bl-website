@@ -64,9 +64,9 @@ footer {
     margin: 60px 0px 0px 0px;
     align-content: space-between;
     align-items: flex-end;
-    padding-top: 720px;
+    padding-top: 600px;
     background-size: cover;
-    background-size: 600px, 200px;
+    background-size: 720px, 200px;
 }
 #top {
     display: flex;
@@ -106,15 +106,16 @@ main img {
 .verzeichnis {
     width: 9.5%;
 }
+main {
+    display: flex;
+}
+.footer101{
+    padding-top: 0px;
+}
 
 @media (max-width:991px) {
     div.kontakte{
         display: none;
-
-
-    }
-    #kontaktdaten{
-        display: block;
     }
     .iframe{
         width: 175px;
@@ -146,8 +147,16 @@ main img {
     .verzeichnis {
         width: 60%;
     }
-    main {
+    .maine {
+        display: flex;
         margin: 0 3 0 3;
+        flex-direction: column-reverse;
+    }
+    #kontaktdaten{
+        display: block;
+    }
+    footer {
+padding: 0 0 0 0;
     }
 }
 @media(min-width: 991){
@@ -155,4 +164,9 @@ main img {
     display: flex;
     justify-content: space-between;
 }
+}
+.agbs {
+    font-size: 34px;
+    font-weight: bold;
+    text-decoration: underline;
 }

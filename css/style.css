@@ -86,8 +86,7 @@ footer {
         height: 175px;
     }
     #top {
-        width: 100px;
-        height: 100px;
+        width: 100%;
     }
 }
 .insta{

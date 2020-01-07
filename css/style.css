@@ -1,4 +1,3 @@
-
 nav {
     display: flex;
     flex-direction: row;
@@ -55,7 +54,7 @@ footer {
     align-items: flex-end;
     padding-top: 720px;
     background-size: cover;
-    background-size: 600spx, 200px;
+    background-size: 600px, 200px;
 }
 #top {
     display: flex;
@@ -111,12 +110,7 @@ footer {
 .insta{
     padding-top: 10px;
 }
-<<<<<<< HEAD
-=======
 .list-group-item{
     color: black;
-    text-decoration-style: none;
     text-decoration: none;
 }
-
->>>>>>> 8e1088b5aa4223e39552b2f172d8159e8a3bdb6d

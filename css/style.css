@@ -39,8 +39,9 @@ address p{
 #address{
     width: 400px;
 }
-#links{
-
+a.inst {
+    margin-left: 2.4em;
+    padding-bottom: 2.4em;
 }
 header {
     background-image: url("img/header.jpg");
@@ -53,16 +54,15 @@ footer {
     align-items: flex-end;
 }
 #top {
+    display: flex;
     background-image: url("../img/header.jpg");
     background-attachment: fixed;
     background-size: cover;
-  
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-position: top;
 }
 .titel {
     color: white;
-}
-#nav nav-tabs{
-    position: fixed;
-    top: 8px;
 }

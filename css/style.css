@@ -38,9 +38,7 @@ ul.list {
 address {
     line-height: 5px;
 }
-#footer{
-    display: block;
-}
+
 address p{
     padding: 0.5pt;
 }
@@ -108,15 +106,13 @@ main img {
 .verzeichnis {
     width: 9.5%;
 }
+main {
+    display: flex;
+}
 
 @media (max-width:991px) {
     div.kontakte{
         display: none;
-
-
-    }
-    #kontaktdaten{
-        display: block;
     }
     .iframe{
         width: 175px;
@@ -148,8 +144,13 @@ main img {
     .verzeichnis {
         width: 60%;
     }
-    main {
+    .maine {
+        display: flex;
         margin: 0 3 0 3;
+        flex-direction: column-reverse;
+    }
+    #kontaktdaten{
+        display: block;
     }
 }
 @media(min-width: 991){

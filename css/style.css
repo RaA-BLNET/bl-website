@@ -15,12 +15,6 @@ ul.list {
     margin-left: 2.4em;
     border: 1px solid;
 }
-h1{
-    padding: 25px 0px 25px 0px;
-}
-h2 {
-    padding: 0px 0px 10px 0px;
-}
 .standort{
     margin-left: 2.4em;
 }
@@ -145,6 +139,8 @@ margin-right: 1cm;
 }
 nav.ul{
     list-style-type: none;
+#inhalt {
+    padding: 0 35%;
 }
 
 @media (max-width:991px) {

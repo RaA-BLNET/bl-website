@@ -53,10 +53,9 @@ footer {
     align-content: space-between;
     align-items: flex-end;
     padding-top: 720px;
-    padding-right: 370px;
     background-image: url(../img/footer.png);
     background-size: cover;
-    background-size: 200px;
+    background-size: 200px, 200px;
 }
 #top {
     display: flex;
@@ -77,11 +76,4 @@ footer {
     background-color: rgb(180, 180, 180);
     border-radius: 10%;
     padding: 10px;
-}
-
-.div{
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    align-items: flex-end;
 }

@@ -4,6 +4,8 @@ nav {
 }
 div.kontakte {
     float: right;
+    width: auto;
+    margin: 10px;
 }
 ul.list {
     list-style-type: none;        

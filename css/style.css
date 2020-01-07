@@ -128,3 +128,6 @@ footer {
         font-size: 22px;
     }
 }
+main img {
+    width: 25%;
+}

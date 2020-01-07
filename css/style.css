@@ -15,6 +15,12 @@ ul.list {
     margin-left: 2.4em;
     border: 1px solid;
 }
+h1{
+    padding: 25px 0px 25px 0px;
+}
+h2 {
+    padding: 0px 0px 10px 0px;
+}
 .standort{
     margin-left: 2.4em;
 }
@@ -112,6 +118,7 @@ main {
 .footer101{
     padding-top: 0px;
 }
+<<<<<<< HEAD
 .titela:link{
     font-size: 22px;
 }
@@ -132,9 +139,16 @@ margin-left: 70%;
 background-color: gainsboro;
 border-radius: 5%;
 border: 3px inset black;
+=======
+#inhalt {
+    padding: 0 35%;
+>>>>>>> f322bdcdee07b6c522407d16fc16e05a0c2c6aa4
 }
 
 @media (max-width:991px) {
+    #inhalt {
+        padding: 0;
+    }
     div.kontakte{
         display: none;
     }

@@ -1,3 +1,4 @@
+
 nav {
     display: flex;
     flex-direction: row;
@@ -76,6 +77,11 @@ footer {
     border-radius: 10%;
     padding: 10px;
 }
+@media (max-width:991px) {
+    div.kontakte{
+        float: left;
+    }
+}
 .insta{
     padding-top: 10px;
 }
@@ -84,3 +90,4 @@ footer {
     text-decoration-style: none;
     text-decoration: none;
 }
+

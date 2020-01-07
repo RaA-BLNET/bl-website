@@ -52,6 +52,9 @@ footer {
     margin: 60px 0px 0px 0px;
     align-content: space-between;
     align-items: flex-end;
+    padding-top: 720px;
+    background-size: cover;
+    background-size: 600spx, 200px;
 }
 #top {
     display: flex;
@@ -62,7 +65,17 @@ footer {
     justify-content: center;
     align-items: center;
     background-position: top;
+
 }
 .titel {
     color: white;
+}
+
+.navbar-brand{
+    background-color: rgb(180, 180, 180);
+    border-radius: 10%;
+    padding: 10px;
+}
+.insta{
+    padding-top: 10px;
 }

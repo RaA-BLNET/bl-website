@@ -45,16 +45,14 @@
             <a class="nav-link" href="https://www.blnet.ch">blnet</a>
           </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Merkblätter
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="uek101.html">ÜK 101</a>
+            <a class="dropdown-item active" href="uek101.html">ÜK 101</a>
             <a class="dropdown-item" href="uek105.html">ÜK 105</a>
             <a class="dropdown-item" href="uek307.html">ÜK 307</a>
             <a class="dropdown-item" href="uek404.html">ÜK 404</a>
-            <div class="dropdown-divider"></div>
-            
           </div>
           
       </ul>
@@ -113,7 +111,7 @@
         </tr>
         </thead>
         <tr>
-            <td>Universalselektor</td>
+            <td>Universal-<br>selektor</td>
             <td>Dieser Selektor gilt für alle Elemente im Dokumente. Mit diesem Selektor kann man eine Schrift für das ganze Dokument festlegen.</td>
             <td>* {}</td>
         </tr>
@@ -123,7 +121,7 @@
             <td>h1,h2,h3 {}</td>
         </tr>
         <tr>
-            <td>Klassenselektor</td>
+            <td>Klassen-<br>selektor</td>
             <td>Der Klassenselektor spricht Elemente an, die einer bestimmten Klasse zugehören.</td>
             <td>.class{}, h1.class{}</td>
         </tr>
@@ -135,7 +133,7 @@
                     </td>
         </tr>
         <tr>
-            <td>Nachkommenselektor</td>
+            <td>Nachkommen-<br>selektor</td>
             <td>Gilt für Elemente die demangegebenen Element untergeordnet sind. </td>
             <td>p a
                     (alle a Elemente innerhalb eines p Elements)
@@ -146,21 +144,21 @@
         <p>Pfad werden gebraucht um Bilder einzufügen oder andere Dokumente ins Dokument einzubinden. Die Ordnerstruktur spielt bei den Pfäden eine grosse Rolle. Bsp: Der Hauptordner heisst BlWebsite, in diesem Ordner befinden sich die Ordner html, css und img. Im Html Ordner befinden sich dann 3 html Dateien, im css eine style.css Datei und im img befinden sich alle Bilder. Wenn man im Dokumen index.html drin ist (im Ordner html) und ein Bild reintun will muss man follgenden Pfad eingeben:  ../../img/bild.jpg. Das ../ steht für einen Schritt zurück, dann geht man in den Ordner img und wählt in diesem Ordner ein Bild aus.
             nach dem man den Pfad eingegeben hat kann man noch die höhe und breite einstellen. Wenn man will kan man noch eine alternative für das Bild schreiben, diese steht dann wenn das Bild nicht angezeigt werden kann oder der Pfad falsch ist.
         </p>
-        <img src="img/img101/ordnersrtkt_bsp.png" width="650px" height="300px">
-        <h1></h1>Classes und Ids
+        <img src="img/img101/ordnersrtkt_bsp.png">
+        <h1>Classes und Ids</h1>
         <p> einzelne Teile einer Html Seite zu formatieren werden classes und ids genutzt. Mit classes kann man bei  belibig vielen Elementen die gleiche Formatierung geben. Eine class definiert also eine «klasse», alles was in dieser Klasse geschrieben wird sieht gleich aus. Ids kann man im Gegensatz zu Classes nur einmal nutzen. Wenn man einen einzigen Text im Dokument fett machen will dann kann man eine id benutzen.  Ids und Classes haben im Prinzip die Selbe Aufgabe. Ob man classes oder ids braucht ist jedem selbst überlassen. Im Html: </p>
-        <img src="img/img101/classe_ids.jpg" width="250px">
+        <img src="img/img101/classe_ids.jpg">
             <h1>Elternelemente und Kindelemente</h1>
             <p>Beim schreiben von html oder beim erstellen von einer Verzeichnisstruktur werden sehr oft Eltern- und Kindelemente genutzt damit alles übersichtlicher ist und alles überhaupt funktioniert.</p>
             <h2>Verzeichnisstruktur</h2>
             <p>Bei einer Verzeichnisstruktur von einer grossen Website ist es sehr wichtig, dass diese Logische und übersichtliche aufgebaut ist. Unten auf dem Bild sieht man ein gutes Beispiel für eine solche Struktur, dazu werden Eltern und Kindelemente eingesetzt. Zum Beispiel ist der Hardwaredealz Ordner ein Elternordner und die Ordner Computer Deals, Images, Laptop Deals und Peripheriegeräte sind die jeweiligen Kinderordner. Der Hardwaredealz Ordner ist auch ein Grosselternordner und die Enkelordner sind Headset Deals, Maus Deals und Tastatur Deals. Das sorgt dann insgesamt wie schon gesagt für eine gute Struktur.</p>
-            <img src="img/img101/Elternelement_verzeichnis.png">
+            <img class=verzeichnis src="img/img101/Elternelement_verzeichnis.png">
             <h2>Codes</h2>
             <p>Auch beim Schreiben von Html werden Eltern und Kind Elemente genommen. Wie man zum Beispiel auf dem Bild unten sehen kann, ist das body Tag das Elternelement von nav, h1, h2 und h3. Und diese sind die Kindelemente von body. Zugleich ist body das Grosselternelement und ul das Enkelelement. Diese Eltern und Kindelemente sind auch sehr wichtig für Flexbox da, dabei immer das Elternelement angesprochen werden. Wenn die li Tags nach rechts machen möchte spricht man den ul tag, das Elternelement, an.</p>
             <img src="img/img101/Elternelement_html.png">
             <h1>Box Modell</h1>
             <p>Jedes Element in HTML und CSS hat eine box um sich. diese Box besitzt einen padding, eine Border und einen Margin. Der Padding ist der innere Abstand, der Border der Rahmen und das Margin ist der äussere Abstand. Diese kann man in CSS vergrössern oder verkleinern mit den folgenden Eigenschaften:</p>
-            <img src="img/img101/boxmodel.png" alt="Bild" width="300px">
+            <img src="img/img101/boxmodel.png" alt="Bild">
             <ul>
                 <li>Margin: “Grösse”;</li>
                 <li>Padding: “Grösse”;</li>
@@ -219,9 +217,40 @@
         <p>Wenn man im Body 3 Bilder hat und diese ausrichten möchte muss man NICHT die Bilder ansprechen, sondern den Body.</p>
             <h1>Media Queries (Responsive Web Design)</h1>
             <p>Mit Media Queries kann man seine Seite benutzerfreundlicher für Mobile-User machen. Da man heutzutage immer mehr auf Handy und Tablets im Web surft, muss man diese Zielgruppe auch beachten.</br>Media Queries fügt man mit @media ein. Dazu muss man auch noch zusätzliche Attribute hinzufügen. Mit min-width kann man die minimale Breite festlegen, die gebraucht wird um die @media Regel auszulösen. Mit max-width bestimmt man logischerweise die maximale Breite.</br>In der Klammer gibt man die CSS-Regeln ein, die ausgeführt werden, wenn die Anforderungen (Attribute) erfüllt werden.</p>
+<<<<<<< HEAD
             <img src="img/img101/mediaq.png"/>
         </article> 
         </div>
+=======
+            <img src="img/img101/mediaq.PNG" alt="Bild"/>
+        </article>         
+        <div class="kontakte">
+            <h5 class="kont">Kontaktdaten</h5>
+            <h6 class="email">E-Mail</h6>
+        <ul class="list">
+            <li><a href="mailto:ian.hild@bbz-sh.ch">ian.hild@bbz-sh.ch</a></li>
+            <li><a href="mailto:a.rahunenthiran@bbz-sh.ch">a.rahunenthiran@bbz-sh.ch</a></li>
+            <li><a href="mailto:alessandro.basile@bbz-sh.ch">alessandro.basile@bbz-sh.ch</a></li>
+            <li><a href="mailto:valdrin.useini@bbz-sh.ch">valdrin.useini@bbz-sh.ch</a></li>
+            <li><a href="mailto:nicola.pettikoffer@bbz-sh.ch">nicola.pettikoffer@bbz-sh.ch</a></li>
+            <li><a href="mailto:noel.wangler@bbz-sh.ch">noel.wangler@bbz-sh.ch</a></li>
+            <li><a href="mailto:till.gasser@bbz-sh.ch">till.gasser@bbz-sh.ch</a></li>
+        </ul>
+                <h6 class="oefnung">Öffnungszeiten</h6>
+            <ul class="list">
+                <li>Mo-Mi</li>
+                <li>7.00 Uhr-12.00 Uhr</li>
+                <li>12.45 Uhr-16.30 Uhr</li>
+            </ul>
+                <h6 class="tel">Tel.</h6>
+            <ul class="list">
+                <li>Tel. +41 52 674 02 31</li>
+            </ul>
+            <h6 class="standort">Standort</h6>
+            <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2686.36270698928!2d8.618916316253607!3d47.67737559107821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47907f49417e7d81%3A0xed523261ee3c540a!2swibilea!5e0!3m2!1sde!2sch!4v1511432927714" height="300" width="350"></iframe> <br>
+            
+    </div>
+>>>>>>> 626f2b2688145f965b7fca5c2489d6ff234e7381
     </main>
     <footer>
         <ul class="list-group list-group-flush">

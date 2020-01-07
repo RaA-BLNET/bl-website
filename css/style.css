@@ -25,6 +25,9 @@ ul.list {
 .email{
     margin-left: 2.4em;
 }
+.kont{
+    margin-left: 1.8em;
+}
 #BLT {
     font-size: 24px;
     font-weight: bold;
@@ -85,10 +88,17 @@ footer {
     border-radius: 10%;
     padding: 10px;
 }
-.text-justify {
-    padding-right: 10px;
-    padding-left: 20px;
+.insta{
     padding-top: 10px;
+}
+.agb{
+    color: black;
+}
+.wibi{
+    color: black;
+}
+.txt{
+    padding-left: 20px;
 }
 @media (max-width:991px) {
     div.kontakte{
@@ -106,7 +116,7 @@ footer {
         height: 100px;
 
     }
-    .text-justify {
+    .txt{
         padding-right: 10px;
         padding-left: 40px;
         padding-top: 10px;
@@ -115,18 +125,4 @@ footer {
     .titel {
         font-size: 22px;
     }
-}
-.insta{
-    padding-top: 10px;
-}
-.agb{
-    color: black;
-
-}
-.wibi{
-    color: black;
-    
-}
-.txt{
-    padding-left: 20px;
 }

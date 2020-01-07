@@ -128,7 +128,9 @@ main {
 .titelc:link {
     font-size: 14px;
 }
-
+#inhalt{
+    padding: 35%;
+}
 #inhalt101{
 display: flex;
 justify-content: flex-end;

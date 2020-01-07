@@ -16,6 +16,15 @@ ul.list {
 .standort{
     margin-left: 2.4em;
 }
+.tel{
+    margin-left: 2.4em;
+}
+.oefnung{
+    margin-left: 2.4em;
+}
+.email{
+    margin-left: 2.4em;
+}
 #BLT {
     font-size: 24px;
     font-weight: bold;
@@ -110,7 +119,11 @@ footer {
 .insta{
     padding-top: 10px;
 }
-.list-group-item{
+.agb{
     color: black;
-    text-decoration: none;
+
+}
+.wibi{
+    color: black;
+    
 }

@@ -112,8 +112,14 @@ main {
 .footer101{
     padding-top: 0px;
 }
+#inhalt {
+    padding: 0 20%;
+}
 
 @media (max-width:991px) {
+    #inhalt {
+        padding: 0;
+    }
     div.kontakte{
         display: none;
     }

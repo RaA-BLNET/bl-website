@@ -1,3 +1,4 @@
+
 nav {
     display: flex;
     flex-direction: row;
@@ -76,4 +77,9 @@ footer {
     background-color: rgb(180, 180, 180);
     border-radius: 10%;
     padding: 10px;
+}
+@media (max-width:991px) {
+    div.kontakte{
+        float: left;
+    }
 }

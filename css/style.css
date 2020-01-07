@@ -64,9 +64,9 @@ footer {
     margin: 60px 0px 0px 0px;
     align-content: space-between;
     align-items: flex-end;
-    padding-top: 720px;
+    padding-top: 600px;
     background-size: cover;
-    background-size: 600px, 200px;
+    background-size: 720px, 200px;
 }
 #top {
     display: flex;
@@ -151,6 +151,9 @@ main {
     }
     #kontaktdaten{
         display: block;
+    }
+    footer {
+padding: 0 0 0 0;
     }
 }
 @media(min-width: 991){

@@ -55,7 +55,7 @@ footer {
     padding-top: 720px;
     background-image: url(../img/footer.png);
     background-size: cover;
-    background-size: 200px, 200px;
+    background-size: 600spx, 200px;
 }
 #top {
     display: flex;

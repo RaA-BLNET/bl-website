@@ -152,6 +152,9 @@ main {
     #kontaktdaten{
         display: block;
     }
+    footer {
+padding: 0 0 0 0;
+    }
 }
 @media(min-width: 991){
 .maine{

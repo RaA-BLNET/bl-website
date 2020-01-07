@@ -102,6 +102,12 @@ footer {
 .txt{
     padding-left: 20px;
 }
+main img {
+    width: 25%;
+}
+.verzeichnis {
+    width: 9.5%;
+}
 @media (max-width:991px) {
     div.kontakte{
         float: left;
@@ -127,7 +133,13 @@ footer {
     .titel {
         font-size: 22px;
     }
-}
-main img {
-    width: 25%;
+    main img {
+        width: 80%;
+    }
+    .verzeichnis {
+        width: 60%;
+    }
+    main {
+        margin: 0 3 0 3;
+    }
 }

@@ -108,6 +108,7 @@ main img {
 .verzeichnis {
     width: 9.5%;
 }
+
 @media (max-width:991px) {
     div.kontakte{
         float: left;
@@ -142,4 +143,10 @@ main img {
     main {
         margin: 0 3 0 3;
     }
+}
+@media(min-width: 991){
+.maine{
+    display: flex;
+    justify-content: space-between;
+}
 }

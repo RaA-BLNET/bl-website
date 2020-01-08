@@ -248,7 +248,7 @@ width: 120px;
     footer {
 padding: 0 0 0 0;
     }
-        #inhalt101{
+        #inhalt101 {
         display: flex;
         justify-content: flex-start;
         width: auto;
@@ -260,15 +260,4 @@ padding: 0 0 0 0;
         margin-right: 5%; 
         margin-left: 5%;
 }
-}
-@media(min-width: 991px){
-.maine{
-    display: flex;
-    justify-content: space-between;
-}
-}
-.agbs {
-    font-size: 34px;
-    font-weight: bold;
-    text-decoration: underline;
 }

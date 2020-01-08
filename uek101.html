@@ -90,6 +90,8 @@
         <li><a href="#media" class="titelb">Media Queries</a></li>
         <li><a href="#frame" class="titelb">Framework Bootstrap</a></li>
     </ul>
+
+            
     </nav>
     <div class="txt" id="inhalt0">
       <article>
@@ -133,6 +135,23 @@
                             &lt;li&gt;			Erstellt jeden Eintrag einer Liste, es steht immer innerhalb eines 			&lt;ol&gt; oder &lt;ul&gt; Elements
                             <br>  
                             &lt;/p&gt;          Für einen Paragraph
+                            <div class="code">
+<code class="html">
+    &lt;!DOCTYPE html></br>
+&lt;html lang="en"></br>
+&lt;head></br>
+    &lt;meta charset="UTF-8"></br>
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"></br>
+    &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"></br>
+    &lt;title>Document&lt;/title></br>
+&lt;/head></br>
+&lt;body></br>
+    </br>
+&lt;/body></br>
+&lt;/html>
+        </code>
+</div>
+          <h2 id="testingg">Testing</h2>
                             <br>
                             <a href="https://blnet.ch/periodic/" target="_blank">Zusammenfassung der Elemente</a>
                         <h2 id="testingg">Testing</h2>
@@ -272,11 +291,18 @@ color: rgb(255,255,255;)</br>
 &lt;head></br>
     &lt;meta charset="UTF-8"></br>
     &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"></br>
-    vmeta http-equiv="X-UA-Compatible" content="ie=edge"></br>
+    &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"></br>
     &lt;title>Document&lt;/title></br>
 &lt;/head></br>
 &lt;body></br>
-    </br>
+&lt;nav></br>
+&lt;ul></br>
+&lt;li>&lt;/li></br>
+&lt;/ul></br>
+&lt;/nav></br>
+&lt;h1>&lt;/h1></br>
+&lt;h2>&lt;/h2></br>
+&lt;h3>&lt;/h3></br>
 &lt;/body></br>
 &lt;/html>
         </code>
@@ -292,6 +318,14 @@ color: rgb(255,255,255;)</br>
                 <li>Border: “Grösse”;</li>
             </ul>
             <p>Ein Beispiel:</p>
+<div class="code">
+    <code class="css">
+        header p {</br>
+        margin: 50px;</br>
+        padding: 50px;</br>
+        }
+</code>
+</div>
             <p>Header p {Margin: 50px; Padding: 50px;}</p>
             <h1 id="flex">Flexbox</h1>
             <p>Flexbox ist ein Tool um Inhalte in Websites zu verschieben. In Flexbox gibt es verschiedene Eigenschaften hier werden nur die wichtigsten aufgelistet falls etwas nicht aufgelistet ist dann kann man auf der Website css-tricks nachschauen.
@@ -339,8 +373,17 @@ color: rgb(255,255,255;)</br>
             </tr>
             
         </table>
+
         <p>Wenn man z.B. Bilder oben rechts senkrecht anordnen möchte kann man folgendes eingeben:</p>
-        <p>Header {Display: flex; Felx-direction: column; Justify-content: flex-start;}</p>
+<div class="code">
+    <code class="css">
+        header {</br>
+        display: flex;</br>
+        flex-direction: column;</br>
+        justify-content: flex-start;</br>
+        }
+</code>
+</div>
         <p>Wichtig, bei Flexbox muss man immer das Eltern Element ansprechen um ein Element zu verschieben, Beispiel: </p>
         <p>Wenn man im Body 3 Bilder hat und diese ausrichten möchte muss man NICHT die Bilder ansprechen, sondern den Body.</p>
             <h1 id="media">Media Queries (Responsive Web Design)</h1>

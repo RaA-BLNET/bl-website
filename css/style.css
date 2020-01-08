@@ -112,6 +112,7 @@ main {
 .footer101{
     padding-top: 0px;
 }
+
 .html {
 background-color: black;
 color: blue;
@@ -120,7 +121,51 @@ color: blue;
 background-color: black;
 color: yellow;
 }
+
+
+.titela:link{
+    font-size: 22px;
+}
+.titelb:link{
+    font-size: 18px;
+
+}
+.titelc:link {
+    font-size: 14px;
+}
+li.circle {
+    list-style-type: circle;
+}
+
+#inhalt101{
+display: flex;
+justify-content: flex-end;
+width: auto;
+position: fixed;
+margin-left: 70%;
+background-color: gainsboro;
+border-radius: 5%;
+border: 3px inset black;
+margin-right: 1cm;
+}
+nav.ul{
+    list-style-type: none;
+}
+#inhalt0 {
+    padding: 0 35%;
+}
+.agbs {
+    font-size: 34px;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+
 @media (max-width:991px) {
+    #inhalt0{
+        padding 0 3px
+    }
     div.kontakte{
         display: none;
     }
@@ -171,9 +216,4 @@ padding: 0 0 0 0;
     display: flex;
     justify-content: space-between;
 }
-}
-.agbs {
-    font-size: 34px;
-    font-weight: bold;
-    text-decoration: underline;
 }

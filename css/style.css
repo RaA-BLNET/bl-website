@@ -255,6 +255,10 @@ padding: 0 0 0 0;
         margin-right: 5%; 
         margin-left: 5%;
 }
+    .imgcss{
+    width: 200px;
+    height: 160px;
+    }
 }
 @media(min-width: 991){
 .maine{

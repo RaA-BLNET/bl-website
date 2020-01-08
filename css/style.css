@@ -196,7 +196,7 @@ width: 200px;
 }
 .imgpfad{
 width: 120px;
-    height; 100px;
+    height: 100px;
 }
 
 @media (max-width:991px) {
@@ -239,7 +239,7 @@ width: 120px;
     }
     .maine {
         display: flex;
-        margin: 0 3 0 3;
+        margin: 0px 3px 0px 3px;
         flex-direction: column-reverse;
     }
     #kontaktdaten{
@@ -261,7 +261,7 @@ padding: 0 0 0 0;
         margin-left: 5%;
 }
 }
-@media(min-width: 991){
+@media(min-width: 991px){
 .maine{
     display: flex;
     justify-content: space-between;

@@ -112,6 +112,19 @@ main {
 .footer101{
     padding-top: 0px;
 }
+.code {
+background-color: #1E1E1E;
+    padding: 10px;
+    border-radius: 10px;
+}
+.html {
+color: #8CC2FF;
+}
+.css {
+color: #FFF57E;
+}
+
+
 .titela:link{
     font-size: 22px;
 }
@@ -140,13 +153,24 @@ margin: 0 5%;
 }
 nav.ul{
     list-style-type: none;
-#inhalt {
+}
+#inhalt0 {
     padding: 0 35%;
 }
+.agbs {
+    font-size: 34px;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+@media (max-width:1300px) {
+    #inhalt0{
+        padding: 0 20px;
+    }}
 
 @media (max-width:991px) {
-    #inhalt {
-        padding: 0;
+    #inhalt0{
+        padding: 0 3px;
     }
     div.kontakte{
         display: none;

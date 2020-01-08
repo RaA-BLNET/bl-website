@@ -142,6 +142,11 @@ nav.ul{
 #inhalt {
     padding: 0 35%;
 }
+.agbs {
+    font-size: 34px;
+    font-weight: bold;
+    text-decoration: underline;
+}
 
 @media (max-width:991px) {
     #inhalt {
@@ -197,9 +202,4 @@ padding: 0 0 0 0;
     display: flex;
     justify-content: space-between;
 }
-}
-.agbs {
-    font-size: 34px;
-    font-weight: bold;
-    text-decoration: underline;
 }

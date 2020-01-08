@@ -112,7 +112,14 @@ main {
 .footer101{
     padding-top: 0px;
 }
-
+.html {
+background-color: black;
+color: blue;
+}
+.css {
+background-color: black;
+color: yellow;
+}
 @media (max-width:991px) {
     div.kontakte{
         display: none;

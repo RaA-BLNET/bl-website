@@ -197,6 +197,10 @@ nav.ul{
 width: 200px;
     height: 160px;
 }
+.imgpfad{
+width: 120px;
+    height; 100px;
+}
 
 @media (max-width:991px) {
     #inhalt0{

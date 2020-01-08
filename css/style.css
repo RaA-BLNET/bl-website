@@ -112,6 +112,7 @@ main {
 .footer101{
     padding-top: 0px;
 }
+
 .titela:link{
     font-size: 22px;
 }
@@ -140,15 +141,19 @@ margin-right: 1cm;
 nav.ul{
     list-style-type: none;
 }
+#inhalt0 {
+    padding: 0 35%;
+}
 .agbs {
     font-size: 34px;
     font-weight: bold;
     text-decoration: underline;
+
 }
 
 @media (max-width:991px) {
-    #inhalt {
-        padding: 0;
+    #inhalt0{
+        padding 0 3px
     }
     div.kontakte{
         display: none;
@@ -201,3 +206,5 @@ padding: 0 0 0 0;
     justify-content: space-between;
 }
 }
+
+

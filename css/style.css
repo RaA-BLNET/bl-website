@@ -190,7 +190,9 @@ nav.ul{
     text-decoration: underline;
 
 }
-
+#eevz{
+witdh: 25%;
+}
 
 @media (max-width:991px) {
     #inhalt0{

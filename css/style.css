@@ -193,6 +193,10 @@ nav.ul{
 #eevz{
     width: 25%;
 }
+.imgcss{
+width: 200px;
+    height: 160px;
+}
 
 @media (max-width:991px) {
     #inhalt0{

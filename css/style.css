@@ -114,13 +114,40 @@ main {
 }
 .titela:link{
     font-size: 22px;
+    color: black;
 }
 .titelb:link{
     font-size: 18px;
+    color: black;
 
 }
 .titelc:link {
     font-size: 14px;
+    color: black;
+}
+li.circle {
+    list-style-type: circle;
+}
+.titela:visited {
+    color: indigo;
+}
+.titelb:visited {
+    color: indigo;
+}
+.titelc:visited {
+    color: indigo;
+}
+.titela:hover {
+    color: #3c3c3c;
+    text-decoration: underline;
+}
+.titela:hover {
+    color: #3c3c3c;
+    text-decoration: underline;
+}
+.titela:hover {
+    color: #3c3c3c;
+    text-decoration: underline;
 }
 li.circle {
     list-style-type: circle;

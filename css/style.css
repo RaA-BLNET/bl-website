@@ -114,6 +114,8 @@ main {
 }
 .code {
 background-color: #1E1E1E;
+    padding: 10px;
+    border-radius: 10px;
 }
 .html {
 color: #8CC2FF;
@@ -162,7 +164,7 @@ nav.ul{
 }
 @media (max-width:1300px) {
     #inhalt0{
-        padding: 0 20%;
+        padding: 0 20px;
     }}
 
 @media (max-width:991px) {

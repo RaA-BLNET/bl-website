@@ -190,10 +190,7 @@ nav.ul{
     text-decoration: underline;
 
 }
-@media (max-width:1300px) {
-    #inhalt0{
-        padding: 0 30%;
-    }}
+
 
 @media (max-width:991px) {
     #inhalt0{

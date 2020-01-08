@@ -55,9 +55,6 @@ a.inst {
     margin-left: 2.4em;
     padding-bottom: 2.4em;
 }
-header {
-    background-image: url("img/header.jpg");
-}
 footer {
     display: flex;
     justify-content: space-between;

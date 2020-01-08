@@ -164,7 +164,7 @@ nav.ul{
 
 @media (max-width:991px) {
     #inhalt0{
-        padding 0 3px
+        padding: 0 3px;
     }
     div.kontakte{
         display: none;

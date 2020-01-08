@@ -96,7 +96,7 @@
     <h1>ÜK 101</h1>
           <h1 id="htmll">HTML</h1>
                         <h2 id="tagsg">Tags und Grundgerüst</h2>
-                        <p>Ein HTML Grundgerüst besteht aus einem &lt;html&gt;, einem &lt;body&gt; Tag und wichtigen anderen Tags. Darunter sind zum Beispiel die &lt;head&gt;, &lt;header&gt;, &lt;p&gt; und &lt;footer&gt; Tags. Alles was in einer Website angezeigt werden soll, steht im &lt;body&gt; Tag. Vor dem &lt;body&gt; Tag steht oftmals das Element &lt;head&gt; mit Informationen über die Seite. Um schnell ein HTML Gerüst aufzubauen kann man auch den Befehl "html:5" eingeben.
+                        <p>Ein HTML Grundgerüst besteht aus einem &lt;html&gt;, einem &lt;body&gt; Tag und wichtigen anderen Tags. Darunter sind zum Beispiel die &lt;head&gt;, &lt;header&gt;, &lt;p&gt; und &lt;footer&gt; Tags. Alles was in einer Website angezeigt werden soll, steht im &lt;body&gt; Tag. Vor dem &lt;body&gt; Tag steht oftmals das Element &lt;head>&gt; mit Informattionen über die Seite. Um schnell ein HTML Gerüst aufzubauen kann man auch den Befehl "html:5" eingeben.
                             <br>
                             Hier nochmal die wichtigsten HTML Elemente zusammengefasst:
                             <br>
@@ -134,7 +134,7 @@
                             <br>  
                             &lt;/p&gt;          Für einen Paragraph
                             <br>
-                            <a href="https://blnet.ch/periodic/" target="_blank">Zusammenfassung aller Elemente</a>
+                            <a href="https://blnet.ch/periodic/" target="_blank">Zusammenfassung der Elemente</a>
                         <h2 id="testingg">Testing</h2>
                         <p>
                             Testing beschreibt das testen einer Software, damit sie flüssig läuft. Bei einer Webseite
@@ -142,11 +142,11 @@
                             haben.
                             Man kann mithilfe von Validierung den Code prüfen. Die Validierungssoftware ist dafür
                             zuständig, dass der Quellcode richtig geschrieben ist.
-                            Man kann sich mithilfe einer Tabelle Angaben dazu machen, was man noch prüfen muss und was
+                            Man kann sich mithilfe einer Tabelle angaben dazu machen, was man noch prüfen muss und was
                             noch ansteht. Auch kann man in der Tabelle notieren, ob die Fehler behoben worden sind oder
                             noch nicht gelöst wurden.
                             Wichtig bei einem Testprotokoll ist, das Datum, Uhrzeit, getesteter Browser und die Windows
-                            Version. Auch muss der Autor des Testprotokolls vorhanden sein und wie die Webseite heisst.
+                            Version. Auch muss der Autor des Tesprotokolls vorhanden sein und wie die Webseite heisst.
                             In einem Testprotokoll stehen meistens die Titel "Fehler/Resultat, SOLL/Erw.Res, Wie
                             getestet und Was getestet wurde.</p>
                             <h1 id="css">CSS</h1>
@@ -165,7 +165,7 @@
                             die Höhe zu definieren, muss der Wert eingetragen werden.
                         </p>
            
-            <img src="img/img101/cssaufbau.png"/>
+            <img class="imgcss" src="img/img101/cssaufbau.png"/>
             <h2 id="css_einbinden">CSS einbinden</h2>
             <h3 id="extern">Extern</h3>
             <p>Mit dem Element link kann man dem Browser mitteilen, wo sich die CSS-Datei befindet. Es ist ein leeres Element, also ist kein schliessender Tag nötig. Ausserdem sollte sich das Element im head befinden. Mit dem Attribut href gibt man den Pfad der CSS-Datei an, mit type die Art des verknüpften Dokuments (hier: text/css) und mit rel die Beziehung zwischen der HTML-Seit und der CSS-Datei. (hier: stylesheet)</p>
@@ -228,14 +228,14 @@ color: rgb(255,255,255;)</br>
         </tr>
         <tr>
             <td>Nachkommen-<br>selektor</td>
-            <td>Gilt für Elemente die dem angegebenen Element untergeordnet sind. </td>
+            <td>Gilt für Elemente die demangegebenen Element untergeordnet sind. </td>
             <td>p a
                     (alle a Elemente innerhalb eines p Elements)
                     </td>
             </tr>
         </table>
         <h1 id="pfade">Pfade</h1>
-        <p>Pfade werden gebraucht um Bilder einzufügen oder andere Dokumente ins Dokument einzubinden. Die Ordnerstruktur spielt bei den Pfaden eine grosse Rolle. Bsp.: Der Hauptordner heisst BlWebsite, in diesem Ordner befinden sich die Ordner html, css und img. Im Html Ordner befinden sich dann 3 html Dateien, im css eine style.css Datei und im img befinden sich alle Bilder. Wenn man im Dokument index.html drin ist (im Ordner html) und ein Bild reintun will muss man folgenden Pfad eingeben: ../../img/bild.jpg. Das ../ steht für einen Schritt zurück, dann geht man in den Ordner img und wählt in diesem Ordner ein Bild aus. nach dem man den Pfad eingegeben hat kann man noch die Höhe und Breite einstellen. Wenn man will kann man noch eine alternative für das Bild schreiben, diese steht dann wenn das Bild nicht angezeigt werden kann oder der Pfad falsch ist.
+        <p>Pfade werden gebraucht um Bilder einzufügen oder andere Dokumente ins Dokument einzubinden. Die Ordnerstruktur spielt bei den Pfäden eine grosse Rolle. Bsp: Der Hauptordner heisst BlWebsite, in diesem Ordner befinden sich die Ordner html, css und img. Im Html Ordner befinden sich dann 3 html Dateien, im css eine style.css Datei und im img befinden sich alle Bilder. Wenn man im Dokument index.html drin ist (im Ordner html) und ein Bild reintun will muss man folgenden Pfad eingeben: ../../img/bild.jpg. Das ../ steht für einen Schritt zurück, dann geht man in den Ordner img und wählt in diesem Ordner ein Bild aus. nach dem man den Pfad eingegeben hat kann man noch die Höhe und Breite einstellen. Wenn man will kann man noch eine alternative für das Bild schreiben, diese steht dann wenn das Bild nicht angezeigt werden kann oder der Pfad falsch ist.
         </p>
         <img src="img/img101/ordnersrtkt_bsp.png">
         <h1 id="classes_ids">Classes und Ids</h1>
@@ -246,13 +246,25 @@ color: rgb(255,255,255;)</br>
     &lt;p class="style">Text Text Text&lt;/p></br>
     &lt;p id="style">Text Text Text&lt;/p>
         </code>
+</div> <br>
+
+<p>Im CSS</p>
+<div class="code">
+    <code class="css">
+        .style { <br>
+            font-size: 18pt; <br>
+        } <br>
+        #style { <br>
+            font-size: 20pt;<br>
+        }<br>
+        </code>
 </div>
-           
+          
             <h2>Verzeichnisstruktur</h2>
             <p>Bei einer Verzeichnisstruktur von einer grossen Website ist es sehr wichtig, dass diese Logische und übersichtliche aufgebaut ist. Unten auf dem Bild sieht man ein gutes Beispiel für eine solche Struktur, dazu werden Eltern und Kindelemente eingesetzt. Zum Beispiel ist der Hardwaredealz Ordner ein Elternordner und die Ordner Computer Deals, Images, Laptop Deals und Peripheriegeräte sind die jeweiligen Kinderordner. Der Hardwaredealz Ordner ist auch ein Grosselternordner und die Enkelordner sind Headset Deals, Maus Deals und Tastatur Deals. Das sorgt dann insgesamt wie schon gesagt für eine gute Struktur.</p>
                     <img id="eevz" src="img/img101/Elternelement_verzeichnis.png">
           <h1 id="eltern">Elternelemente und Kindelemente</h1>
-            <p>Eltern und Kindelemente sind die richtige Verteilung in einem code von html, dabei ist das Elternelement immer das welches über dem Kindelement steht. Zum Beispiel ist beim unten dargestellten Bild der &ltbody&gt das Elternelement und &ltnav&gt, &lth1&gt, &lth2&gt und &lth3&gt sind Kindelemente. Eltern und Kindelemente sind auch sehr wichtig für Flexbox, da dabei immer das Elternelement angesprochen werden muss. Also um zum Beispiel beim Code, wenn man die Tags &lnav&gt, &lth1&gt, &lth2&gt und &lth3&gt in einer Kolone haben will, muss man in CSS auf body Flexbox anwenden. </p>
+            <p>Eltern und Kindelemente sind die richtige verteilung in einem code von html, dabei ist das Elternelement immer das welches über dem Kindelement steht. Zum Beispiel ist beim unten dargestellten Bild der &ltbody&gt das Elternelement und &ltnav&gt, &lth1&gt, &lth2&gt und &lth3&gt sind Kindelemente. Eltern und Kindelemente sind auch sehr wichtig für Flexbox, da dabei immer das Elternelement angesprochen werden muss. Also um zum beispiel beim Code, wenn man die Tags &lnav&gt, &lth1&gt, &lth2&gt und &lth3&gt in einer Kolone haben will, muss man in CSS auf body Flexbox anwenden. </p>
 <div class="code">
 <code class="html">
     &lt;!DOCTYPE html></br>
@@ -271,7 +283,7 @@ color: rgb(255,255,255;)</br>
 </div>
             
             <h1 id="box">Box Modell</h1>
-            <p>Jedes Element in HTML und CSS hat eine box um sich. diese Box besitzt einen Padding, eine Border und einen Margin. Der Padding ist der innere Abstand, der Border der Rahmen und das Margin ist der Äussere Abstand. Diese kann man in CSS Vergrössern oder verkleinern mit den folgenden Eigenschaften:
+            <p>Jedes Element in HTML und CSS hat eine box um sich. diese Box besitzt einen padding, eine Border und einen Margin. Der Padding ist der innere Abstand, der Border der Rahmen und das Margin ist der Äussere Abstand. Diese kann man in CSS Vergrössern oder verkleinern mit den folgenden Eigenschaften:
             </p>
             <img src="img/img101/boxmodel.png" alt="Bild">
             <ul>
@@ -328,7 +340,7 @@ color: rgb(255,255,255;)</br>
             
         </table>
         <p>Wenn man z.B. Bilder oben rechts senkrecht anordnen möchte kann man folgendes eingeben:</p>
-        <p>Header {Display: flex; Flex-direction: column; Justify-content: flex-start;}</p>
+        <p>Header {Display: flex; Felx-direction: column; Justify-content: flex-start;}</p>
         <p>Wichtig, bei Flexbox muss man immer das Eltern Element ansprechen um ein Element zu verschieben, Beispiel: </p>
         <p>Wenn man im Body 3 Bilder hat und diese ausrichten möchte muss man NICHT die Bilder ansprechen, sondern den Body.</p>
             <h1 id="media">Media Queries (Responsive Web Design)</h1>
@@ -351,16 +363,16 @@ color: rgb(255,255,255;)</br>
 </div>
             <h1 id="frame">Framework Bootstrap</h1>
 
-            <p>Framework ist eine Erweiterung zu einem Programm, welches ihm eine vorgegebene Struktur gibt. 
-                Bootstrap ist das Bekannteste CSS Framework heisst Bootstrap. Es beinhaltet vorgegebener Tabellen, Formulare, Navigationen und Buttons. 
-                Bootstrap besteht aus mehreren CSS-dateien und Vorlagen, welche per Copy Paste in die HTML Datei eingefügt werden können.
+            <p>Framework ist eine erweiterung zu einem programm, welches ihm eine vorgegebene Struktur gibt. 
+                Bootstrap ist das Bekanteste CSS Framework heisst bootstrap. Es beinhaltet vorgegebenr Tabellen, Formulare, Navigationen und Buttons. 
+                Bootstrap besteht aus mehreren CSS-dateien und Vorlagen, welche per Copy Paste in die HTML datei eingefügt werden können.
                 Auch Java-Script kann durch Bootstrap in die Seite eingebunden werden.
-                Grosser Vorteil davon ist, dass man nicht allzu viel über die sprachen wissen muss und schon fertige Bausteine einsetzten kann. Es Lässt eine Seite Professioneller und Strukturierter aussehen und spart Zeit.
-                Um Bootstrap einzubinden, werden entweder die Stylesheets und Scripts von der Bootstrapseite heruntergeladen und in die Ordner Struktur eingesetzt werden. 
-                Bootstrap kann auch im head verlinkt werden, mit den auf der Webseite angegebenen links.
-                Um Bootstrap anzuwenden, können die vorgefertigten Blöcke von der Bootstrap Webseite kopiert und eingefügt werden.
-                Grosser Vorteil ist das responsive Webdesign, welches in den meisten Fällen schon vorgearbeitet</p>
-<p>https://getbootstrap.com/</p>
+                Grosser vorteil davon ist, dass man nicht all zu viel über die sprachen wissen muss und schon fertige Bausteine einsetzten kann. Es Läst eine Seite Professioneller und Stukturierter aussehen und spahrt zeit.
+                Um Bootstrap einzubinden, werden entweder die Stylesheets und Scripts von der Bootstrapseite heruntergeladen und in die Ordner struktur eingesetzt werden. 
+                Bootstrap kann auch im head verlinkt werden, mit den auf der webseite angegebenen links.
+                Um Bootsrap anzuwenden, können die vorgefertigten blöcke von der Bootstrap webseite kopiert und eingefügt werden.
+                Grosser vorteil ist das responsive webdesign, welches in den meistne Fällen schon vorgearbeitet</p>
+<a href="https://getbootstrap.com">Bootstrap</a>
         </article> 
         </div>
     </main>

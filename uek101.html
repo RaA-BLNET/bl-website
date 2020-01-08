@@ -153,13 +153,17 @@
             <h2 id="css_einbinden">CSS einbinden</h2>
             <h3 id="extern">Extern</h3>
             <p>Mit dem Element link kann man dem Browser mitteilen, wo sich die CSS-Datei befindet. Es ist ein leeres Element, also ist kein schliessender Tag nötig. Ausserdem sollte sich das Element im head befinden. Mit dem Attribut href gibt man den Pfad der CSS-Datei an, mit type die Art des verknüpften Dokuments (hier: text/css) und mit rel die Beziehung zwischen der HTML-Seit und der CSS-Datei. (hier: stylesheet)</p>
+         <div class="code">
           <code class="html">
               &lt;link href="css/style.css" type="text/css" rel="stylesheet">
           </code>
+          </div>
             <h3>Intern</h3>
 
             <p>Mit dem style-Element kann der CSS-Code direkt ins HTML eingebunden werden. Dies ist aber nicht zu empfehlen, da für jede Seite die CSS-Eigenschaften manuell geändert werden müssen. Das Attribut type macht den gleichen Job wie bei der externen Einbindung.</br>Das style-Element wird auch im head platziert.</p>
-<code class="html">
+
+        <div class="code">
+        <code class="html">
     &lt;style type="text/css"></br>
         </code>
         <code class="css">
@@ -173,6 +177,7 @@ color: rgb(255,255,255;)</br>
 <code class="html">
     &lt;/style>
 </code>
+</div>
         <h1>Selektoren</h1>
         <h1 id="selektoren">Selektoren</h1>
         <table border="1">
@@ -219,21 +224,30 @@ color: rgb(255,255,255;)</br>
         <img src="img/img101/ordnersrtkt_bsp.png">
         <h1 id="classes_ids">Classes und Ids</h1>
         <p> Einzelne Teile einer Html Seite zu formatieren werden classes und ids genutzt. Mit classes kann man bei beliebig vielen Elementen die gleiche Formatierung geben. Eine class definiert also eine «klasse», alles was in dieser Klasse geschrieben wird sieht gleich aus. Ids kann man im Gegensatz zu Classes nur einmal nutzen. Wenn man einen einzigen Text im Dokument fett machen will dann kann man eine id benutzen. Ids und Classes haben im Prinzip dieselbe Aufgabe. Ob man classes oder ids braucht ist jedem selbst überlassen. Im Html: </p>
+<div class="code">
 <code class="html">
     &lt;p class="style">Text Text Text&lt;/p></br>
     &lt;p id="style">Text Text Text&lt;/p>
         </code>
+</div>
             <h1>Elternelemente und Kindelemente</h1>
             <p>Beim Schreiben von html oder beim Erstellen von einer Verzeichnisstruktur werden sehr oft Eltern- und Kindelemente genutzt damit alles übersichtlicher ist und alles überhaupt funktioniert.</p>
             <h2>Verzeichnisstruktur</h2>
             <p>Bei einer Verzeichnisstruktur von einer grossen Website ist es sehr wichtig, dass diese Logische und übersichtliche aufgebaut ist. Unten auf dem Bild sieht man ein gutes Beispiel für eine solche Struktur, dazu werden Eltern und Kindelemente eingesetzt. Zum Beispiel ist der Hardwaredealz Ordner ein Elternordner und die Ordner Computer Deals, Images, Laptop Deals und Peripheriegeräte sind die jeweiligen Kinderordner. Der Hardwaredealz Ordner ist auch ein Grosselternordner und die Enkelordner sind Headset Deals, Maus Deals und Tastatur Deals. Das sorgt dann insgesamt wie schon gesagt für eine gute Struktur.</p>
+            <img src="img/img101/Elternelement_verzeichnis.png">
+            <h2>Codes</h2>
+            <p>Auch beim Schreiben von Html werden Eltern und Kind Elemente genommen. Wie man zum Beispiel auf dem Bild unten sehen kann, ist das body Tag das Elternelement von nav, h1, h2 und h3. Und diese sind die Kindelemente von body. Zugleich ist body das Grosselternelement und ul das Enkelelement. Diese Eltern und Kindelemente sind auch sehr wichtig für Flexbox da, dabei immer das Elternelement angesprochen werden. Wenn die li Tags nach rechts machen möchte spricht man den ul tag, das Elternelement, an.</p>
+            <h1 id="eltern">Elternelemente und Kindelemente</h1>
+            <p>Eltern und Kindelemente sind die richtige verteilung in einem code von html, dabei ist das Elternelement immer das welches über dem Kindelement steht. Zum Beispiel ist beim unten dargestellten Bild der &ltbody&gt das Elternelement und &ltnav&gt, &lth1&gt, &lth2&gt und &lth3&gt sind Kindelemente. Eltern und Kindelemente sind auch sehr wichtig für Flexbox, da dabei immer das Elternelement angesprochen werden muss. Also um zum beispiel beim Code, wenn man die Tags &lnav&gt, &lth1&gt, &lth2&gt und &lth3&gt in einer Kolone haben will, muss man in CSS auf body Flexbox anwenden. </p>
+
+<div class="code">
 <code class="html">
     &lt;!DOCTYPE html></br>
 &lt;html lang="en"></br>
 &lt;head></br>
     &lt;meta charset="UTF-8"></br>
     &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"></br>
-    vmeta http-equiv="X-UA-Compatible" content="ie=edge"></br>
+    &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"></br>
     &lt;title>Document&lt;/title></br>
 &lt;/head></br>
 &lt;body></br>
@@ -241,11 +255,7 @@ color: rgb(255,255,255;)</br>
 &lt;/body></br>
 &lt;/html>
         </code>
-            <h2>Codes</h2>
-            <p>Auch beim Schreiben von Html werden Eltern und Kind Elemente genommen. Wie man zum Beispiel auf dem Bild unten sehen kann, ist das body Tag das Elternelement von nav, h1, h2 und h3. Und diese sind die Kindelemente von body. Zugleich ist body das Grosselternelement und ul das Enkelelement. Diese Eltern und Kindelemente sind auch sehr wichtig für Flexbox da, dabei immer das Elternelement angesprochen werden. Wenn die li Tags nach rechts machen möchte spricht man den ul tag, das Elternelement, an.</p>
-            <h1 id="eltern">Elternelemente und Kindelemente</h1>
-            <p>Eltern und Kindelemente sind die richtige verteilung in einem code von html, dabei ist das Elternelement immer das welches über dem Kindelement steht. Zum Beispiel ist beim unten dargestellten Bild der &ltbody&gt das Elternelement und &ltnav&gt, &lth1&gt, &lth2&gt und &lth3&gt sind Kindelemente. Eltern und Kindelemente sind auch sehr wichtig für Flexbox, da dabei immer das Elternelement angesprochen werden muss. Also um zum beispiel beim Code, wenn man die Tags &lnav&gt, &lth1&gt, &lth2&gt und &lth3&gt in einer Kolone haben will, muss man in CSS auf body Flexbox anwenden. </p>
-            <img src="img/img101/Elternelement_html.png">
+</div>
             
             <h1 id="box">Box Modell</h1>
             <p>Jedes Element in HTML und CSS hat eine box um sich. diese Box besitzt einen padding, eine Border und einen Margin. Der Padding ist der innere Abstand, der Border der Rahmen und das Margin ist der Äussere Abstand. Diese kann man in CSS Vergrössern oder verkleinern mit den folgenden Eigenschaften:
@@ -311,6 +321,7 @@ color: rgb(255,255,255;)</br>
             <h1 id="media">Media Queries (Responsive Web Design)</h1>
             <p>Mit Media Queries kann man seine Seite benutzerfreundlicher für Mobile-User machen. Da man heutzutage immer mehr auf Handy und Tablets im Web surft, muss man diese Zielgruppe auch beachten.</br>Media Queries fügt man mit @media ein. Dazu muss man auch noch zusätzliche Attribute hinzufügen. Mit min-width kann man die minimale Breite festlegen, die gebraucht wird um die @media Regel auszulösen. Mit max-width bestimmt man logischerweise die maximale Breite.</br>In der Klammer gibt man die CSS-Regeln ein, die ausgeführt werden, wenn die Anforderungen (Attribute) erfüllt werden.</p>
 
+<div class="code">
 <code class="css">
     @media (min-width:991) {</br>
     .maine {</br>
@@ -324,6 +335,7 @@ color: rgb(255,255,255;)</br>
 }</br>
 }
 </code>
+</div>
             <h1>Framework Bootstrap</h1>
 
             <p>Framework ist eine erweiterung zu einem programm, welches ihm eine vorgegebene Struktur gibt. 

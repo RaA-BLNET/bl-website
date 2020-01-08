@@ -184,6 +184,10 @@ nav.ul{
 #inhalt0 {
     padding: 0 35%;
 }
+#inhalt0 {
+    padding-left: 10px;
+    padding-right:10px;
+}
 .agbs {
     font-size: 34px;
     font-weight: bold;

@@ -172,6 +172,7 @@ justify-content: flex-end;
 width: auto;
 position: fixed;
 margin-left: 70%;
+margin-bottom: 100px;
 background-color: gainsboro;
 border-radius: 5%;
 border: 3px inset black;

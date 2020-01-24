@@ -207,6 +207,12 @@ th, td {
 padding: 7px 8px 10px 10px;
     border-bottom: 2px solid #ffffff;
 }
+nav#inhalt101 {
+    margin-top: 40px;
+}
+div#top{
+margin-bottom: 10px;
+}
 
 @media (max-width:991px) {
     #inhalt0{

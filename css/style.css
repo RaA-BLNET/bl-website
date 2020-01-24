@@ -10,9 +10,6 @@ div.kontakte {
 ul.list {
     list-style-type: none;        
 }
-.titelb:visited {
-    color: #007bff;
-}
 .iframe {
     margin-right: 1em; 
     margin-left: 2.4em;
@@ -148,13 +145,13 @@ li.circle {
     list-style-type: circle;
 }
 .titela:visited {
-    color: indigo;
+    color: #007bff;
 }
 .titelb:visited {
-    color: indigo;
+    color: #007bff;
 }
 .titelc:visited {
-    color: indigo;
+    color: #007bff;
 }
 .titela:hover {
     color: #3c3c3c;

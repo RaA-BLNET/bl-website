@@ -206,13 +206,13 @@ width: 120px;
     width: 600px;
 }
 th {
-border-bottom: 1px solid #000000;
+border-bottom: 1px solid #ffffff;
 
 }
 
 th, td {
-padding: 7px 10px 10px 10px;
-    border-bottom: 2px solid #000000;
+padding: 7px 15px 10px 10px;
+    border-bottom: 2px solid #ffffff;
 }
 
 @media (max-width:991px) {

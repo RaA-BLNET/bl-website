@@ -157,45 +157,46 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/<br/
 <p>
 ‘name‘ -- Zeigt den unter "Einstellungen"> "Allgemein" festgelegten "Site-Titel" an. 
               Diese Daten werden aus dem Datensatz "blogname" in der Tabelle wp_options abgerufen.
-
+<br>
 
 ‘description‘ -- Zeigt die unter Einstellungen> Allgemein festgelegte „Tagline“ an. Diese Daten werden aus dem Eintrag "blogdescription" in der Tabelle wp_options abgerufen.		
 
-
+<br>
 ‘wpurl‘ -- Zeigt die unter "Einstellungen"> "Allgemein" festgelegte "WordPress-Adresse (URL)" an. Diese Daten werden aus dem Eintrag „siteurl“ in der Tabelle wp_options abgerufen. Ziehen Sie in Betracht, stattdessen site_url () als Echo zu verwenden, insbesondere bei Konfigurationen mit mehreren Standorten, bei denen Pfade anstelle von Unterdomänen verwendet werden (dies gibt die Stammsite und nicht die aktuelle Unterdomäne zurück).
-
+<br>
 
 ("url")	-- Zeigt die unter "Einstellungen"> "Allgemein" festgelegte "Site-Adresse (URL)" an. Diese Daten werden aus dem Datensatz "home" in der Tabelle wp_options abgerufen. Überlegen Sie sich stattdessen, home_url () als Echo zu verwenden.
 
-
+<br>
 
 ‘admin_email‘ -- Zeigt die unter Einstellungen> Allgemein festgelegte E-Mail-Adresse an. Diese Daten werden aus dem Datensatz „admin_email“ in der Tabelle wp_options abgerufen.
 
-
+<br>
 ‘charset‘ -- Zeigt die unter Einstellungen> Lesen festgelegte Codierung für Seiten und Feeds an. Diese Daten werden aus dem Eintrag "blog_charset" in der Tabelle "wp_options" abgerufen. Hinweis: Dieser Parameter gibt immer "UTF-8" wieder, was die Standardkodierung von WordPress ist.
 
-
+<br>
 ‘version‘ -- Zeigt die von Ihnen verwendete WordPress-Version an. Diese Daten werden aus der Variablen $ wp_version abgerufen, die in wp-includes / version.php festgelegt ist.
-
+<br>
 
 ‘html_type‘ -- Zeigt den Inhaltstyp von WordPress-HTML-Seiten an (Standard: "text / html"). Diese Daten werden aus dem Datensatz "html_type" in der Tabelle "wp_options" abgerufen. Designs und Plugins können den Standardwert mithilfe des Filters pre_option_html_type überschreiben.
-
+<br>
 
 ‘text_direction‘ -- Zeigt die Textrichtung von WordPress-HTML-Seiten an. Verwenden Sie stattdessen is_rtl ().
 
-
+<br>
 ‘language‘ -- Zeigt die Sprache von WordPress an.
-
+<br>
 
 ‘stylesheet_url‘ -- Zeigt die URL der primären CSS-Datei (normalerweise style.css) des aktiven Designs an. Erwägen Sie stattdessen, get_stylesheet_uri () als Echo zu verwenden.
 
-
+<br>
 
 ‘stylesheet_directory‘ --  Displays the stylesheet directory URL of the active theme. (Was a local path in earlier WordPress versions.) Consider echoing get_stylesheet_directory_uri() instead.
 
-
+<br>
 
 ‘template_url‘ / ‘template_directory‘ -- URL des Verzeichnisses des aktiven Themas. Innerhalb von untergeordneten Designs geben sowohl get_bloginfo ("template_url") als auch get_template () das übergeordnete Designverzeichnis zurück. Erwägen Sie, stattdessen get_template_directory_uri () (für das übergeordnete Vorlagenverzeichnis) oder get_stylesheet_directory_uri () (für das untergeordnete Vorlagenverzeichnis) als Echo zu verwenden. </p>
+         
           <h3 id="mysql">MySQL</h3>
           <p>MySQL ist eines der wltweit verbreitesten Datenbankverwaltungssysteme. Es ist als Open-Source-Software sowei als kommerzielle Enterpriseversion für verschiedene Betriebssysteme verfügbar und bildet die Grundlage für viele dynamische Webauftritte. MySQL wird häufig in Verbindung mit dem Webserver Apache und der Skriptsprache PHP eingesetzt. </p>
           <h3 id="plugins">Plugins</h3>

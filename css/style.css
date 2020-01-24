@@ -205,10 +205,14 @@ width: 120px;
     background-color: grey;
     width: 600px;
 }
-
+th {
 border-bottom: 1px solid #111111;
 borde-top: 1px solid #111111;
+}
 
+th, td {
+padding: 7px 10px 10px 10px;
+}
 
 @media (max-width:991px) {
     #inhalt0{

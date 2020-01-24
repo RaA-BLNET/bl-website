@@ -274,5 +274,9 @@ padding: 0 0 0 0;
         border: 3px inset black;
         margin-right: 5%; 
         margin-left: 5%;
-}
+    }
+    
+    #tab_plugin{
+    width: 500px;
+    }
 }

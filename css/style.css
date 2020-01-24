@@ -202,16 +202,17 @@ width: 120px;
 }
 
 #tab_plugin {
-    background-color: grey;
+    background-color: rgb(196, 196, 196);
     width: 600px;
 }
 th {
-border-bottom: 1px solid #111111;
-borde-top: 1px solid #111111;
+border-bottom: 1px solid #000000;
+
 }
 
 th, td {
 padding: 7px 10px 10px 10px;
+    border-bottom: 2px solid #000000;
 }
 
 @media (max-width:991px) {

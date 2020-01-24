@@ -200,7 +200,13 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/<br/
 <br>
 
     <b>‘template_url‘</b> / ‘template_directory‘ -- URL des Verzeichnisses des aktiven Themas. Innerhalb von untergeordneten Designs geben sowohl get_bloginfo ("template_url") als auch get_template () das übergeordnete Designverzeichnis zurück. Erwägen Sie, stattdessen get_template_directory_uri () (für das übergeordnete Vorlagenverzeichnis) oder get_stylesheet_directory_uri () (für das untergeordnete Vorlagenverzeichnis) als Echo zu verwenden. </p>
-         
+          <p>Ein Beispiel dafür kann zum Beispiel sein, dass man einen Titel haben will. So könnte dies gelöst werden.</p>
+           <div class="code">
+        <code class="php">
+    &lt;? <title> &lt;?php the_title();?&gt; | &lt;?php bloginfo("name");?&gt; &lt;/title; ?&gt;
+</code>
+</div>
+          
           <h3 id="mysql">MySQL</h3>
           <p>MySQL ist eines der wltweit verbreitesten Datenbankverwaltungssysteme. Es ist als Open-Source-Software sowei als kommerzielle Enterpriseversion für verschiedene Betriebssysteme verfügbar und bildet die Grundlage für viele dynamische Webauftritte. MySQL wird häufig in Verbindung mit dem Webserver Apache und der Skriptsprache PHP eingesetzt. </p>
           <h3 id="plugins">Plugins</h3>

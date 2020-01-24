@@ -153,18 +153,7 @@ li.circle {
 .titelc:visited {
     color: #007bff;
 }
-.titela:hover {
-    color: #3c3c3c;
-    text-decoration: underline;
-}
-.titela:hover {
-    color: #3c3c3c;
-    text-decoration: underline;
-}
-.titela:hover {
-    color: #3c3c3c;
-    text-decoration: underline;
-}
+
 li.circle {
     list-style-type: circle;
 }

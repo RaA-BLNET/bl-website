@@ -123,7 +123,11 @@ color: #8CC2FF;
 color: #FFF57E;
 }
 
-
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-right: 10px;
+}
 .titela:link{
     font-size: 22px;
     color: black;

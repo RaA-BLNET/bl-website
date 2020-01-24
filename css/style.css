@@ -201,6 +201,15 @@ width: 120px;
     height: 100px;
 }
 
+#tab_plugin {
+    background-color: grey;
+    width: 600px;
+}
+
+border-bottom: 1px solid #111111;
+borde-top: 1px solid #111111;
+
+
 @media (max-width:991px) {
     #inhalt0{
         padding-left: 10px;

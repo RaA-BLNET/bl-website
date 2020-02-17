@@ -96,19 +96,27 @@ MySQL ist eines der weltweit verbreitesten Datenbankvverwaltungssysteme. Es ist 
         <p></p>
         <h2 id="datentypen">Datentypen</h2>
         <p></p>
-        <h2 id=imp/exp">Import/Export</h2>
+<h2 id=imp/exp">Import/Export</h2>
         <p>
         Wichtig für den Export von Dateien ist, dass der Ordner in den sie exportiert werden, die Rechte für "alle" auf lesen und schreiben setzen.
         Diese sollten aber nach dem Export wieder zurückgesetzt werden.
         </p>
         <p>
         Um eine komplette Tabelle zu exportieren, muss der folgende Befehl eingesetzt werden: 
-        SELECT * FROM Datenbank INTO OUTFILE '/dies/ist/ein/beispiel.tb';
         </p>
+        <div class="code">
+<code class="sql">
+                 SELECT * FROM Datenbank INTO OUTFILE '/dies/ist/ein/beispiel.tb';
+        </code>
+</div>                        
         <p>
         Beim Import von Daten, wird der folgende Befehl verwendet:
-        LOAD LOCAL DATA INFILE '/Dies/Ist/ein/beispiel.tb' into table akten;
         </p>
+                         <div class="code">
+<code class="sql">
+                 LOAD LOCAL DATA INFILE '/Dies/Ist/ein/beispiel.tb' into table akten;
+        </code>
+</div>  
       
       </div> 
     </main>

@@ -105,7 +105,20 @@ MySQL ist eines der weltweit verbreitesten Datenbankvverwaltungssysteme. Es ist 
         <p>Um eine Tabelle erstellen zu können muss man als erstes eine Datenbank erstellen. Anschliessend muss man mit dem Befehl:</p>
         <div class="code">
         <code class="sql">use archiv;</code>
-        </div>
+        <p>Jetzt können wir auch schon die Tabelle mit Hilfe dieses Befehls erstellen:</p>
+    <p class="sql">create table Personen (Vorname varchar (30), Nachname varchar (30), Geburtsdatum datetime);</p>
+    <p>Tabelle anzeigen lassen:</p>
+    <p class="sql">mysql > describe Personen;</p>
+    <h3>Ändern von Tabllen</h3>
+    <p>Tabellennamen ändern mit Hilfe dieses Befehls:</p>
+    <p class="sql">mysql > ALTER TABLE Personen CHANGE Vorname vorname INT not null default 0;</p>
+    <p>Mithilfe von "not null default 0;", sagt man nichts anderes als es darf nicht Nichts drin stehen, und wenn Nichts steht, dann kommt 0.</p>
+    <p>Index einfügen von</p>
+    <p class="sql">mysql > ALTER TABLE Personen add index</p>
+    <p>Das Feld "Vorname" kann man mit diesem Befehl grösser machen:</p>
+    <p class="sql">ALTER TABLE Personen CHANGE Vorname Vorname varchar (100);</p>
+<p>Man kann jederzeit ein Feld vergrössern, ohne dass dies einen Datenverlust gibt. Das verkleiner ist jedoch kritischer, da wir Feldwerte zerstören können.</p>
+	    </div>
         
         <h2 id="benutzer">Benutzer</h2>
         <p></p>

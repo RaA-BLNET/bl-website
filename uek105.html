@@ -112,18 +112,18 @@ MySQL ist eines der weltweit verbreitesten Datenbankvverwaltungssysteme. Es ist 
     <p>Tabelle anzeigen lassen:</p>
 			
 			<div class="code">
-    <p class="sql">mysql > describe Personen;</p>
+    <code class="sql"> describe Personen;</code>
 				</div>
     <h3>Ändern von Tabellen</h3>
 				
     <p>Tabellennamen ändern mit Hilfe dieses Befehls:</p>
 				<div class="code">
-    <code class="sql">mysql > ALTER TABLE Personen CHANGE Vorname vorname INT not null default 0;</code>
+    <code class="sql"> ALTER TABLE Personen CHANGE Vorname vorname INT not null default 0;</code>
 					</div>
     <p>Mithilfe von "not null default 0;", sagt man nichts anderes als es darf nicht Nichts drin stehen, und wenn Nichts steht, dann kommt 0.</p>
     <p>Index einfügen von</p>
 					<div class="code">
-    <code class="sql">mysql > ALTER TABLE Personen add index</code>
+    <code class="sql"> ALTER TABLE Personen add index</code>
 						</div>
     <p>Das Feld "Vorname" kann man mit diesem Befehl grösser machen:</p>
 						<div class="code">

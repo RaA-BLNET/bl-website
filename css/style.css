@@ -81,6 +81,9 @@ footer {
 .titel {
     color: white;
 }
+table {
+border: 1;
+}
 
 .insta{
     padding-top: 10px;

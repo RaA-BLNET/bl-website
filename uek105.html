@@ -14,9 +14,6 @@
 </head>
 <body>
     <header>
-      
- 
-   
 
     <div id="top">
     
@@ -63,13 +60,15 @@
         <ul>
         <h1>Inhalt</h1>
         <li class="circle"><a href="#myqlinst" class="titela">MySQL Installation/Login</a></li>
-        <li><a href="#datenbank" class="titela">Datenbanken</a></li>
-        <li><a href="#tabellen" class="titela">Tabellen</a></li>
-		<ul><li><a href="#änderntab" class="titela">Ändern von Tabellen</a></li></ul>	
+        <li class="circle"><a href="#datenbank" class="titela">Datenbanken</a></li>
+        <li class="circle"><a href="#tabellen" class="titela">Tabellen</a></li>
+		<ul><li><a href="#änderntab" class="titelb">Ändern von Tabellen</a></li></ul>	
         <li class="circle"><a href="#benutzer" class="titela">Benutzer</a></li>
-        <li><a href="#datensätze" class="titela">Datensätze</a></li>
-        <li><a href="#datentypen" class="titela">Datentypen</a></li>
-        <li><a href="#importexport" class="titela">Import/Export</a></li> 
+		<ul><li><a href="#simplebef" class="titelb">Simple Befehle</a></li></ul>
+		<ul><li><a href="#berechtigungen" class="titelb">Berechtigungen</a></li></ul>	
+        <li class="circle"><a href="#datensätze" class="titela">Datensätze einfügen</a></li>
+        <li class="circle"><a href="#datentypen" class="titela">Datentypen</a></li>
+        <li class="circle"><a href="#importexport" class="titela">Import/Export</a></li> 
 
     
 
@@ -126,14 +125,14 @@ MySQL ist eines der weltweit verbreitesten Datenbankvverwaltungssysteme. Es ist 
         
         <h3 id="benutzer">Benutzer</h3>
         	<p>In diesem Kapitel geht es um Benutzer. Benutzer sind sehr Wichtig damit nicht jeder alle Rechte hat und somit eine Gefahr für die Datenbank entsteht. Man kann auch mit berechtigungen, bestimmte Befehle für bestimmte Benutzer blockieren.</p>
-	    <h4>Simple Befehle </h4>
+	    <h4 id="simplebef">Simple Befehle </h4>
 	    <table id="tab_plugin">
 			<tr><td>Erstellen</td><td>CREATE USER “benutzername” IDENTIFIED BY “Password”;</td></tr>
 			<tr><td>Löschen</td><td>DROP USER «Benutzername»;</td></tr> 
 			<tr><td>Login mit Benutzer</td><td>mysql -p -u «Benutzername»</td></tr>
 	    </table>
 			    <table id="tab_plugin">
-		<h4>Berechtigungen</h4>
+		<h4 id="berechtigungen">Berechtigungen</h4>
 		<tr>
 			<td>Alle Rechte einer Datenbank diesem Benutzer geben. </td>
 			<td>GRANT ALL ON «Datenbank» to “Benutzername”; </td>

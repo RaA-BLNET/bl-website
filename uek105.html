@@ -82,7 +82,22 @@
     <div id=inhalt0 class="txt">
       <h1>ÜK 105</h1>
         <h2 id="myqlinst">MySQL Installation/Login</h2>
-        <p></p>
+        <p>Hier installieren wir MySQL auf Linux (Debian), da wir es im Terminal brauche und alles auf Linux gelernt haben. Um MySQL zu installieren braucht muss man im Terminal diese Befehle eingeben:</p>
+<div class="code">
+    <code class="sql">
+        sudo apt-get update<br/>
+        sudo apt-get upgrade<br/>
+        sudo apt-get install mysql-server mysql-client<br/>
+    </code>
+</div>
+<p>Während der Installation muss man das Root-Passwort festlegen. Wir haben uns für das Passwort "105" entschieden. Nach der Installation sollte man im Terminal diesen Befehl eingeben, um MySQL mit dem Root-User zu öffnen.</p>
+<div class="code">
+    <code class="sql">
+        sudo mysql -p 105 -u root
+    </code>
+</div>
+<p>Nach dem Attribut -p wird das Passwort eingegeben. Nach dem Attribut -u wird der Benutzername eingegeben.</p>
+<p>Anschliessend müsste man im MySQL-Terminal gelandet sein.</p>
         <h2 id="datenbank">Datenbank</h2>
         <p>Eine Datenbank, auch Datenbanksystem genannt, ist ein System zur elektronischen Datenverwaltung. Die wesentliche Aufgabe einer Datenbank ist es grosse Datenmengen effizient, widerspruchsfrei und dauerhaft zu speichern und benötigte Teilmengen in unterschiedlichen Darstellungsformen für Benutzer und  Anwendungsprogramme bereitzustellen.<br>
 MySQL ist eines der weltweit verbreitesten Datenbankvverwaltungssysteme. Es ist als Open-Source-Sotfware für verschiedene Betriebssysteme verfügbar und bildet die Grundlage für viele dynamische Webauftritte.</p>

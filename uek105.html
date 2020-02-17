@@ -63,19 +63,15 @@
         <ul>
         <h1>Inhalt</h1>
         <li class="circle"><a href="#myqlinst" class="titela">MySQL Installation/Login</a></li>
-        <ul><li><a href="#datenbank" class="titelb">Datenbanken</a></li>
-        <li><a href="#tabellen" class="titelb">Tabellen</a></li></ul>
+        <li><a href="#datenbank" class="titela">Datenbanken</a></li>
+        <li><a href="#tabellen" class="titela">Tabellen</a></li>
+		<ul><li><a href="#änderntab" class="titela">Ändern von Tabellen</a></li></ul>	
         <li class="circle"><a href="#benutzer" class="titela">Benutzer</a></li>
-        <ul><li><a href="#datensätze" class="titelb">Datensätze</a></li>
-        <li><a href="#datentypen" class="titelb">Datentypen</a></li>
-        <li><a href="#imp/exp" class="titelb">Import/Export</a></li>
-            
-        <li><a href="#" class="titelb">Bootstrap</a></li>
-        <li><a href="#" class="titelb">MySQL</a></li>
-        <li><a href="#" class="titelb">Plugins</a></li>
-        <li><a href="#" class="titelb">Benutzerrollen  </a></li>
-        <li><a href="#" class="titelb">Backup and Restore  </a></li>
-    </ul>
+        <li><a href="#datensätze" class="titela">Datensätze</a></li>
+        <li><a href="#datentypen" class="titela">Datentypen</a></li>
+        <li><a href="#importexport" class="titela">Import/Export</a></li> 
+
+    
 
             
             </nav>
@@ -115,7 +111,7 @@ MySQL ist eines der weltweit verbreitesten Datenbankvverwaltungssysteme. Es ist 
 			<div class="code">
     <code class="sql"> describe Personen;</code>
 				</div>
-    <h3>Ändern von Tabellen</h3>
+    <h3 id="änderntab">Ändern von Tabellen</h3>
 				
     <p>Tabellennamen ändern mit Hilfe dieses Befehls:</p>
 				<div class="code">
@@ -217,7 +213,7 @@ Nummern Und Sonderzeichen beinhalten.
 		    <tr><td>Numeric(p,s)</td><td>Ein Dateityp für Komma zahlen. Das p steht für alle Zeichen vor dem Komma das s für alle nach dem Komma</td></tr>
 		</tr>
 	    </table>
-<h2 id=imp/exp">Import/Export</h2>
+<h2 id="importexport">Import/Export</h2>
         <p>
         Wichtig für den Export von Dateien ist, dass der Ordner in den sie exportiert werden, die Rechte für "alle" auf lesen und schreiben setzen.
         Diese sollten aber nach dem Export wieder zurückgesetzt werden.

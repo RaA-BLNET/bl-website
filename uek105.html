@@ -68,7 +68,7 @@
         <li class="circle"><a href="#benutzer" class="titela">Benutzer</a></li>
         <ul><li><a href="#datensätze" class="titelb">Datensätze</a></li>
         <li><a href="#datentypen" class="titelb">Datentypen</a></li>
-        <li><a href="#importexport" class="titelb">Import/Export</a></li>
+        <li><a href="#imp/exp" class="titelb">Import/Export</a></li>
             
         <li><a href="#" class="titelb">Bootstrap</a></li>
         <li><a href="#" class="titelb">MySQL</a></li>
@@ -82,7 +82,7 @@
     <div id=inhalt0 class="txt">
       <h1>ÜK 105</h1>
         <h2 id="myqlinst">MySQL Installation/Login</h2>
-        <p>Hier installieren wir MySQL auf Linux (Debian), da wir es im Terminal brauche und alles auf Linux gelernt haben. Um MySQL zu installieren braucht muss man im Terminal diese Befehle eingeben:</p>
+        <p>Hier installieren wir MySQL auf Linux (Debian), da wir es im Terminal brauche und alles auf Linux gelernt haben. Um MySQL zu installieren muss man im Terminal diese Befehle eingeben:</p>
 <div class="code">
     <code class="sql">
         sudo apt-get update<br/>
@@ -129,8 +129,26 @@ MySQL ist eines der weltweit verbreitesten Datenbankvverwaltungssysteme. Es ist 
 <p>Man kann jederzeit ein Feld vergrössern, ohne dass dies einen Datenverlust gibt. Das verkleiner ist jedoch kritischer, da wir Feldwerte zerstören können.</p>
         
         <h2 id="benutzer">Benutzer</h2>
-        <p></p>
-        <h2 id="datensätze">Datensätze einfügen</h2>
+        	<p>In diesem Kapitel geht es um Benutzer. Benutzer sind sehr Wichtig damit nicht jeder alle Rechte hat und somit eine Gefahr für die Datenbank entsteht. Man kann auch mit berechtigungen, bestimmte Befehle für bestimmte Benutzer blockieren.</p>
+	    <h3>Simple Befehle </h3>
+	    <table id="tab_plugin">
+			<tr><td>Erstellen</td><td>CREATE USER “benutzername” IDENTIFIED BY “Password”;</td></tr>
+			<tr><td>Löschen</td><td>DROP USER «Benutzername»;</td></tr> 
+			<tr><td>Login mit Benutzer</td><td>mysql -p -u «Benutzername»</td></tr>
+		</tr>
+	    </table>
+		<h3>Berechtigungen</h3>
+			<tr><td>Alle Rechte einer Datenbank diesem Benutzer geben.</td><td>GRANT ALL ON «Datenbank» to “Benutzername”;</td></tr>
+			<tr><td>Insert und Delete für eine Datenbank vergeben</td><td>GRANT INSERT, DELETE ON «Datenbank» TO “Benutzername”;</td></tr> 
+			<tr><td>Recht an zwei Benutzer vergeben</td><td>GRANT INSERT ON «Datenbank» TO “Benutzername1”, “Benutzername2”;</td></tr>
+			<tr><td>Recht nur auf eine Tabelle vergeben</td><td>GRANT SELECT ON database.table TO user;</td></tr>
+			<tr><tdRevoke nimmt alle oder bestimmte befehle/möglichkeiten dem Benutzer weg</td><td>REVOKE privilege_name
+ON object_name
+FROM “Benutzername”
+</td></tr>
+			<tr><td>Rechte anzeigen</td><td>SHOW GRANTS;</td></tr>
+			
+	<h2 id="datensätze">Datensätze einfügen</h2>
         <p>
     Nachdem die Tabellen erstellt wurden, kann man Werte in diese Tabellen einfügen. Der Befehl um einen Datensatz einzufügen ist:</p>
     <div class="code">
@@ -168,7 +186,7 @@ MySQL ist eines der weltweit verbreitesten Datenbankvverwaltungssysteme. Es ist 
 			<tr><td>Datentyp</td><td>Beschreibung</td></tr>
 			<tr><td>Char(size)</td><td>Ein String mit einer fix definierten länge kann Buchstaben
 Nummern Und Sonderzeichen beinhalten.
-</td></tr>
+</td></tr> 
 			<tr><td>Varchar(size) </td><td>Ein String mit variabler länge kann Buchstaben
 Nummern Und Sonderzeichen beinhalten.
 </td></tr>
@@ -187,7 +205,7 @@ Nummern Und Sonderzeichen beinhalten.
 		    <tr><td>Numeric(p,s)</td><td>Ein Dateityp für Komma zahlen. Das p steht für alle Zeichen vor dem Komma das s für alle nach dem Komma</td></tr>
 		</tr>
 	    </table>
-<h2 id=importexport">Import/Export</h2>
+<h2 id=imp/exp">Import/Export</h2>
         <p>
         Wichtig für den Export von Dateien ist, dass der Ordner in den sie exportiert werden, die Rechte für "alle" auf lesen und schreiben setzen.
         Diese sollten aber nach dem Export wieder zurückgesetzt werden.

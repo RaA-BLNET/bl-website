@@ -10,6 +10,9 @@ div.kontakte {
 ul.list {
     list-style-type: none;        
 }
+h2 {
+    margin-top: 1em;
+}
 .iframe {
     margin-right: 1em; 
     margin-left: 2.4em;

@@ -128,21 +128,42 @@ MySQL ist eines der weltweit verbreitesten Datenbankvverwaltungssysteme. Es ist 
 							</div>
 <p>Man kann jederzeit ein Feld vergrössern, ohne dass dies einen Datenverlust gibt. Das verkleiner ist jedoch kritischer, da wir Feldwerte zerstören können.</p>
         
-        <h2 id="benutzer">Benutzer</h2>
+        <h3 id="benutzer">Benutzer</h3>
         	<p>In diesem Kapitel geht es um Benutzer. Benutzer sind sehr Wichtig damit nicht jeder alle Rechte hat und somit eine Gefahr für die Datenbank entsteht. Man kann auch mit berechtigungen, bestimmte Befehle für bestimmte Benutzer blockieren.</p>
-	    <h3>Simple Befehle </h3>
+	    <h4>Simple Befehle </h4>
 	    <table id="tab_plugin">
 			<tr><td>Erstellen</td><td>CREATE USER “benutzername” IDENTIFIED BY “Password”;</td></tr>
 			<tr><td>Löschen</td><td>DROP USER «Benutzername»;</td></tr> 
 			<tr><td>Login mit Benutzer</td><td>mysql -p -u «Benutzername»</td></tr>
-		</tr>
 	    </table>
-		<h3>Berechtigungen</h3>
-			<tr><td>Alle Rechte einer Datenbank diesem Benutzer geben.</td><td>GRANT ALL ON «Datenbank» to “Benutzername”;</td></tr>
-			<tr><td>Insert und Delete für eine Datenbank vergeben</td><td>GRANT INSERT, DELETE ON «Datenbank» TO “Benutzername”;</td></tr> 
-			<tr><td>Recht an zwei Benutzer vergeben</td><td>GRANT INSERT ON «Datenbank» TO “Benutzername1”, “Benutzername2”;</td></tr>
-			<tr><td>Recht nur auf eine Tabelle vergeben</td><td>GRANT SELECT ON database.table TO user;</td></tr>
-			<tr><tdRevoke nimmt alle oder bestimmte befehle/möglichkeiten dem Benutzer weg</td><td>REVOKE privilege_name
+			    <table id="tab_plugin">
+		<h4>Berechtigungen</h4>
+		<tr>
+			<td>Alle Rechte einer Datenbank diesem Benutzer geben. </td>
+			<td>GRANT ALL ON «Datenbank» to “Benutzername”; </td>
+		</tr>
+		<tr>
+			<td>>Insert und Delete für eine Datenbank vergeben</td>
+			<td>GRANT INSERT, DELETE ON «Datenbank» TO “Benutzername”;</td>
+		</tr>
+			<tr>
+			<td>Recht an zwei Benutzer vergeben</td>
+			<td>GRANT INSERT ON «Datenbank» TO “Benutzername1”, “Benutzername2”;</td>
+		</tr>
+		<tr>
+			<td>Recht nur auf eine Tabelle vergeben</td>
+			<td>GRANT SELECT ON database.table TO user;</td>
+		</tr>
+				<tr>
+			<td>Revoke nimmt alle oder bestimmte befehle/möglichkeiten dem Benutzer weg</td>
+			<td>REVOKE privilege_name</td>
+        </tr>
+    </table>
+		
+			
+			
+			
+			
 ON object_name
 FROM “Benutzername”
 </td></tr>

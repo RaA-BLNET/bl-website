@@ -168,7 +168,49 @@ MySQL ist eines der weltweit verbreitesten Datenbankvverwaltungssysteme. Es ist 
 </table>
 
         <h2 id="datentypen">Datentypen</h2>
-        <p></p>
+	    <h2 id="datentypen">Datentypen</h2>
+	    <table>
+	    	<tr>
+			<td>Datentyp</td>
+			<td>Char(size)</td>
+			<td>Varchar(size) </td>
+			<td>BIT(size)</td>
+			<td>TINYINT(size)</td>
+			<td>BOOLEAN</td>
+			<td>SMALLINT(size)</td>
+			<td>MEDIUMINT(size)</td>
+			<td>INT(size)</td>
+			<td>BIGINT(size)</td>
+			<td>FLOAT(n)</td>
+			<td>DATE</td>
+			<td>DATETIME(fsp)</td>
+			<td>TIME(fsp)</td>
+			<td>YEAR</td>
+			<td>Numeric(p,s)</td>
+		</tr>
+		<tr>
+			<td>Beschreibung</td>
+			<td>Ein String mit einer fix definierten länge kann Buchstaben
+Nummern Und Sonderzeichen beinhalten.
+</td>
+			<td>Ein String mit variabler länge kann Buchstaben
+Nummern Und Sonderzeichen beinhalten.
+</td>
+			<td>Kann 1, 0 und NULL beinhalten.</td>
+			<td>Sehr kleiner INT von -128 bis 127.</td>
+			<td>Wahr oder falsch, 0 ist falsch und alles andere ist wahr.</td>
+			<td>Kleiner INT von -32768 bis 32767.</td>
+			<td>Mittelgrosser INT von -8388608 bis 8388607.</td>
+			<td>Dateityp für zahlen von -2147483648 bis 2147483647.</td>
+			<td>Grosser INT von  -9223372036854775808 bis  9223372036854775807.</td>
+			<td>Gleitkomma zahl.</td>
+			<td>Ein Dateityp für das Datum im Format: YYYY-MM-DD </td>
+			<td>Ein Dateityp für das Datum und für die Zeit im Format: YYYY-MM-DD hh:mm:ss</td>
+			<td>Ein Dateityp für die Zeit im Format: hh:mm:ss</td>
+			<td>Ein Dateityp für das Jahr in 4 Ziffern</td>
+			<td>Ein Dateityp für Komma zahlen. Das p steht für alle Zeichen vor dem Komma das s für alle nach dem Komma</td>
+		</tr>
+	    </table>
 <h2 id=imp/exp">Import/Export</h2>
         <p>
         Wichtig für den Export von Dateien ist, dass der Ordner in den sie exportiert werden, die Rechte für "alle" auf lesen und schreiben setzen.

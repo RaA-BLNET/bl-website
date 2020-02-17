@@ -122,10 +122,6 @@ MySQL ist eines der weltweit verbreitesten Datenbankvverwaltungssysteme. Es ist 
     <code class="sql"> ALTER TABLE Personen CHANGE Vorname vorname INT not null default 0;</code>
 					</div>
     <p>Mithilfe von "not null default 0;", sagt man nichts anderes als es darf nicht Nichts drin stehen, und wenn Nichts steht, dann kommt 0.</p>
-    <p>Index einfügen von</p>
-					<div class="code">
-    <code class="sql"> ALTER TABLE Personen add index</code>
-						</div>
     <p>Das Feld "Vorname" kann man mit diesem Befehl grösser machen:</p>
 						<div class="code">
     <code class="sql">ALTER TABLE Personen CHANGE Vorname Vorname varchar (100);</code>

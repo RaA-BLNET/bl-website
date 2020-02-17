@@ -87,7 +87,9 @@
         <p>Eine Datenbank, auch Datenbanksystem genannt, ist ein System zur elektronischen Datenverwaltung. Die wesentliche Aufgabe einer Datenbank ist es grosse Datenmengen effizient, widerspruchsfrei und dauerhaft zu speichern und benötigte Teilmengen in unterschiedlichen Darstellungsformen für Benutzer und  Anwendungsprogramme bereitzustellen.<br>
 MySQL ist eines der weltweit verbreitesten Datenbankvverwaltungssysteme. Es ist als Open-Source-Sotfware für verschiedene Betriebssysteme verfügbar und bildet die Grundlage für viele dynamische Webauftritte.</p>
         <h2 id="tabellen">Tabellen</h2>
-        <p></p>
+        <p>Um eine Tabelle erstellen zu können muss man als erstes eine Datenbank erstellen. Anschliessend muss man mit dem Befehl:</p>
+        <p class="sql">mysql> use archiv;</p>
+        
         <h2 id="benutzer">Benutzer</h2>
         <p></p>
         <h2 id="datensätze">Datensätze einfügen</h2>
@@ -101,20 +103,12 @@ MySQL ist eines der weltweit verbreitesten Datenbankvverwaltungssysteme. Es ist 
         </p>
         <p>
         Um eine komplette Tabelle zu exportieren, muss der folgende Befehl eingesetzt werden: 
+        SELECT * FROM Datenbank INTO OUTFILE '/dies/ist/ein/beispiel.tb';
         </p>
-        <div class="code">
-<code class="sql">
-                 SELECT * FROM Datenbank INTO OUTFILE '/dies/ist/ein/beispiel.tb';
-        </code>
-</div>                        
         <p>
         Beim Import von Daten, wird der folgende Befehl verwendet:
+        LOAD LOCAL DATA INFILE '/Dies/Ist/ein/beispiel.tb' into table akten;
         </p>
-                         <div class="code">
-<code class="sql">
-                 LOAD LOCAL DATA INFILE '/Dies/Ist/ein/beispiel.tb' into table akten;
-        </code>
-</div>  
       
       </div> 
     </main>

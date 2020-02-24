@@ -294,8 +294,10 @@ SELECT Attribut FROM B
 	     <div class="code">
         <code class="sql">use archiv;select job_title from customers where job_title = 'Purchasing Representative' or job_title = 'Owner' or job_title = 'Accounting Manager;
 		     </code>
+	    </div>
 		     <br/>
-<code class="sql">
+<div>
+	    <code class="sql">
 +---------------------------+ <br/>
 | job_title                 | <br/>
 +---------------------------+ <br/>
@@ -314,9 +316,11 @@ SELECT Attribut FROM B
 | Owner                     | <br/>
 +---------------------------+ <br/>
 		     </code>
+	    </div>
 		     <code class="sql">select job_title from customers where job_title = 'Purchasing Representative' or job_title = 'Owner' or job_title = 'Accounting Manager' group by job_title;</code>
 	   <br/>
-		     <code class="sql">
+		     <div>
+			     <code class="sql">
 +---------------------------+  <br/>
 | job_title                 | <br/>
 +---------------------------+ <br/>
@@ -325,26 +329,28 @@ SELECT Attribut FROM B
 | Purchasing Representative | <br/>
 +---------------------------+ <br/>
 		     </code>
-		     <code class="sql">select job_title from customers where job_title = 'Purchasing Representative' or job_title = 'Owner' or job_title = 'Accounting Manager' group by job_title having job_title = 'Owner' or job_title = 'Accounting Manager';</code>
-		     <code class="sql"><br/>
+			     </div>
+		     <div><code class="sql">select job_title from customers where job_title = 'Purchasing Representative' or job_title = 'Owner' or job_title = 'Accounting Manager' group by job_title having job_title = 'Owner' or job_title = 'Accounting Manager';</code></div>
+		     <div><code class="sql"><br/>
+			     
 +--------------------+ <br/>
 | job_title          | <br/>
 +--------------------+ <br/>
 | Accounting Manager | <br/>
 | Owner              | <br/>
 +--------------------+ <br/>
-		     </code>
-		     <code class="sql">select job_title from customers where job_title = 'Purchasing Representative' or job_title = 'Owner' or job_title = 'Accounting Manager' group by job_title having job_title = 'Owner' or job_title = 'Accounting Manager' order by job_title;</code>
-		     <code  class="sql"> <br/>
+		     </code></div>
+		     <div><code class="sql">select job_title from customers where job_title = 'Purchasing Representative' or job_title = 'Owner' or job_title = 'Accounting Manager' group by job_title having job_title = 'Owner' or job_title = 'Accounting Manager' order by job_title;</code></div>
+		 <div>    <code  class="sql"> <br/>
 +--------------------+ <br/>
 | job_title          | <br/>
 +--------------------+ <br/>
 | Accounting Manager | <br/>
 | Owner              | <br/>
 +--------------------+ <br/> 
-		     </code>
+		     </code></div>
 
-	    </div>
+	    
       <h2 id="dcl">DCL</h2>
 	     <p>DCL auch Data Control Language genannt heisst auf Deutsch Datenkontrollsprache. Diese Sprache wird verwendet um Berechtigungen zu vergeben oder zu entziehen. Dieses Sprache wird bei dem Thema "Benutzer" erklärt.</p>
       </div> 

@@ -260,8 +260,6 @@ WHERE Table_B.PK IS NULL
 UNION <br/>
 SELECT Attribut FROM Table_B
 </code></div>
-	<h2 id="group-by">Group by</h2>
-	     <p></p>
       <h2 id="operationen">Operationen & Funktionen</h2>
 	     <p>Man kann mit Operationen & Funktionen SQL-Abfragen mit mathematischen Funktionen erstellen. Diese kommen nach WHERE. Hier werden die wichtigsten Operationen & Funktionen aufgelistet.</p>
 <h3>Operatoren</h3>
@@ -339,6 +337,7 @@ SELECT Attribut FROM Table_B
 		   </div>
       <h2 id="dql">DQL</h2>
 	     <div class="code">
+		     <p>Hier kann man bestimmen zB. welche Berufe man anzeigen lassen möchte mit dem folgenden Befehl.</p>
         <code class="sql">use archiv;select job_title from customers where job_title = 'Purchasing Representative' or job_title = 'Owner' or job_title = 'Accounting Manager;
 		     </code></div>
 	    
@@ -364,6 +363,7 @@ SELECT Attribut FROM Table_B
 +---------------------------+ <br/>
 		     </code>
 	    </div>
+	    <p>Mit "group by" werden alle doppelt aufgezeigten Berufe zusammengefasst und gruppiert, sodass nur noch je ein Beruf angezeigt wird.</p>
 		     <div class="code"><code class="sql">select job_title from customers where job_title = 'Purchasing Representative' or job_title = 'Owner' or job_title = 'Accounting Manager' group by job_title;</code></div>
 	   <br/>
 		     <div class="code">
@@ -377,6 +377,7 @@ SELECT Attribut FROM Table_B
 +---------------------------+ <br/>
 		     </code>
 			     </div>
+	    <p>Mit dem Befehl "having job_title..." sorgt dafür, nur noch die geschriebenen Berufe angezeigt werden.</p>
 		     <div class="code"><code class="sql">select job_title from customers where job_title = 'Purchasing Representative' or job_title = 'Owner' or job_title = 'Accounting Manager' group by job_title having job_title = 'Owner' or job_title = 'Accounting Manager';</code></div>
 		     <div class="code"><code class="sql"><br/>
 			     
@@ -387,6 +388,7 @@ SELECT Attribut FROM Table_B
 | Owner              | <br/>
 +--------------------+ <br/>
 		     </code></div>
+	    <p>"order by job_title" ordnet die Wörter in der Spalte alphabetisch.</p>
 		     <div class="code"><code class="sql">select job_title from customers where job_title = 'Purchasing Representative' or job_title = 'Owner' or job_title = 'Accounting Manager' group by job_title having job_title = 'Owner' or job_title = 'Accounting Manager' order by job_title;</code></div>
 		 <div class="code"><code class="sql"> <br/>
 +--------------------+ <br/>

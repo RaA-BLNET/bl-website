@@ -253,7 +253,7 @@ ON Table_A.PK=Table_B.FK;
 	   <div class="code"><code class="sql">SELECT Attribut FROM Table_A <br/>
 LEFT JOIN Table_B <br/>
 ON Table_A.PK=Table_B.FK <br/>
-WHERE B.PK IS NULL
+WHERE Table_B.PK IS NULL
 		   </code></div>
 	    <h3>Outer join:</h3>
 	    <div class="code"><code class="sql">SELECT Attribut FROM Table_A <br/>

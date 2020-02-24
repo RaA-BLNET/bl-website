@@ -269,7 +269,55 @@ SELECT Attribut FROM B
       <h2 id="dml">DML</h2>
 	     <p></p>
       <h2 id="dql">DQL</h2>
-	     <p></p>
+	     <div class="code">
+        <code class="sql">use archiv;select job_title from customers where job_title = 'Purchasing Representative' or job_title = 'Owner' or job_title = 'Accounting Manager;
+		     </code>
+<code>
++---------------------------+
+| job_title                 |
++---------------------------+
+| Owner                     |
+| Owner                     |
+| Purchasing Representative |
+| Owner                     |
+| Owner                     |
+| Purchasing Representative |
+| Purchasing Representative |
+| Purchasing Representative |
+| Purchasing Representative |
+| Owner                     |
+| Purchasing Representative |
+| Accounting Manager        |
+| Owner                     |
++---------------------------+</code>
+		     <code>select job_title from customers where job_title = 'Purchasing Representative' or job_title = 'Owner' or job_title = 'Accounting Manager' group by job_title;</code>
+	    <code>
++---------------------------+
+| job_title                 |
++---------------------------+
+| Accounting Manager        |
+| Owner                     |
+| Purchasing Representative |
++---------------------------+</code>
+		     <code>select job_title from customers where job_title = 'Purchasing Representative' or job_title = 'Owner' or job_title = 'Accounting Manager' group by job_title having job_title = 'Owner' or job_title = 'Accounting Manager';</code>
+		     <code>
++--------------------+
+| job_title          |
++--------------------+
+| Accounting Manager |
+| Owner              |
++--------------------+
+		     </code>
+		     <code>select job_title from customers where job_title = 'Purchasing Representative' or job_title = 'Owner' or job_title = 'Accounting Manager' group by job_title having job_title = 'Owner' or job_title = 'Accounting Manager' order by job_title;</code>
+		     <code>
++--------------------+
+| job_title          |
++--------------------+
+| Accounting Manager |
+| Owner              |
++--------------------+ </code>
+
+	    </div>
       <h2 id="dcl">DCL</h2>
 	     <p></p>
       </div> 

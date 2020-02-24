@@ -238,91 +238,36 @@ Nummern Und Sonderzeichen beinhalten.
         </code>
 </div>  
       <h2 id="joins">Joins</h2>
-	    <h3>Inner join:</h3>
-	    <div class="code"><code class="sql">SELECT Attribut FROM A
-		JOIN B
-		ON A.PK=B.FK;
-		    </code>
-	    </div>
-	    <h3>Left / Right join:</h3>
-	    <div class="code"><code class="sql">SELECT Attribut FROM A
-LEFT JOIN B
-ON A.PK=B.FK;
-		    </code></div>
-	    <h3>Left Right inner join:</h3>
-	   <div class="code"><code class="sql">SELECT Attribut FROM A
-LEFT JOIN B
-ON A.PK=B.FK
-WHERE B.PK IS NULL
-		   </code></div>
-	    <h3>Outer join:</h3>
-	    <div class="code"><code class="sql">SELECT Attribut FROM A
-UNION
-SELECT Attribut FROM B
-</code></div>
-	<h2 id="group-by">Group by</h2>
+	    <p></p>
+      <h2 id="group-by">Group by</h2>
 	     <p></p>
       <h2 id="operationen">Operationen & Funktionen</h2>
 	     <p></p>
       <h2 id="ddl">DDL</h2>
-	     <p></p>
+	     <p>Auch Data Definition Language wird zum erstellen von Datenbanken, Tabellen und weiterem beunutzt</p>
+	     <p id=code>DROP DATABASE «Datenbankname»
+		     	SHOW	CREATE
+		     	CREATE TABLE «Tabellenname»
+	    </p>
+	    <p>Dazu ist es auch zum Löschen oder verändern dieser Zuständig.</p>
+	    <p id=code>	DESCRIBE «Tabellenname»
+		     	DROP TABLE «Tabellenname» DROP
+		     	ALTER TABLE «Tabellenname» ADD Attribut Datentyp
+		    	ALTER TABLE Tabellename CHANGE Attribut
+	    </p>
       <h2 id="dml">DML</h2>
-	     <p></p>
-      <h2 id="dql">DQL</h2>
-	     <div class="code">
-        <code class="sql">use archiv;select job_title from customers where job_title = 'Purchasing Representative' or job_title = 'Owner' or job_title = 'Accounting Manager;
-		     </code>
-		     <br/>
-<code>
-+---------------------------+ <br/>
-| job_title                 | <br/>
-+---------------------------+ <br/>
-| Owner                     | <br/>
-| Owner                     | <br/>
-| Purchasing Representative | <br/>
-| Owner                     | <br/>
-| Owner                     | <br/>
-| Purchasing Representative | <br/>
-| Purchasing Representative | <br/>
-| Purchasing Representative | <br/>
-| Purchasing Representative | <br/>
-| Owner                     | <br/>
-| Purchasing Representative | <br/>
-| Accounting Manager        | <br/>
-| Owner                     | <br/>
-+---------------------------+ <br/>
-		     </code>
-		     <code>select job_title from customers where job_title = 'Purchasing Representative' or job_title = 'Owner' or job_title = 'Accounting Manager' group by job_title;</code>
-	   <br/>
-		     <code>
-+---------------------------+  <br/>
-| job_title                 | <br/>
-+---------------------------+ <br/>
-| Accounting Manager        | <br/>
-| Owner                     | <br/>
-| Purchasing Representative | <br/>
-+---------------------------+ <br/>
-		     </code>
-		     <code>select job_title from customers where job_title = 'Purchasing Representative' or job_title = 'Owner' or job_title = 'Accounting Manager' group by job_title having job_title = 'Owner' or job_title = 'Accounting Manager';</code>
-		     <code>
-+--------------------+ <br/>
-| job_title          | <br/>
-+--------------------+ <br/>
-| Accounting Manager | <br/>
-| Owner              | <br/>
-+--------------------+ <br/>
-		     </code>
-		     <code>select job_title from customers where job_title = 'Purchasing Representative' or job_title = 'Owner' or job_title = 'Accounting Manager' group by job_title having job_title = 'Owner' or job_title = 'Accounting Manager' order by job_title;</code>
-		     <code>
-+--------------------+ <br/>
-| job_title          | <br/>
-+--------------------+ <br/>
-| Accounting Manager | <br/>
-| Owner              | <br/>
-+--------------------+ <br/> 
-		     </code>
+	     <p>Auch Data Manipulation Language, wird zum Einfügen, verändern znd löschen von Datensätzen genutzt.</p>
+	     <p id=code>INSERT INTO «Tabellenname» 	VALUES (0,’bla’,’x’)
+				SET value WHERE x = y
+				SELECT
+			Update «Tabellenname» 	VALUES (0,’bla’,’x’)
+				SET value WHERE x = y
+				SELECT
+			DELETE FROM Tabellenname WHERE x = y
+	    </p>
 
-	    </div>
+      <h2 id="dql">DQL</h2>
+	     <p></p>
       <h2 id="dcl">DCL</h2>
 	     <p></p>
       </div> 

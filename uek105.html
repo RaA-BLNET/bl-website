@@ -263,7 +263,55 @@ SELECT Attribut FROM Table_B
 	<h2 id="group-by">Group by</h2>
 	     <p></p>
       <h2 id="operationen">Operationen & Funktionen</h2>
-	     <p></p>
+	     <p>Man kann mit Operationen & Funktionen SQL-Abfragen mit mathematischen Funktionen erstellen. Diese kommen nach WHERE. Hier werden die wichtigsten Operationen & Funktionen aufgelistet.</p>
+<h3>Operatoren</h3>
+<h4>Arithmetische Operatoren</h4>
+<table id="tab_plugin">
+    <tbody>
+    <tr><td>+</td><td>Addieren</td></tr>
+    <tr><td>-</td><td>Subtrahieren</td></tr>
+    <tr><td>*</td><td>Multiplizieren</td></tr>
+    <tr><td>/</td><td>Dividieren</td></tr>
+    <tr><td>%</td><td>Modulo (Rest)</td></tr>
+</tbody>
+</table>
+<h4>Vergleichsoperatoren</h4>
+<table id="tab_plugin">
+    <tbody>
+    <tr><td>=</td><td>Gleich</td></tr>
+    <tr><td>&gt;</td><td>Grösser als</td></tr>
+    <tr><td>&lt;</td><td>Kleiner als</td></tr>
+    <tr><td>&gt;=</td><td>Grösser als oder gleich</td></tr>
+    <tr><td>&lt;=</td><td>Kleiner als oder gleich</td></tr>
+    <tr><td>&lt;&gt;</td><td>Nicht gleich</td></tr>
+</tbody>
+</table>
+<h4>Logische Operatoren</h4>
+<table id="tab_plugin">
+    <tbody>
+    <tr><td>ALL</td><td>TRUE wenn alle Unterabfragenwerte damit übereinstimmen</td></tr>
+    <tr><td>AND</td><td>TRUE, wenn alle durch AND getrennten Bedingungen TRUE sind</td></tr>
+    <tr><td>ANY</td><td>TRUE, wenn einer der Unterabfragewerte die Bedingung erfüllt</td></tr>
+    <tr><td>BETWEEN</td><td>TRUE, wenn der Operand im Vergleichsbereich liegt </td></tr>
+    <tr><td>EXISTS</td><td>TRUE, wenn die Unterabfrage einen oder mehrere Datensätze zurückgibt</td></tr>
+    <tr><td>IN</td><td>TRUE, wenn der Operand einem Ausdruck in einer Liste von Ausdrücken entspricht</td></tr>
+    <tr><td>LIKE</td><td>TRUE, wenn der Operand mit einem Muster übereinstimmt</td></tr>
+    <tr><td>NOT</td><td>Zeigt einen Datensatz an, wenn die Bedingung (en) NICHT WAHR sind</td></tr>
+    <tr><td>OR</td><td>TRUE, wenn eine der durch OR getrennten Bedingungen TRUE ist</td></tr>
+    <tr><td>SOME</td><td>True wenn einer der Unterabfragewerte die Bedingung erfüllt</td></tr>
+</tbody>
+</table>
+
+<h3>Funktionen</h3>
+<table id="tab_plugin">
+    <tbody>
+    <tr><td>CONCAT</td><td>Fügt zwei oder mehr Zeichenfolgen zusammen </td></tr>
+    <tr><td>Left</td><td>Extrahiert eine Anzahl von Zeichen aus einer Zeichenfolge (beginnend von links)</td></tr>
+    <tr><td>Lower</td><td>Konvertiert eine Zeichenfolge in Kleinbuchstaben, kehrt eine Zeichenfolge um und gibt das Ergebnis zurück</td></tr>
+    <tr><td>Right</td><td> eine Anzahl von Zeichen aus einer Zeichenfolge (beginnend von rechts)</td>><>></tr>
+    <tr><td>Upper</td><td>Konvertiert eine Zeichenfolge in Großbuchstaben    </td></tr>
+
+</tbody>
       <h2 id="ddl">DDL</h2>
 	     <p>Auch Data Definition Language wird zum erstellen von Datenbanken, Tabellen und weiterem beunutzt</p>
 	    <div class="code"> 

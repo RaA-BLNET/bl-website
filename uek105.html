@@ -239,26 +239,26 @@ Nummern Und Sonderzeichen beinhalten.
 </div>  
       <h2 id="joins">Joins</h2>
 	    <h3>Inner join:</h3>
-	    <div class="code"><code class="sql">SELECT Attribut FROM A
-		JOIN B
-		ON A.PK=B.FK;
+	    <div class="code"><code class="sql">SELECT Attribut FROM Table_A <br/>
+		JOIN Table_B <br/>
+		ON Table_A.PK=Table_B.FK;
 		    </code>
 	    </div>
 	    <h3>Left / Right join:</h3>
-	    <div class="code"><code class="sql">SELECT Attribut FROM A
-LEFT JOIN B
-ON A.PK=B.FK;
+	    <div class="code"><code class="sql">SELECT Attribut FROM Table_A <br/>
+LEFT JOIN Table_B <br/>
+ON Table_A.PK=Table_B.FK;
 		    </code></div>
-	    <h3>Left Right inner join:</h3>
-	   <div class="code"><code class="sql">SELECT Attribut FROM A
-LEFT JOIN B
-ON A.PK=B.FK
+	    <h3>Left / Right inner join:</h3>
+	   <div class="code"><code class="sql">SELECT Attribut FROM Table_A <br/>
+LEFT JOIN Table_B <br/>
+ON Table_A.PK=Table_B.FK <br/>
 WHERE B.PK IS NULL
 		   </code></div>
 	    <h3>Outer join:</h3>
-	    <div class="code"><code class="sql">SELECT Attribut FROM A
-UNION
-SELECT Attribut FROM B
+	    <div class="code"><code class="sql">SELECT Attribut FROM Table_A <br/>
+UNION <br/>
+SELECT Attribut FROM Table_B
 </code></div>
 	<h2 id="group-by">Group by</h2>
 	     <p></p>

@@ -266,16 +266,19 @@ SELECT Attribut FROM B
 	     <p></p>
       <h2 id="ddl">DDL</h2>
 	     <p>Auch Data Definition Language wird zum erstellen von Datenbanken, Tabellen und weiterem beunutzt</p>
-	     <p id=code>DROP DATABASE «Datenbankname»
+	    <div class="code"> 
+	    <code class=sql>DROP DATABASE «Datenbankname»
 		     	SHOW	CREATE
 		     	CREATE TABLE «Tabellenname»
-	    </p>
+	    </code>
+	    </div>
 	    <p>Dazu ist es auch zum Löschen oder verändern dieser Zuständig.</p>
-	    <p id=code>	DESCRIBE «Tabellenname»
-		     	DROP TABLE «Tabellenname» DROP
-		     	ALTER TABLE «Tabellenname» ADD Attribut Datentyp
-		    	ALTER TABLE Tabellename CHANGE Attribut
-	    </p>
+	    <div class="code">
+	    <code class=sql> DESCRIBE «Tabellenname»</code>
+	    <code class=sql> DROP TABLE «Tabellenname» DROP</code>
+	    <code class=sql> ALTER TABLE «Tabellenname» ADD Attribut Datentyp</code>
+	    <code class=sql> ALTER TABLE Tabellename CHANGE Attribut</code>
+		    </div>
       <h2 id="dml">DML</h2>
 	     <p>Auch Data Manipulation Language, wird zum Einfügen, verändern znd löschen von Datensätzen genutzt.</p>
 	     <p id=code>INSERT INTO «Tabellenname» 	VALUES (0,’bla’,’x’)

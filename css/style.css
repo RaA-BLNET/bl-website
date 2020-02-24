@@ -55,6 +55,9 @@ a.inst {
     margin-left: 2.4em;
     padding-bottom: 2.4em;
 }
+#logotextheader:hover {
+    text-decoration: none;
+}
 footer {
     display: flex;
     justify-content: space-between;

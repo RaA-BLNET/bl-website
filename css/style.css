@@ -188,6 +188,10 @@ nav.ul{
 #inhalt0 {
     padding: 0 35%;
 }
+.tab_plugin {
+    background-color: rgb(235, 235, 235);
+    width: auto;
+}
 .agbs {
     font-size: 34px;
     font-weight: bold;

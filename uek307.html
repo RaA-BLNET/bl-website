@@ -81,7 +81,6 @@
 		    <h2 id="formulare">Formulare</h2>
 		    <h3 id="getpost">GET/POST</h3>
 		    <p>Bei einem Formular in HTML muss man angeben wie die Daten im Formular übertragen werden. Es gibt zwei verschiedene Methoden diese sind GET und POST. Bei der Methode GET werden alle Informationen des Formulars in der URL angezeigt, dies ist gut für Suchfelder oder ähnliches aber für Formulare die Persönliche Daten beinhalten ist das sehr unsicher. Bei Formularen mit wichtigen Daten wird POST verwendet bei dieser Methode stehen die Daten nicht in der URL und man kann POST auch verschlüsseln denn wenn es nicht verschlüsselt ist kann man die Daten in der Konsole sehen.</p>
-		    <div class="code"><code class="js">"<form action="form.php" method="POST"></form>"</code></div>
 		    <h2 id="javascript">Javascript</h2>
         <h3 id="funktionen">Funktionen</h3>
 	    <p></p>
@@ -102,10 +101,14 @@
 	<h3 id="ereignismethoden">Ereignismethoden</h3>
 	    <p></p>
 		    <h3 id="selektoren">Selektoren/Funktionen</h3>
-		    <p>Mit jQuery-Selektoren können Sie HTML-Elemente auswählen und bearbeiten.
+		    <p>Mit jQuery-Selektoren kann man HTML-Elemente auswählen und bearbeiten.<br>
 			jQuery-Selektoren werden verwendet, um HTML-Elemente anhand ihres Namens, ihrer ID, ihrer Klassen, Typen,
-			 Attribute, Werte von Attributen und vielem mehr zu "finden" (oder auszuwählen). <br>
-		    		Alle Selektoren in jQuery beginnen mit dem Dollarzeichen und den Klammern: $().</p>
+			 Attribute, Werte von Attributen und vielem mehr zu finden (oder auszuwählen). <br>
+		    		Alle Selektoren in jQuery beginnen mit dem Dollarzeichen und den Klammern: $().<br>
+		    	Danach kann eine Aktion (oder Funktion) folgen wie zum Beispiel so:<br>
+			    $("button").click(function(){<br>
+  			    $("div").animate({left: '250px'});<br>
+			    }); </p>
 	    </div>
     </main>
     <footer>

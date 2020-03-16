@@ -143,7 +143,7 @@
 		<li>Darf nur mit einem Dollarzeichen ($), einem Unterstrich (_) oder einem Buchstaben beginnen.</li>
 		<li>Darf keine Bindestriche (-) oder Punkte beinhalten(.).</li>
 		<li>Schlüssel wörter und reservierte Wörter dürfen nicht benutzt werden.</li>
-		<li>Reservierte Wörter: <a href="https://wiki.selfhtml.org/wiki/JavaScript/Reservierte_W%C3%B6rter">https://wiki.selfhtml.org/wiki/JavaScript/Reservierte_W%C3%B6rter</a></li>
+		<li>Reservierte Wörter: <a href="https://wiki.selfhtml.org/wiki/JavaScript/Reservierte_W%C3%B6rter" target="_blank">https://wiki.selfhtml.org/wiki/JavaScript/Reservierte_W%C3%B6rter</a></li>
 		<ul>
 			<li>Benutzt sind alle Wörter welche schon einen gebrauch haben, wie «var».</li>
 			<li>Bei Variablen wird zwischen Gross- und Kleinbuchstaben unterschieden.</li>
@@ -162,23 +162,23 @@
 		<code class="js">Var colors = [green, blue, yellow] ; </code>
 	</div>
 	
-		    	<h3>Objekte</h3>
+		    	<h4>Objekte</h4>
 		    	<p>Objekte sind so gesehen Variablen in welchen man verschiedene Objekte, sowie deren Werte festlegen kann.</p>
-		    	<Skelett:>
+		    	<h5>Skelett:</h5>
 				<div class="code">
 				<code class="js">
-					var "variablenname" = {</be>
-					"objektname" = "Wert"</be>
-					}</be>
+					var "variablenname" = {<br/>
+					"objektname" = "Wert"<br/>
+					}<br>
 					</code>
 				</div>
-		    	<Beispiel:>
+		    	<h5>Beispiel:</h5>
 				<div class="code">
 				<code class="js">
-					var hotel = {</be>
-					name = 'Stars'</be>
-					rooms = 40</be>
-					};</be>
+					var hotel = {<br/>
+					name = 'Stars'<br/>
+					rooms = 40<br/>
+					};<br/>
 					</code>
 				</div>
 
@@ -191,7 +191,7 @@
     
 <h4>Schleifen</h4>
 	     <p>Loops oder auch Schleifen werden gebraucht um denselben Code mehrmals zu wiederholen</p>
-    <table id="tab_plugin">
+    <table class="tab_plugin">
         <tr>
             <th>
                 <p>Ohne Loops</p>
@@ -217,7 +217,7 @@
                 <div class="code">
                     <code class="js">
                     var i; <br>
-                    for (i = 0; i < cars.length; i++) {<br>
+                    for (i = 0; i &lt; cars.length; i++) {<br>
                       text += cars[i] + "<br>";
                     }
                 </code>
@@ -229,7 +229,7 @@
     
     <div>
         <p>Die drei verschiedenen Arten von Schleifen</p>
-    <table id="tab_plugin">
+    <table class="tab_plugin">
         <tr>
             <th>Schleifen</th>
             <th>Definition</th>
@@ -251,7 +251,7 @@
 </div>
     <div>
         <p>Die drei Schleifenzähler</p>
-    <table id="tab_plugin">
+    <table class="tab_plugin">
         <tr>
             <th>Schleifenzähler</th>
             <th>Definition</th>
@@ -262,7 +262,7 @@
         </tr>
         <tr>
             <th>Bedingung</th>
-            <th>Die Schleife wird ausgeführt, bis der Zähler einen festen Wert bekommt. Zum Besipiel: i < 10.</th>
+            <th>Die Schleife wird ausgeführt, bis der Zähler einen festen Wert bekommt. Zum Besipiel: i &lt; 10.</th>
         </tr>
         <tr>
             <th>Aktualisierung</th>
@@ -278,7 +278,7 @@
         var cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat"];<br>
 var text = ""; <br>
 var i;<br>
-for (i = 0; i < cars.length; i++) {<br>
+for (i = 0; i &lt; cars.length; i++) {<br>
   text += cars[i] + "<br>";
 }
 document.getElementById("demo").innerHTML = text;<br>
@@ -294,19 +294,19 @@ document.getElementById("demo").innerHTML = text;<br>
 		    <img src="img/img307/logischeoperatoren.png" alt ="Logische Operatoren">
 		    <div class="code">
 <code class="js">
-		    ((2 < 5 ) && ( 3 >= 2))
+		    ((2 &lt; 5 ) && ( 3 >= 2))
 	</code>
 </div>
 		    <p>Wenn beide Werte true ergeben, dann wird true angezeigt</p>
 	<div class="code">
 <code class="js">	    
-	((2 < 5 ) || ( 2 < 1)) ergibt true
+	((2 &lt; 5 ) || ( 2 &lt; 1)) ergibt true
 	</code>
 </div>
 		    <p>Wenn ein Wert true ist und der andere false oder wenn beide Werte true sind, dann wird true angezeigt. </p>
 	<div class="code">
 <code class="js">	   
-	!(2 < 1) ergibt true
+	!(2 &lt; 1) ergibt true
 	</code>
 </div>	
 		    <p>Wenn ein Wert true ist, wird er als false angezeigt.</p>
@@ -318,112 +318,112 @@ document.getElementById("demo").innerHTML = text;<br>
 <p>Heisst "Ist gleich". Prüft ob zwei Werte gleiche Sind.</p> 
 		<div class="code">
 <code class="js">
-('Moin' == 'Servus' ergibt false) </br>
+('Moin' == 'Servus' ergibt false) <br/>
 ('Moin' == 'Moin' ergibt true)
 </code>
 </div>
   	<p>Heisst "Ist ungleich".Prüft ob zwei Werte ungleich sind.</p>  
 <div class="code">
 <code class="js">
-('Moin' != 'Servus' ergibt true)</br>
+('Moin' != 'Servus' ergibt true)<br/>
 ('Moin' != 'Moin' ergibt false)
 </code>
 </div>
   	<p>Heisst "Ist strikt gleich"      Prüft ob zwei Werte Identisch und den gleichen Datentyp haben.</p>  
 <div class="code">
 <code class="js">
-('3' === 3 ergibt false)</br>
+('3' === 3 ergibt false)<br/>
 ('3' === '3' ergibt true)
 </code>
 </div>
   	<p>Heisst "Ist strikt ungleich".Prüft ob zwei Werte von unterschiedlichen Datentyp oder Wert sind.</p>  
 <div class="code">
 <code class="js">
-('3' !== 3 ergibt true)</br>
+('3' !== 3 ergibt true)<br/>
 ('3' !== '3' ergibt false)
 </code>
 </div>
 	<p>Heisst "Kleiner als". Prüft, ob der Wert auf der linken Seite kleiner ist, als der Wert auf der rechten Seite.</p> 
 <div class="code">
 <code class="js">
- (8 < 10 ergibt true)</br>
-(10 < 8 ergibt false)
+ (8 &lt; 10 ergibt true)<br/>
+(10 &lt; 8 ergibt false)
 </code>
 </div>
 	<p>Heisst "Grösser als".Prüft, ob der Wert auf der linken Seite grösser ist, als der Wert auf der rechten Seite.</p> 
 <div class="code">
 <code class="js">
- (8 > 10 ergibt false)</br>
+ (8 > 10 ergibt false)<br/>
 (10 > 8 ergibt true)
 </code>
 </div>
 	<p>Heisst "Kleiner oder Gleich".Prüft, ob die Zahl auf der linken Seite kleiner oder gleich ist, als der Wert auf der rechten Seite.</p>  
 <div class="code">
 <code class="js">
-(8 <= 10  ergibt true)</br>
-(8 <= 8 ergibt true)</br>
-(10 <= 8 ergibt false)
+(8 &lt;= 10  ergibt true)<br/>
+(8 &lt;= 8 ergibt true)<br/>
+(10 &lt;= 8 ergibt false)
 </code>
 </div>
 	<p>Heisst "Kleiner oder Gleich".Prüft, ob die Zahl auf der linken Seite grösser oder gleich ist, als der Wert auf der rechten Seite.</p>
 <div class="code">
 <code class="js">
-(8 >= 10 ergibt false)</br>
-(8 >= 8 ergibt true)</br>
-(10 >= 8 ergibt true)</br>
+(8 >= 10 ergibt false)<br/>
+(8 >= 8 ergibt true)<br/>
+(10 >= 8 ergibt true)<br/>
 </code>
 </div>
 <h4>If...else Anweisungen</h4>
 
 <div class="code">
 <code class="js">
-var Mindestpunktzahl = 50;  </br>  
-var Punktzahl = 35;   </br>
-var Msg;           </br>
-</br>
-</br>
-if (Punktzahl >Mindestpunktzahl) {</br>
-  Msg = 'Gratuliere du hast es geschafft';</br>
-} else {</br>
-  Msg = 'Nochmals versuchen bitte!';</br>
-}</br>
-</br>
-var el = document.getElementById('antwort3');</br>
-el.textContent = Msg;</br>
+var Mindestpunktzahl = 50;  <br/>  
+var Punktzahl = 35;   <br/>
+var Msg;           <br/>
+<br/>
+<br/>
+if (Punktzahl >Mindestpunktzahl) {<br/>
+  Msg = 'Gratuliere du hast es geschafft';<br/>
+} else {<br/>
+  Msg = 'Nochmals versuchen bitte!';<br/>
+}<br/>
+<br/>
+var el = document.getElementById('antwort3');<br/>
+el.textContent = Msg;<br/>
 
 </code>
 </div>
 
 <h4>Switch Anweisung</h4>
-Eine Switch Anweisung prüft eine Variable(switch-Wert).</br>
-Ein Fall(case) gibt eine variable an & den Codeblock der ausgeführt werden soll.</br>
+Eine Switch Anweisung prüft eine Variable(switch-Wert).<br/>
+Ein Fall(case) gibt eine variable an & den Codeblock der ausgeführt werden soll.<br/>
 <div class="code">
 <code class="js">
 
 
-var nachricht;       </br> 
-var aufgabe = 1; </br>
-</br>
-</br>
-switch (aufgabe) {</br>
-case 1:</br>
-    nachricht = 'Du hast das erste Aufgabe erledigt';</br>
-    break;</br>
-</br>
-case 2:</br>
-    nachricht = 'Die zweite Aufgabe haben sie nun auch schon erledigt!';</br>
-    break;</br>
-</br>
-case 3:</br>
-    nachricht = 'Du bist nun an der dritten Aufgabe';</br>
-    break;</br>
-default:</br>
-   nachricht = 'Dieser Text kommt, weil Sie keine Zahlen von 1 bis 3 eingegeben haben.';</br>
-    break;</br>
+var nachricht;       <br/> 
+var aufgabe = 1; <br/>
+<br/>
+<br/>
+switch (aufgabe) {<br/>
+case 1:<br/>
+    nachricht = 'Du hast das erste Aufgabe erledigt';<br/>
+    break;<br/>
+<br/>
+case 2:<br/>
+    nachricht = 'Die zweite Aufgabe haben sie nun auch schon erledigt!';<br/>
+    break;<br/>
+<br/>
+case 3:<br/>
+    nachricht = 'Du bist nun an der dritten Aufgabe';<br/>
+    break;<br/>
+default:<br/>
+   nachricht = 'Dieser Text kommt, weil Sie keine Zahlen von 1 bis 3 eingegeben haben.';<br/>
+    break;<br/>
 }
 
-var el = document.getElementById('antwort');</br>
-el.textContent = nachricht;</br>
+var el = document.getElementById('antwort');<br/>
+el.textContent = nachricht;<br/>
 </code>
 </div>
 		    <h2 id="jquery">JQuery</h2>    
@@ -431,8 +431,8 @@ el.textContent = nachricht;</br>
 	    <p>Mit hilfe von Ereignismethoden können durch Aktionen, scripts ausgehührt werden.
 		    Nach einbinden von JQuery kann zum beispiel, mit hilfe dieses 
 		    Codes durch klicken auf ein li Element, die Farbe geändert werden.</p>
-		    <div class="code"><code class="js">$("li").on("click", func() {</br>
-			    $(this).css("color", "red");</br>
+		    <div class="code"><code class="js">$("li").on("click", func() {<br/>
+			    $(this).css("color", "red");<br/>
 			    });</code></div>
 		    
 	<h3 id="selektoren">Selektoren/Funktionen</h3>

@@ -126,13 +126,13 @@ MySQL ist eines der weltweit verbreitesten Datenbankvverwaltungssysteme. Es ist 
         <h3 id="benutzer">Benutzer</h3>
         	<p>In diesem Kapitel geht es um Benutzer. Benutzer sind sehr Wichtig damit nicht jeder alle Rechte hat und somit eine Gefahr für die Datenbank entsteht. Man kann auch mit berechtigungen, bestimmte Befehle für bestimmte Benutzer blockieren.</p>
 	    <h4 id="simplebef">Simple Befehle </h4>
-	    <table id="tab_plugin">
+	    <table class="tab_plugin">
 			<tr><td>Erstellen</td><td>CREATE USER “benutzername” IDENTIFIED BY “Password”;</td></tr>
 			<tr><td>Löschen</td><td>DROP USER «Benutzername»;</td></tr> 
 			<tr><td>Login mit Benutzer</td><td>mysql -p -u «Benutzername»</td></tr>
 	    </table>
 		<h4 id="berechtigungen">Berechtigungen</h4>
-			    <table id="tab_plugin">
+			    <table class="tab_plugin">
 		<tr>
 			<td>Alle Rechte einer Datenbank diesem Benutzer geben. </td>
 			<td>GRANT ALL ON «Datenbank» to “Benutzername”; </td>
@@ -175,7 +175,7 @@ MySQL ist eines der weltweit verbreitesten Datenbankvverwaltungssysteme. Es ist 
 
 
     
- <table id="tab_plugin">
+ <table class="tab_plugin">
             <tr>
                 <td>ID</td>
                 <td>Spalte1</td>
@@ -189,7 +189,7 @@ MySQL ist eines der weltweit verbreitesten Datenbankvverwaltungssysteme. Es ist 
 </table>
 
         <h2 id="datentypen">Datentypen</h2>
-	    <table id="tab_plugin">
+	    <table class="tab_plugin">
 			<tr><td>Datentyp</td><td>Beschreibung</td></tr>
 			<tr><td>Char(size)</td><td>Ein String mit einer fix definierten länge kann Buchstaben
 Nummern Und Sonderzeichen beinhalten.
@@ -259,7 +259,7 @@ SELECT Attribut FROM Table_B
 	     <p>Man kann mit Operationen & Funktionen SQL-Abfragen mit mathematischen Funktionen erstellen. Diese kommen nach WHERE. Hier werden die wichtigsten Operationen & Funktionen aufgelistet.</p>
 <h3>Operatoren</h3>
 <h4>Arithmetische Operatoren</h4>
-<table id="tab_plugin">
+<table class="tab_plugin">
     <tbody>
     <tr><td>+</td><td>Addieren</td></tr>
     <tr><td>-</td><td>Subtrahieren</td></tr>
@@ -269,7 +269,7 @@ SELECT Attribut FROM Table_B
 </tbody>
 </table>
 <h4>Vergleichsoperatoren</h4>
-<table id="tab_plugin">
+<table class="tab_plugin">
     <tbody>
     <tr><td>=</td><td>Gleich</td></tr>
     <tr><td>&gt;</td><td>Grösser als</td></tr>
@@ -280,7 +280,7 @@ SELECT Attribut FROM Table_B
 </tbody>
 </table>
 <h4>Logische Operatoren</h4>
-<table id="tab_plugin">
+<table class="tab_plugin">
     <tbody>
     <tr><td>ALL</td><td>TRUE wenn alle Unterabfragenwerte damit übereinstimmen</td></tr>
     <tr><td>AND</td><td>TRUE, wenn alle durch AND getrennten Bedingungen TRUE sind</td></tr>
@@ -295,7 +295,7 @@ SELECT Attribut FROM Table_B
 </tbody>
 </table>
 <h3>Funktionen</h3>
-<table id="tab_plugin">
+<table class="tab_plugin">
     <tbody>
     <tr><td>CONCAT</td><td>Fügt zwei oder mehr Zeichenfolgen zusammen </td></tr>
     <tr><td>Left</td><td>Extrahiert eine Anzahl von Zeichen aus einer Zeichenfolge (beginnend von links)</td></tr>

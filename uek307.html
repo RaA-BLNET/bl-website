@@ -83,49 +83,7 @@
 		  <div class="code"><code class="html">&lt;form action="form.php"method="POST"&gt;&lt;/form&gt;</code></div>
 		    <h2 id="javascript">Javascript</h2>
         <h3 id="funktionen">Funktionen</h3>
-		<p>Mit Funktionen grupppiert man Anweisungen, die zusammen eine Aufgabe ausführen. Mit Funktionen wird der Code kürzer und die Übersichtlichkeit wird besser.</p>
-<p>Eine Funktion ist folgendermassen aufgebaut.</p>
-<img alt="Aufbau" src="img/img307/aufbau.png">
-<p>Um Funktionen zu deklarieren, sollte das Schlüsselwort "function" benutzt werden. Nachher gibt man den Namen der Funktion an, gefolgt von runden Klammern. In den geschweiften Klammern steht die verschiedenen Anweisungen.</p>
-<p>Wir haben jetzt zwar die Funktion, aber wir müssen sie auch aufrufen können. Das kann man mit folgendem Befehl:</p>
-<div class="code">
-    <code class="js">
-        sayHello();
-    </code>
-</div>
-<p>Es besteht aus dem Funktionsnamen. Man kann auch diese Funktion aufrufen, bevor sie überhaupt deklariert wurde, weil der Interpreter zuerst nach allen Funktionen sucht und sie im Cache abspeichert.</p>
-<p>Man kann auch eine Funktion erstellen, die Werte brauchen, bevor sie laufen können.</p>
-<div class ="code">
-<code class="js">
-    function getArea(width, height) {<br/>
-        return width * height;<br/>
-    }
-</code>
-</div>
-<p>Hier geben wir den Werten Variablen. Damit kann man beim Abrufen in den Klammern die benötigten Werte eingeben. Diese Funktion berechnet width mal height. return wird benötigt, damit der berechnete Wert ausgegeben werden kann. Sonst wird es berechnet, aber der Wert wird nicht angezeigt.</p>
-<p>So kann man eine Funktion aufrufen, die mit Variablen funktioniert:</p>
-<div class="code">
-    <code class="js">
-        getArea(3, 5);
-    </code>
-</div>
-<p>Man kann auch mehrere Werte ausgeben. Dies funktioniert mit Arrays. Dafür muss man eine zusätzliche Variable mit einem Array erstellen.</p>
-<div class="code">
-    <code class="js">
-        function getSize(width, height, depth) {<br/>
-            var area = width * height;<br/>
-            var volume = width * height * depth;<br/>
-            var sizes = [area, volume];<br/>
-            return sizes;<br/>
-        }
-    </code>
-</div>
-<p>Das ganze kann man dann so ausgeben</p>
-<div class="code">
-    <code class="js">
-        getSize(3, 2, 3)[0];
-    </code>
-</div>
+	    <p></p>
 	    
 	    <h3 id="var">Variablen/Arrays</h3>
 		    <h4>Variablen</h4>
@@ -265,7 +223,8 @@ document.getElementById("demo").innerHTML = text;<br>
 </div>
 	    
 	    <h3 id="operatoren">Operatoren/Anweisungen</h3>
-	    <h4>Operatoren</h4>
+	    <h4>Logische Operatoren</h4>
+		    <img src="img/img307/logische operatoren.png" alt ="Logische Operatoren">
 		    <div class="code">
 <code class="js">
 		    ((2 < 5 ) && ( 3 >= 2))
@@ -286,9 +245,9 @@ document.getElementById("demo").innerHTML = text;<br>
 		    <p>Wenn ein Wert true ist, wird er als false angezeigt.</p>
 		    <p>Wenn ein Wert false ist, wird er als true angezeigt</p>
 
-		    <h4>Aufbau von Vergleichsausdrücken</h4>
+		    <h4>Vergleichsoperatoren</h4>
 
-Bild: verlgleichsausdrücke
+<img src="img/img307/vergleichsausdrücke.png" alt="Vergleichsoperatoren">
 <p>Heisst "Ist gleich". Prüft ob zwei Werte gleiche Sind.</p> 
 		<div class="code">
 <code class="js">
@@ -345,6 +304,58 @@ Bild: verlgleichsausdrücke
 (8 >= 10 ergibt false)</br>
 (8 >= 8 ergibt true)</br>
 (10 >= 8 ergibt true)</br>
+</code>
+</div>
+<h4>If...else Anweisungen</h4>
+
+<div class="code">
+<code class="js">
+var Mindestpunktzahl = 50;    
+var Punktzahl = 35;   
+var Msg;           
+
+if (Punktzahl >Mindestpunktzahl) {
+  Msg = 'Gratuliere du hast es geschafft';
+} else {
+  Msg = 'Nochmals versuchen bitte!';
+}
+
+var el = document.getElementById('antwort3');
+el.textContent = Msg;
+
+</code>
+</div>
+
+<h4>Switch Anweisung</h4>
+Eine Switch Anweisung prüft eine Variable(switch-Wert).
+Ein Fall(case) gibt eine variable an & den Codeblock der ausgeführt werden soll.
+<div class="code">
+<code class="js">
+
+
+var nachricht;        
+var aufgabe = 1; 
+
+
+switch (aufgabe) {
+case 1:
+    nachricht = 'Du hast das erste Aufgabe erledigt';
+    break;
+
+case 2:
+    nachricht = 'Die zweite Aufgabe haben sie nun auch schon erledigt!';
+    break;
+
+case 3:
+    nachricht = 'Du bist nun an der dritten Aufgabe';
+    break;
+default:
+   nachricht = 'Dieser Text kommt, weil Sie keine Zahlen von 1 bis 3 eingegeben haben.';
+    break;
+}
+
+var el = document.getElementById('antwort');
+el.textContent = nachricht;
 </code>
 </div>
 		    <h2 id="jquery">JQuery</h2>    

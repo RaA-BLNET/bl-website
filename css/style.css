@@ -229,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 10px !important;
 }
 
-@media (max-width:991px) {
+@media (max-width:1050px) {
     #inhalt0{
         padding-left: 10px;
         padding-right: 10px;

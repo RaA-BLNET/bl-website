@@ -86,7 +86,54 @@
 	    <p></p>
 	    
 	    <h3 id="var">Variablen/Arrays</h3>
-	    <p></p>
+	    <h2>Variablen</h2>
+<p>Bei Variablen, werden bestimmte Daten gespeichert um sie mehrmals oder nochmals anzugeben. </p>
+<h3>Skelett:</h3>
+<p>Var «Variablenname» = «Variablenwert»; <p>
+Beispiel:
+<p>var number = 3; <p>
+<h4>Regeln<h4>
+	<ul>
+		<li>Darf nur mit einem Dollarzeichen ($), einem Unterstrich (_) oder einem Buchstaben beginnen.</li>
+		<li>Darf keine Bindestriche (-) oder Punkte beinhalten(.).</li>
+		<li>Schlüssel wörter und reservierte Wörter dürfen nicht benutzt werden.</li>
+		<li>Reservierte Wörter: https://wiki.selfhtml.org/wiki/JavaScript/Reservierte_W%C3%B6rter</li>
+		<ul>
+			<li>Benutzt sind alle Wörter welche schon einen gebrauch haben, wie «var».</li>
+			<li>Bei Variablen wird zwischen Gross- und Kleinbuchstaben unterschieden.</li>
+		</ul>
+		<li>Am besten wäre wenn der Name der Variable den Inhalt davon beschreibt.</li>
+		<li>Wenn man mehrere Wörter nimmt sollte man auf die Camel-Case-Schreibweise achten, das heisst jedes Wort ausser das erste wird der erste Buchstabe grossgeschrieben.</li>
+<h2>Arrays</h2>
+<p>Arrays sind grundsätzlich gleich aufgebaut wie eine Variable, der einzige unterschied das man mehrere Daten eingibt. <p>
+<h5>Skelett:</h5>
+<p>Var «variablenname» = [wert, wert]; <p>
+<h5>Beispiel:</h5>
+<p>Var colors = [green, blue, yellow] ; <p>
+
+<h2>Loops</h2>
+<p>Bei Loops werden bestimmte Befehle, je nach Eingabe wiederholt. <p>
+<h4>Skelett:<h4>
+<div class=’code’>
+<code class=’js’>for(var i = 0; i < 10; i++) {}</code></div>
+<h4>Initialisierung</h4>
+<div class=’code’>
+<code class=’js’>var i = 0;</code>
+</div>
+<p>Setzt denn Wert i auf 0.</p>
+
+<h4>Bedingung<h4>
+<div class=’code’>
+<code class=’js’>i < 10</code>
+</div>
+<p>Es hört auf sobald der Wert von i 10 erreicht. <p>
+
+<h4>Aktualisierung<h4>
+<div class=’code’>
+<code class=’js’>i++, </code>
+</div>
+<p>Jede runde wird bei der Variable i +1 gemacht. <p>
+
 	    
 	    <h3 id="entscheidungen">Entscheidungen/Schleifen</h3>
 	     <p>Loops oder auch Schleifen werden gebraucht um denselben Code mehrmals zu wiederholen</p>
@@ -189,14 +236,13 @@ document.getElementById("demo").innerHTML = text;<br>
 </div>
 	    
 	    <h3 id="operatoren">Operatoren/Anweisungen</h3>
-	    <h4>Logische Operatoren</h4>
-		    <img src="img/img307/logische operatoren.png">
+	    <h4>Operatoren</h4>
 		    <div class="code">
 <code class="js">
 		    ((2 < 5 ) && ( 3 >= 2))
 	</code>
 </div>
-		    <p>Wenn beide Werte true ergeben, dann wird true angezeigt.</p>
+		    <p>Wenn beide Werte true ergeben, dann wird true angezeigt</p>
 	<div class="code">
 <code class="js">	    
 	((2 < 5 ) || ( 2 < 1)) ergibt true
@@ -209,11 +255,11 @@ document.getElementById("demo").innerHTML = text;<br>
 	</code>
 </div>	
 		    <p>Wenn ein Wert true ist, wird er als false angezeigt.</p>
-		    <p>Wenn ein Wert false ist, wird er als true angezeigt.</p>
+		    <p>Wenn ein Wert false ist, wird er als true angezeigt</p>
 
-		    <h4>Vergleichsoperatoren</h4>
+		    <h4>Aufbau von Vergleichsausdrücken</h4>
 
-<img src="img/img307/vergleichausdrücke.png">
+Bild: verlgleichsausdrücke
 <p>Heisst "Ist gleich". Prüft ob zwei Werte gleiche Sind.</p> 
 		<div class="code">
 <code class="js">

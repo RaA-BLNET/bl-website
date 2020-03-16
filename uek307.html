@@ -90,7 +90,103 @@
 	    <p></p>
 	    
 	    <h3 id="objekte">Objekte/Loop</h3>
-	    <p></p>
+	     <p>Loops oder auch Schleifen werden gebraucht um denselben Code mehrmals zu wiederholen</p>
+    <table>
+        <tr>
+            <th>
+                <p>Ohne Loops</p>
+            </th>
+            <th>
+                <p>Mit Loops</p>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <div class="code">
+                    <code class="js">
+                text += cars[0] + "<br>";
+                text += cars[1] + "<br>";
+                text += cars[2] + "<br>";
+                text += cars[3] + "<br>";
+                text += cars[4] + "<br>";
+                text += cars[5] + "<br>";
+            </code>
+                </div>
+            </th>
+            <th>
+                <div class="code">
+                    <code class="js">
+                    var i; <br>
+                    for (i = 0; i < cars.length; i++) {<br>
+                      text += cars[i] + "<br>";
+                    }
+                </code>
+                </div>
+            </th>
+        </tr>
+    </table>
+
+    
+    <div>
+        <p>Die drei verschiedenen Arten von Schleifen</p>
+    <table>
+        <tr>
+            <th>Schleifen</th>
+            <th>Definition</th>
+        </tr>
+        <tr>
+            <th>FOR</th>
+            <th>Durchläuft einen Codeblock mehrmals.</th>
+        </tr>
+        <tr>
+            <th>WHILE</th>
+            <th>Durchläuft einen Codeblock, während eine bestimmte Bedingung erfüllt ist.</th>
+        </tr>
+        <tr>
+            <th>DO/WHILE</th>
+            <th>Durchläuft auch einen Codeblock, während eine bestimmte Bedingung erfüllt ist.</th>
+        </tr>
+    </table>
+    
+</div>
+    <div>
+        <p>Die drei Schleifenzähler</p>
+    <table>
+        <tr>
+            <th>Schleifenzähler</th>
+            <th>Definition</th>
+        </tr>
+        <tr>
+            <th>Initialisierung</th>
+            <th>Die Variabel die als Zähler dient, wird gesetzt und auf null gesetzt. Für Gewöhnlich ist das sie Variabel i. Zum Besipiel: i=0.</th>
+        </tr>
+        <tr>
+            <th>Bedingung</th>
+            <th>Die Schleife wird ausgeführt, bis der Zähler einen festen Wert bekommt. Zum Besipiel: i < 10.</th>
+        </tr>
+        <tr>
+            <th>Aktualisierung</th>
+            <th>Jedes Mal, wenn der Code durchgespielt wird erhöht sich die Zahl um 1. Zum Beispiel: i++.</th>
+        </tr>
+    </table>
+    <br>
+</div>
+<div class="code">
+    <p>Eingabe im Code</p>
+    <code class="js">
+        var cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat"];<br>
+var text = ""; <br>
+var i;<br>
+for (i = 0; i < cars.length; i++) {<br>
+  text += cars[i] + "<br>";
+}
+document.getElementById("demo").innerHTML = text;<br>
+    </code>
+</div>
+<div>
+    <p>Ausgabe desd Codes</p>
+    <img src="img/dsa.PNG" alt="Loops Ausgabe">
+</div>
 	    
 	    <h3 id="operatoren">Operatoren/Anweisungen</h3>
 	    <p></p>

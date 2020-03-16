@@ -121,19 +121,19 @@ background-color: #1E1E1E;
     margin-bottom: 20px;
 }
 .html {
-color: #8CC2FF;
+    color: #F05E23;
 }
 .css {
-color: #FFF57E;
+    color: #8CC2FF;
 }
 .php{
-    color: #e83e8c;
+    color: #a074c4;
 }
 .sql {
     color: #66ff99;
 }
 .js {
-    color: #F05E23;
+    color: #FFF57E;
 }
 dl, ol, ul {
     margin-top: 0;

@@ -190,7 +190,76 @@ document.getElementById("demo").innerHTML = text;<br>
 </div>
 	    
 	    <h3 id="operatoren">Operatoren/Anweisungen</h3>
-	    <p></p>
+	    <h4>Operatoren</h4>
+		    <p>((2 < 5 ) && ( 3 >= 2))</p>
+		    <p>Wenn beide Werte true ergeben, dann wird true angezeigt</p>
+		    <p>((2 < 5 ) || ( 2 < 1)) ergibt true</p>
+		    <p>Wenn ein Wert true ist und der andere false oder wenn beide Werte true sind, dann wird true angezeigt. </p>
+		    <p>!(2 < 1) ergibt true</p>
+		    <p>Wenn ein Wert true ist, wird er als false angezeigt.</p>
+		    <p>Wenn ein Wert false ist, wird er als true angezeigt</p>
+
+		    <h4>Aufbau von Vergleichsausdrücken</h4>
+
+Bild: verlgleichsausdrücke
+<p>Heisst "Ist gleich". Prüft ob zwei Werte gleiche Sind.</p> 
+<div class="code">
+<code class="js">
+('Moin' == 'Servus' ergibt false) 
+('Moin' == 'Moin' ergibt true)
+</code>
+</div>
+  	<p>Heisst "Ist ungleich".Prüft ob zwei Werte ungleich sind.</p>  
+<div class="code">
+<code class="js">
+('Moin' != 'Servus' ergibt true)</br>
+('Moin' != 'Moin' ergibt false)
+</code>
+</div>
+  	<p>Heisst "Ist strickt gleich"      Prüft ob zwei Werte Identisch und den gleichen Datentyp haben.</p>  
+<div class="code">
+<code class="js">
+('3' === 3 ergibt false)</br>
+('3' === '3' ergibt true)
+</code>
+</div>
+  	<p>Heisst "Ist strickt ungleich".Prüft ob zwei Werte von unterschiedlichen Datentyp oder Wert sind.</p>  
+<div class="code">
+<code class="js">
+('3' !== 3 ergibt true)</br>
+('3' !== '3' ergibt false)
+</code>
+</div>
+	<p>Heisst "Kleiner als".Prüft, ob der Wert auf der linken Seite kleiner ist, als der Wert auf der rechten Seite.</p> 
+<div class="code">
+<code class="js">
+ (8 < 10 ergibt true)</br>
+(10 < 8 ergibt false)
+</code>
+</div>
+	<p>Heisst "Grösser als".Prüft, ob der Wert auf der linken Seite grösser ist, als der Wert auf der rechten Seite.</p> 
+<div class="code">
+<code class="js">
+ (8 > 10 ergibt false)</br>
+(10 > 8 ergibt true)
+</code>
+</div>
+	<p>Heisst "Kleiner oder Gleich".Prüft, ob die Zahl auf der linken Seite kleiner oder gleich ist, als der Wert auf der rechten Seite.</p>  
+<div class="code">
+<code class="js">
+(8 <= 10  ergibt true)</br>
+(8 <= 8 ergibt true)</br>
+(10 <= 8 ergibt false)
+</code>
+</div>
+	<p>Heisst "Kleiner oder Gleich".Prüft, ob die Zahl auf der linken Seite grösser oder gleich ist, als der Wert auf der rechten Seite.</p>
+<div class="code">
+<code class="js">
+(8 >= 10 ergibt false)</br>
+(8 >= 8 ergibt true)</br>
+(10 >= 8 ergibt true)</br>
+</code>
+</div>
 		    <h2 id="jquery">JQuery</h2>
 		    
 	    <h3 id="entscheidungen">Entscheidungen & Schleifen</h3>

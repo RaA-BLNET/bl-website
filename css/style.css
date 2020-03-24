@@ -7,9 +7,23 @@ div.kontakte {
     width: auto;
     margin: 10px;
 }
+#btn {background-color:rgba( 255 ,0 ,0 ,0.8);}
+#termin {width: 90%;
+margin: 10px 5%;}
+#btn {width: 40%;}
+.radio {width:20px;}
 ul.list {
     list-style-type: none;        
 }
+.top {display: flex; margin: 10px;}
+#radl {width: 15px;}
+#radm {width: 15px;}
+.bot {display: flex;
+}
+#botn {background-color:rgba( 255 ,0 ,0 ,0.8);
+width : 90%;
+height: 30px;}
+.botradio {display: none;}
 .iframe {
     margin-right: 1em; 
     margin-left: 2.4em;

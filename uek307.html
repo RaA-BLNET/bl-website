@@ -552,6 +552,54 @@ el.textContent = nachricht;<br/>
 		    </div>
 		    		<h2 id="php">PHP</h2>
 		<h2 id="schutz">Schutz</h2>
+	<h4>SQL Injection</h4>
+<p>Bei allen Webseiten sind die Logindaten in einer Datenbank gespeichert. Der Hacker versucht, die SQL Anfraage im PHP Code zu erweitern.</p>
+<p>Es kann folgender SQL Code in ein Formularfeld geschrieben werden:</p>
+<p>SELECT passwort FROM tblUsers WHERE User = admin OR 1=1</p>
+
+<h4>Schutz vor SQL Injection</h4>
+<p>Folgende Punkte nützen vor SQL Injection:</p>
+<ul>
+<li>Validierung auf SQl Scripteingabe</li>
+<li>Eigene Funktionen in PHP entwickeln</li>
+<li>Bestehende anwenden. </li>
+<li>Zum Besipiel: mysqli_real_escape_string() > Verwandelt Eingabe in einen harmlosen String, der nicht ausgeführt werden kann.</li>
+</ul>
+
+<h4>XSS: Cross-Site-Scripting</h4>
+
+<p>Über das Formularfeld wird Code in die Seite gepflanzt</p>
+<p>Besonders gefährdet sind Seiten, bei denen die Eingeabe direkt auf der Seite publiziert wird. (CMS,Kommentarseiten, etc.)</p>
+
+<h4>Schutz vor XSS</h4>
+
+<p>Folgende Punkte nützen gegen XSS:</p>
+<ul>
+<li>Validieren und entschärfen</li>
+<li>PHP Funktion: htmlspecialchars();</li>
+<li>Verwndelt bspw."<script>" zu "&lt;script&gt;"</li>
+</ul>
+
+<h4>Brute Force Attack</h4>
+
+<p>Bei Brute Force Attacken wird mithilfe von Wörterlisten aus der Hackercommunity mit roher Gewalt alle Möglichkeiten ausprobiert. Dies ist natütlich automatisiert.</p>
+<p>Ziel ist es Passwörter oder Schlüssel herauszufinden.</p>
+
+<p>Schutz vor Brute Force Attacken mit folgenden Punkten:</p>
+
+<ul>
+<li>Sichere Passwörter der User erzwingen, die eine Mindestlänge, Sonderzeichern, Gross/Klein, Zahlen etc. haben</li>
+<li>Mit Login attempts pro Zeiteinheit einschränken (SQL)</li>
+<li>Zweiter Schlüssel: TAN, MobileID, QR-Code, Chipleser,...(eBanking, Versicherungen, etc.)</li>
+</ul>
+
+<h4>SSL/TLS</h4>
+
+<p>Mit SSL/TLS kann man Webseiten verschlüsseln</p>
+<p>Seit Mitte 2018 braucht man unbedingt ein Zertifikat, ansonsten wird die Webseite als "unsicher" bezeichnet und es kommt eine Meldung auf, dass diese Webseite unsicher ist.</p>
+<p>Wie so eine Verschlüsselung funktioniert wird hier mit einem Bild erklärt:</p>
+<img src="img/img307/zertifikat2.png">
+
 	    </div>
     </main>
     <footer>

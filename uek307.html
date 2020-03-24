@@ -551,6 +551,79 @@ el.textContent = nachricht;<br/>
 				</code>
 		    </div>
 		    		<h2 id="php">PHP</h2>
+	
+<p>PHP ist eine Serverseitige Sprache welcher in einer .php datei geschrieben wird. Ein Tag wird wie folgt geschrieben.</p>
+<div class="code">
+    <code class="php">
+        <?php ?>
+    </code>
+</div>
+<p>Um einen Text in php einzufügen benutzt man vor dem Text ein ECHO. Alle funktionien wie zum beispiel echo ist die Grossschreibung
+    egal. Inhalb der apostrophe kann man auch ganz normal mit HTML Tags schreiben.</p>
+<div class="code">
+    <code class="php">
+        <?php echo "Hallo Welt" ?>
+    </code>
+</div>
+<p>Die Variabel wird vorne mit einem Dollarzeichen($) geschrieben, hierbei achte php wiederrum auf die Gross und Kleinschreibung.</p>
+<div class="code">
+    <code class="php">
+        <?php $color = 'red' ?>
+    </code>
+</div>
+<p>Comments können wie folgt geschrieben werden.</p>
+<div class="code">
+    <code class="php">
+        <?php //thats a Comment <br>
+        #thats a Comment<br>
+        /* Thats a Comment */ ?>
+    </code>
+</div>
+<h4>Datentypen</h4>
+<tr>
+    <th>Datentyp</th>
+    <th>Beschreibung</th>
+    <th>Beispiel</th>
+</tr>
+<tr>
+    <th>String</th>
+    <th>Dieser Daten typ ist für eine ganz normale Zeichenfolge.</th>
+    <th>$x = "Hallo Welt!"</th>
+</tr>
+<tr>
+    <th>Integer</th>
+    <th>Das ist ein Datentype für alle Ganzenzahlen zwischen -2'147'483'648 und 2'147'483'647, aber es darf keinen Dezimalpunkt
+        haben.
+    </th>
+    <th>$x = 5356</th>
+</tr>
+<tr>
+    <th>Float</th>
+    <th>Das ist ein Datentyp welcher sich Gleitkommazahlen beinhaltet, also alle Zahlen mit Dezimalpunkt oder Zahlen mit
+        Exponentialform.
+    </th>
+    <th>$x = 12.4142</th>
+</tr>
+<tr>
+    <th>Boolean</th>
+    <th>Dieser Datentyp beinhaltet nur true oder false.</th>
+    <th>$x = true</th>
+</tr>
+<tr>
+    <th>Array</th>
+    <th>Ein Array speichert mehrere werte in einer einzigen Variabel.</th>
+    <th>$colors = array('blue', 'green', 'red');</th>
+</tr>
+<tr>
+    <th>Objekt</th>
+    <th>Ein Array speichert mehrere werte in einer einzigen Variabel.</th>
+    <th>$colors = array('blue', 'green', 'red');</th>
+</tr>
+<tr>
+    <th>NULL Wert</th>
+    <th>Der Datentyp NULL Wert ist alle, wo nichts drin ist.</th>
+    <th>$x = null</th>
+</tr>
 		<h2 id="schutz">Schutz</h2>
 	<h4>SQL Injection</h4>
 <p>Bei allen Webseiten sind die Logindaten in einer Datenbank gespeichert. Der Hacker versucht, die SQL Anfraage im PHP Code zu erweitern.</p>

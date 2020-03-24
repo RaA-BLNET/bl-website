@@ -562,24 +562,25 @@ el.textContent = nachricht;<br/>
     egal. Inhalb der apostrophe kann man auch ganz normal mit HTML Tags schreiben.</p>
 <div class="code">
     <code class="php">
-        <?php echo "Hallo Welt" ?>
+        &lt;?php echo "Hallo Welt" ?&gt;
     </code>
 </div>
 <p>Die Variabel wird vorne mit einem Dollarzeichen($) geschrieben, hierbei achte php wiederrum auf die Gross und Kleinschreibung.</p>
 <div class="code">
     <code class="php">
-        <?php $color = 'red' ?>
+        &lt;?php $color = 'red' ?&gt;
     </code>
 </div>
 <p>Comments können wie folgt geschrieben werden.</p>
 <div class="code">
     <code class="php">
-        <?php //thats a Comment <br>
+        &lt;?php //thats a Comment </br>
         #thats a Comment<br>
-        /* Thats a Comment */ ?>
+        /* Thats a Comment */ ?&gt;
     </code>
 </div>
 <h4>Datentypen</h4>
+	<table class="tab_plugin">
 <tr>
     <th>Datentyp</th>
     <th>Beschreibung</th>
@@ -624,6 +625,7 @@ el.textContent = nachricht;<br/>
     <th>Der Datentyp NULL Wert ist alle, wo nichts drin ist.</th>
     <th>$x = null</th>
 </tr>
+	</table>
 		<h2 id="schutz">Schutz</h2>
 	<h4>SQL Injection</h4>
 <p>Bei allen Webseiten sind die Logindaten in einer Datenbank gespeichert. Der Hacker versucht, die SQL Anfraage im PHP Code zu erweitern.</p>

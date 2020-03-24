@@ -90,6 +90,7 @@
       <h1>ÜK 307</h1>
 		    <h2 id="formulare">Formulare</h2>
 		    <h3 id="htmlform">Aufbau HTML-Formular</h3>
+		    <input type="submit" href="blwebsite.cf/blform.htms"/>
 		    <h3 id="getpost">GET/POST</h3>
 		    <p>Bei einem Formular in HTML muss man angeben wie die Daten im Formular übertragen werden. Es gibt zwei verschiedene Methoden, nämlich GET und POST. Bei der Methode GET werden alle Informationen des Formulars in der URL angezeigt, dies ist gut für Suchfelder oder ähnliches aber für Formulare die Persönliche Daten beinhalten ist das sehr unsicher. Bei Formularen mit wichtigen Daten wird POST verwendet bei dieser Methode stehen die Daten nicht in der URL und man kann POST auch verschlüsseln, denn wenn es nicht verschlüsselt ist kann man die Daten in der Konsole sehen.</p>
 		  <div class="code"><code class="html">&lt;form action="form.php" method="POST"&gt;&lt;/form&gt;</code></div>
@@ -97,7 +98,7 @@
 		    <h3 id="servval">Serverseitige Validierung</h3>
 		    <p>
 		    
-		    Um Daten vom Formular anzeigen und bearbeiten zu lassen bindet man noch ein .php File in den form Tag im HTML ein, sowie oben gezeigt. <br>
+		    Um Daten vom Formular anzeigen und bearbeiten zu lassen bindet man noch ein .php File in den <form> Tag im HTML ein, sowie oben gezeigt. <br>
 		    Damit die Daten aber auch noch angezeigt werden braucht es noch folgenden Befehl:
 		    <div class="code"><code class="html">&lt;?php  echo $_REQUEST["fname"]; ?&gt;</code></div>
 		    </p>

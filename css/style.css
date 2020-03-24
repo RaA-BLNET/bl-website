@@ -83,7 +83,7 @@ footer {
 }
 #top {
     display: flex;
-    background-image: url("../img/header.jpg");
+    background-image: url("/img/header.jpg");
     background-attachment: fixed;
     background-size: cover;
     flex-direction: row;

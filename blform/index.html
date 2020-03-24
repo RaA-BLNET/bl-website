@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blwebsite</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+<div id="tit2">
+    <h1>Blwebsite</h1>
+</div>
+
+
+</header>
+<main>
+<form action="kontakt.php" method = "post"> 
+        <fieldset>
+            <div class="top">
+        <label for="nachname"> Nachname* </label>
+        <input id="nachname" type="text" name="nachname" name="nachname" required="required">     
+</div>
+<div class="top">
+        <label for="vorname"> Vorname* </label>
+        <input id="vorname" type="text" name="vorname" name="vorname" required="required">     
+        
+        </div>
+<div class="top">
+        <label for="adress"> Adresse* </label>
+        <input id="adress" type="text" name="adress" name="adress" required="required">     
+        
+        </div>
+<div class="top">
+        <label for="ort"> Ort* </label>
+        <input id="ort" type="text" name="ort" name="ort" required="required">     
+       
+        </div>
+<div class="top">
+        <label for="plz"> PLZ* </label>
+        <input id="plz" type="int" name="plz" name="plz" required="required">     
+        </div>
+<div class="top">   
+
+        <label for="email"> Email* </label>
+        <input id="email" type="email" name="email" name="email" required="required">     
+        </div>
+
+<div class="top">     
+
+        <label for="date"> Datum* </label>
+        <input id="date" type="date" name="date" name="date" required="required">     
+       
+</div>
+<div class="top">     
+
+        <label for="time"> Zeit* </label>
+        <input id="time" type="time" name="time" name="time" required="required">     
+       
+</div>
+
+
+
+
+        <fieldset>
+            <div class="bot">
+        <select id="termin" type="select" name="termin" required="required">
+            <option value="" disabled selected> Auswählen </option>
+            <option value="blapp"> BL-app </option>
+            <option value="wibileagame"> Wibilea Game </option>
+            <option value="arprojekt"> AR-Projekt  </option>
+            <option value="chatbot"> Chatbot  </option>
+
+</select>
+<input id="btn" type="submit" value="Überprüfen">
+
+</div>
+
+</div>
+</fieldset>
+</fieldset>
+</form>
+</main>
+<script src="script/jquery.js"> </script>
+<script src="script/script.js"> </script>
+
+</body>
+</html>

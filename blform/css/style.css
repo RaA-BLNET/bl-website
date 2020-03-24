@@ -1,0 +1,33 @@
+.top {display: flex; margin: 10px;}
+input { width: 90%;
+margin-left: 30px; 
+}
+label { width: 10%;
+}
+#radl {width: 15px;}
+#radm {width: 15px;}
+.bot {display: flex;
+}
+body {margin: 5% 20%}
+#termin {width: 90%;
+margin: 10px 5%;}
+#btn {width: 40%;}
+.radio {width:20px;}
+#btn {background-color:rgba( 255 ,0 ,0 ,0.8);}
+header {display: flex;}
+img {width: 60px;}
+#botn {background-color:rgba( 255 ,0 ,0 ,0.8);
+width : 90%;
+height: 30px;}
+.botradio {display: none;}
+*{font-family: Arial, Helvetica, sans-serif;}
+@media (max-width: 991px){
+    input { width: 70%;
+       
+        }
+        label { width: 30%;
+        }
+        body {
+            margin: 0 10%;
+        }
+}

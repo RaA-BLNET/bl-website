@@ -550,6 +550,38 @@ el.textContent = nachricht;<br/>
 			    });
 				</code>
 		    </div>
+				<p>Elemente wählt man so aus:</p>
+<div class="code">
+  <code class="js">
+    $("textarea")
+  </code>
+</div>
+<p>Klassen wählt man so aus:</p>
+<div class="code">
+  <code class="js">
+    $(".textarea")
+  </code>
+</div>
+<p>IDs wählt man so aus:</p>
+<div class="code">
+  <code class="js">
+    $("#textarea")
+  </code>
+</div>
+<p>Attribute mit beliebigem Wert wählt man so aus:</p>
+<div class="code">
+  <code class="js">
+    $("[type]")
+  </code>
+</div>
+<p>Attribute mit bestimmtem Wert wählt man so aus:</p>
+<div class="code">
+  <code class="js">
+    $("[type='text']")
+  </code>
+</div>
+<p>Es ist wichtig, dass hier man zwei verschiedene Zeichen benutzt um einen zwei Strings kennzuzeichen. Sonst versteht der Browser die Anweisung nicht.</p>
+
 		    		<h2 id="php">PHP</h2>
 	
 <p>PHP ist eine Serverseitige Sprache welcher in einer .php datei geschrieben wird. Ein Tag wird wie folgt geschrieben.</p>
@@ -652,7 +684,7 @@ el.textContent = nachricht;<br/>
 <ul>
 <li>Validieren und entschärfen</li>
 <li>PHP Funktion: htmlspecialchars();</li>
-<li>Verwandelt bspw."&lt;script&gt;" zu "&lt;&lt;script&gt;&gt;"</li>
+<li>Verwandelt bspw."&lt;script&gt;" zu "&amp;lt;script&amp;gt;"</li>
 </ul>
 
 <h4>Brute Force Attack</h4>

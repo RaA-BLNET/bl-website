@@ -134,9 +134,9 @@ dem input kann man auch ids und namen vergeben man kann auch angeben ob das feld
 		    <p>Bei einem Formular in HTML muss man angeben wie die Daten im Formular übertragen werden. Es gibt zwei verschiedene Methoden, nämlich GET und POST. Bei der Methode GET werden alle Informationen des Formulars in der URL angezeigt, dies ist gut für Suchfelder oder ähnliches aber für Formulare die Persönliche Daten beinhalten ist das sehr unsicher. Bei Formularen mit wichtigen Daten wird POST verwendet bei dieser Methode stehen die Daten nicht in der URL und man kann POST auch verschlüsseln, denn wenn es nicht verschlüsselt ist kann man die Daten in der Konsole sehen.</p>
 		  <div class="code"><code class="html">&lt;form action="form.php" method="POST"&gt;&lt;/form&gt;</code></div>
 		    <h3 id="clientval">Clientseitige Validierung</h3>
-		    <p> Clienseitge Formular Validierung
-Die Validierung clientseitig wird mit Java Script/jQuery realisiert. Mit Serverseitige Scriptsprache wird der ganze Code beim Rechner ausgerechnet. Ein Beispiel für Serverseitige Validierung ist folgendes.: Ein Muss Feld aus einem Formular ist leer aber wird trotzdem abgeschickt. Mit der Browservalidierung kommt einfach ein Hinweis was nicht ausgefüllt wurde. Wenn man allerdings die Rahmen rot färben will sobald ein Muss Feld nicht ausgefüllt abgeschickt wird. Dann muss man das mit jQuery lösen.
-Um das zu erreichen muss man als erste das Gewünscht Element ansprechen. In unserem Beispiel wollen wir eine Reaktion auf einen click erreichen also: </p>
+		    <p> Clientseitge Formular Validierung
+Die clientseitige Validierung wird mit Javascript/jQuery realisiert. Mit serverseitiger Scriptsprache wird der ganze Code beim Rechner ausgerechnet. Ein Beispiel für Serverseitige Validierung ist folgendes.: Ein Muss Feld aus einem Formular ist leer aber wird trotzdem abgeschickt. Mit der Browservalidierung kommt einfach ein Hinweis was nicht ausgefüllt wurde. Wenn man allerdings die Rahmen rot färben will sobald ein Muss Feld nicht ausgefüllt abgeschickt wird. Dann muss man das mit jQuery lösen.
+Um das zu erreichen muss man als erste das gewünschte Element ansprechen. In unserem Beispiel wollen wir eine Reaktion auf einen click erreichen also: </p>
 <div class="code">
     <code class="js">
         $(‘[type=’’submit’’]’).on(‘click’  function(){)
@@ -163,26 +163,6 @@ Das sieht in jQuery folgendermassen aus:
 		    Damit die Daten aber auch noch angezeigt werden braucht es noch folgenden Befehl:
 		    <div class="code"><code class="html">&lt;?php  echo $_REQUEST["fname"]; ?&gt;</code></div>
 		    </p>
-		  
-		  	
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		   
 		    <h2 id="javascript">Javascript</h2>
         <h3 id="funktionen">Funktionen</h3>
 	   <p>Mit Funktionen grupppiert man Anweisungen, die zusammen eine Aufgabe ausführen. Mit Funktionen wird der Code kürzer und die Übersichtlichkeit wird besser.</p>
@@ -580,7 +560,7 @@ el.textContent = nachricht;<br/>
     $("[type='text']")
   </code>
 </div>
-<p>Es ist wichtig, dass hier man zwei verschiedene Zeichen benutzt um einen zwei Strings kennzuzeichen. Sonst versteht der Browser die Anweisung nicht.</p>
+<p>Es ist wichtig, dass hier man zwei verschiedene Zeichen benutzt um zwei Strings kennzuzeichen. Sonst versteht der Browser die Anweisung nicht.</p>
 
 		    		<h2 id="php">PHP</h2>
 	

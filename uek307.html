@@ -90,6 +90,43 @@
       <h1>ÜK 307</h1>
 		    <h2 id="formulare">Formulare</h2>
 		    <h3 id="htmlform">Aufbau HTML-Formular</h3>
+		    
+		    
+<div class="code"><code class="html">&lt;form method=’get’&gt;&lt;/form&gt;</code></div>
+<p>Um ein Formular erstmal zu erstellen braucht man den Tag &lt;form&gt;&lt;/form&gt; in diesem tag kann man noch die method angeben entweder get oder post, zwischen den form Tags kann man auch verschiedene andere Tags reinschreiben die verschiedene Formular Elemente hinzufügen.</p>
+
+<h4>Der Input Tag</h4>
+<div class="code"><code class="html">&lt;input type=’text’&gt;</code></div>
+<p></p> Mit dem Tag Input kann man ein Eingabe Feld erstellen, im Input Tag steht was für ein Typ der Inhalt ist hier gibt es verschiedene:<br>
+Text <br> 
+textarea <br>
+password <br>
+radio <br>
+checkbox <br>
+file <br>
+submit <br>
+dem input kann man auch ids und namen vergeben man kann auch angeben ob das feld required ist oder nicht aussderdem kann man einen standart value festlegen. so sieht dann der code aus <br>
+<div class="code"><code class="html">&lt;input type=’password’ name="derName" id="dieId" required=required value="hier steht der Value"&gt;</code></div>
+</p>
+
+<h4>Der Select Tag</h4>
+<div class="code"><code class="html">
+    &lt;select&gt; <br>
+    &lt;option value="derValue" selected disabled&gt;das sieht man&lt;/option&gt; <br>
+    &lt;/select&gt; <br>
+</code></div>
+
+<p>mit dem select Tag kann man ein dropdown menu erstellen. ein select tag brauch zwingend auch option tags diese sind dann im dropdown zu sehen. im option tag kann man wie auch beim input ein value angeben aber hier kann man auch noch die attribute disabled und selected</p>
+
+
+
+
+
+
+
+
+		    
+		    
 		   <form action="https://blwebsite.cf/blform" >
 <input type="submit" value="Formular">
 </form>

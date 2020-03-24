@@ -1,21 +1,84 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blwebsite</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="icon" type="image/png" sizes="48x48" href="/img/favicons/favicon-48.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicons/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="144x144" href="/img/favicons/favicon-144.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/img/favicons/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="256x256" href="/img/favicons/favicon-256.png">
+  <link rel="icon" type="image/png" sizes="384x384" href="/img/favicons/favicon-384.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/img/favicons/favicon-512.png">
+  <title>AGBs - BL-Website</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
-<div id="tit2">
-    <h1>Blwebsite</h1>
-</div>
+  <header>
 
 
-</header>
-<main>
-<form action="kontakt.php" method = "post"> 
+
+
+    <div id="top">
+
+
+      <a href="index.html"><img class="logo" src="img/logo_bl_v2.0.png" alt="BL-Website Logo" height="200"/></a>
+      <a id="logotextheader" href="index.html"><h1 class="titel">-Website</h1></a>
+
+
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="index.html">Startseite</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projekte.html">Projekte</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.blnet.ch" target="_blank">blnet</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Merkblätter
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="uek101.html">ÜK 101</a>
+              <a class="dropdown-item" href="uek105.html">ÜK 105</a>
+              <a class="dropdown-item" href="uek307.html">ÜK 307</a>
+              <a class="dropdown-item" href="uek404.html">ÜK 404</a>
+            </div>
+
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="maine">
+    <div id="inhalt0" class="txt">
+        <h1>Beispiel Formular</h1>
+        <form action="kontakt.php" method = "post"> 
         <fieldset>
             <div class="top">
         <label for="nachname"> Nachname* </label>
@@ -80,9 +143,33 @@
 </fieldset>
 </fieldset>
 </form>
-</main>
-<script src="script/jquery.js"> </script>
-<script src="script/script.js"> </script>
+</div>
 
+    
+  </main>
+  <footer>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><a class="agb" href="agbs.html">AGB's</a></li>
+      <li class="list-group-item"><a class="wibi" href="https://www.wibilea.ch" target="_blank">Wibilea</a></li>
+      <li class="list-group-item">Industrieplatz, 8212 Neuhausen</li>
+      <li class="list-group-item">© 2020 Basislehrjahr 19/20</li>
+    </ul>
+    <div class="div">
+      <a class="inst" href="https://instagram.com/wibilea.memes" target="_blank">
+        <img class="insta" src="https://www.wibilea.ch/wp-content/uploads/2018/03/002-instagram-logo.png"
+          alt="Instagram" width="50" height="60"></a>
+      <a class="inst" href="https://www.facebook.com/wibilea/" target="_blank">
+        <img class="insta" src="https://www.wibilea.ch/wp-content/uploads/2018/03/003-facebook-logo-button.png"
+          alt="Facebook" width="50" height="60" /></a>
+      <a class="inst" href="https://twitter.com/wibilea_ch" target="_blank">
+        <img class="insta" src="https://www.wibilea.ch/wp-content/uploads/2018/03/004-twitter-logo-button.png"
+          alt="Twitter" width="50" height="60"></a>
+      <a class="inst" href="https://www.youtube.com/channel/UCT1vSK8TxaWIPKYrj_9s8eA" target="_blank">
+        <img class="insta" src="https://www.wibilea.ch/wp-content/uploads/2018/03/001-youtube-symbol.png" alt="YouTube"
+          width="50" height="60"></a>
+    </div>
+  </footer>
+<script src="script/script.js"></script>
 </body>
+
 </html>

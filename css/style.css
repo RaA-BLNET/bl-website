@@ -6,6 +6,7 @@ nav {
     display: flex;
     flex-direction: row;
 }
+arcode { display:none;
 div.kontakte {
     float: right;
     width: auto;

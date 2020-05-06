@@ -2,12 +2,16 @@
 * {
     font-family: "Open Sans", sans-serif!important;
 }
-.mine {display:none;}
+.mine {
+    display:none;
+}
 nav {
     display: flex;
     flex-direction: row;
 }
-.arcode { display:none;}
+.arcode {
+    display:none;
+}
 div.kontakte {
     float: right;
     width: auto;
@@ -139,7 +143,7 @@ background-color: #1E1E1E;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
-    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace!important;
 }
 .html {
     color: #F05E23;

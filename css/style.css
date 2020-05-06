@@ -4,6 +4,8 @@ background-color: #1E1E1E;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+code {
     font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace!important;
 }
 .html {

@@ -1,4 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.code {
+background-color: #1E1E1E;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace!important;
+}
+.html {
+    color: #F05E23;
+}
+.css {
+    color: #8CC2FF;
+}
+.php{
+    color: #a074c4;
+}
+.sql {
+    color: #66ff99;
+}
+.js {
+    color: #FFF57E;
+}
 * {
     font-family: "Open Sans", sans-serif!important;
 }
@@ -137,28 +159,6 @@ main {
 }
 .footer101{
     padding-top: 0px;
-}
-.code {
-background-color: #1E1E1E;
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace!important;
-}
-.html {
-    color: #F05E23;
-}
-.css {
-    color: #8CC2FF;
-}
-.php{
-    color: #a074c4;
-}
-.sql {
-    color: #66ff99;
-}
-.js {
-    color: #FFF57E;
 }
 dl, ol, ul {
     margin-top: 0;

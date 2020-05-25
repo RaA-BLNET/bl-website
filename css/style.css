@@ -5,6 +5,9 @@ background-color: #1E1E1E;
     border-radius: 10px;
     margin-bottom: 20px;
 }
+.person {
+display: hide;
+}
 code {
     font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace!important;
 }

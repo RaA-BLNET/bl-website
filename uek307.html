@@ -17,6 +17,17 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<style>
+	.red {
+    color: red;
+}
+.pink {
+    color: pink;
+}
+.codejs {
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace!important;
+}
+	</style>
 </head>
 <body>
     <header>
@@ -167,7 +178,12 @@ Das sieht in jQuery folgendermassen aus:
         <h3 id="funktionen">Funktionen</h3>
 	   <p>Mit Funktionen grupppiert man Anweisungen, die zusammen eine Aufgabe ausführen. Mit Funktionen wird der Code kürzer und die Übersichtlichkeit wird besser.</p>
 <p>Eine Funktion ist folgendermassen aufgebaut.</p>
-<img alt="Aufbau" src="img/img307/aufbau.png">
+<div class="code">
+    <code class="js">
+        <span class="red codejs">function</span> sayHello() <span class="pink codejs">{ <br/> document.write('Hallo');<br/>}</span>
+    </code>
+</div>
+<p><span class="red">Rot</span> = Schlüsselwort function<br/><span class="js">Gelb</span> = Funktionname<br/><span class="pink">Pink</span> = Codeblock</p>
 <p>Um Funktionen zu deklarieren, sollte das Schlüsselwort "function" benutzt werden. Nachher gibt man den Namen der Funktion an, gefolgt von runden Klammern. In den geschweiften Klammern stehen die verschiedenen Anweisungen.</p>
 <p>Wir haben jetzt zwar die Funktion, aber wir müssen sie auch aufrufen können. Das kann man mit folgendem Befehl:</p>
 <div class="code">

@@ -23,6 +23,15 @@ code {
     from {opacity: 0%;}
     to{opacity: 100%;}
 }
+    .dropdown-menu {
+        animation-name: growdrop;
+        animation-duration: 1s;
+        animation-delay: 0s;
+    }
+    @keyframes growdrop {
+        from {height: 0px;}
+        to{height: 146px;}
+    }
 .php{
     color: #a074c4;
 }

@@ -14,6 +14,15 @@ code {
 .css {
     color: #8CC2FF;
 }
+    .dropdown-item, .active {
+        animation-name: einb;
+        animation-delay: 0s;
+        animation-duration: 1.5s;
+    }
+@keyframes einb {
+    from {opacity: 0%;}
+    to{opacity: 100%;}
+}
 .php{
     color: #a074c4;
 }
